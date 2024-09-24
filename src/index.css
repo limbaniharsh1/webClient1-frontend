@@ -245,6 +245,38 @@ nav {
   }
 }
 
+@media (max-width: 1120px) {
+  .main-banner-title {
+    font-size: 42px;
+  }
+}
+
+@media (max-width: 992px) {
+  .main-banner-img {
+    max-height: 400px !important;
+  }
+
+  .bg-img-main-banner {
+    background-image: url("https://www.bpcoachtrain.com/wp-content/uploads/2016/12/Millennials-not-afraid-to-speak-up.jpg");
+    position: relative;
+    z-index: 1;
+    color: var(--white-color);
+  }
+
+  .bg-img-main-banner span:nth-child(1) {
+    color: var(--white-color);
+  }
+
+  .bg-img-main-banner::after {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.555);
+    z-index: -1;
+  }
+}
+
 @media (max-width: 768px) {
   .responsive .fs-12,
   .responsive.fs-12 {
@@ -273,18 +305,16 @@ nav {
   }
 
   .main-banner-title {
-    font-size: 34px !important;
+    font-size: 34px;
   }
 }
 
-@media (max-width: 992px) {
-  .main-banner-img {
-    max-height: 400px !important;
-  }
-}
-
-@media (max-width: 1120px) {
+@media (max-width: 575px) {
   .main-banner-title {
-    font-size: 42px;
+    font-size: 32px !important;
+  }
+
+  .bg-img-main-banner {
+    background-position: calc(-110px);
   }
 }
