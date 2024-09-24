@@ -5,7 +5,7 @@ const BannerSection = () => {
   return (
     <section className="bg-img-main-banner py-4 min-vh-86 d-flex align-items-center py-5">
       <div className="container">
-        <Row className="align-items-center">
+        <Row className="align-items-center" data-aos="fade-up"  >
           <Col xs={12} lg={6}>
             <span className="letter-spacing-1_5 fs-14 fw-medium text-color-primary d-block mb-2 responsive">
               SHREE INTERNATIONAL
