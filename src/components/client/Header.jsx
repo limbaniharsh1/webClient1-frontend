@@ -52,7 +52,7 @@ const Header = () => {
               height="30"
               className="d-inline-block align-top"
             />{" "} */}
-            My Logo
+            SHREE
           </Navbar.Brand>
 
           {/* Responsive Toggle Button */}
