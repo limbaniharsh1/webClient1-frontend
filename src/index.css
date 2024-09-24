@@ -156,7 +156,7 @@ nav {
 }
 
 .bg-img-main-banner {
-  background-image: url("/images/hero-bg-1.svg");
+  background-image: url("/images/hero-bg-1.webp");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -236,6 +236,11 @@ nav {
   animation: up-down infinite linear 2.5s alternate;
 }
 
+.paddingY {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
 @keyframes up-down {
   0% {
     transform: translateY(0px);
@@ -298,6 +303,11 @@ nav {
     font-size: 16px;
   }
 
+  .paddingY {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
   .primary-btn,
   .white-btn {
     padding-left: 24px;
@@ -309,7 +319,7 @@ nav {
   }
 }
 
-@media (max-width: 575px) {
+@media (max-width: 576px) {
   .main-banner-title {
     font-size: 32px !important;
   }

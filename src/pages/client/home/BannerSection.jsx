@@ -3,9 +3,9 @@ import { Button, Col, Row } from "react-bootstrap";
 
 const BannerSection = () => {
   return (
-    <section className="bg-img-main-banner py-4 min-vh-86 d-flex align-items-center py-5">
+    <section className="bg-img-main-banner min-vh-86 d-flex align-items-center paddingY">
       <div className="container">
-        <Row className="align-items-center" data-aos="fade-up"  >
+        <Row className="align-items-center" data-aos="fade-up">
           <Col xs={12} lg={6}>
             <span className="letter-spacing-1_5 fs-14 fw-medium text-color-primary d-block mb-2 responsive">
               SHREE INTERNATIONAL
@@ -24,12 +24,13 @@ const BannerSection = () => {
                 Get started <i className="ms-1 ri-arrow-right-line"></i>
               </Button>
               <Button className="white-btn fs-16 fw-bold text-color-primary">
-                Let's Talk With Us  <i className="ms-1 ri-arrow-right-line"></i>
+                Let's Talk With Us <i className="ms-1 ri-arrow-right-line"></i>
               </Button>
             </div>
           </Col>
           <Col xs={12} lg={6} className="mt-4 mt-lg-0 d-none d-lg-block">
             <img
+              loading="lazy"
               className="h-100 w-100 rounded-5 up-down-animation main-banner-img mx-auto d-block object-fit-cover"
               src="https://www.bpcoachtrain.com/wp-content/uploads/2016/12/Millennials-not-afraid-to-speak-up.jpg"
               alt=""
