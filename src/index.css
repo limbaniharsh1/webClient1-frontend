@@ -165,8 +165,8 @@ nav {
   height: 100vh;
 }
 
-.vh-85 {
-  height: 85vh;
+.min-vh-85 {
+  min-height: 85vh;
 }
 
 .letter-spacing-1_5 {
@@ -264,5 +264,27 @@ nav {
   .responsive .fs-18,
   .responsive.fs-18 {
     font-size: 16px;
+  }
+
+  .primary-btn,
+  .white-btn {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+  .main-banner-title {
+    font-size: 34px !important;
+  }
+}
+
+@media (max-width: 992px) {
+  .main-banner-img {
+    max-height: 400px !important;
+  }
+}
+
+@media (max-width: 1120px) {
+  .main-banner-title {
+    font-size: 42px;
   }
 }
