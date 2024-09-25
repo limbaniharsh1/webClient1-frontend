@@ -352,4 +352,9 @@ nav {
   .bg-img-main-banner {
     background-position: calc(35%);
   }
+
+  .bg-img-main-banner.min-vh-86{
+    min-height: 80vh;
+    max-height: 50vh !important;
+  }
 }
