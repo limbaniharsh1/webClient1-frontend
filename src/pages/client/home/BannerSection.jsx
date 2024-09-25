@@ -3,7 +3,7 @@ import { Button, Col, Row } from "react-bootstrap";
 
 const BannerSection = () => {
   return (
-    <section className="bg-img-main-banner min-vh-86 d-flex align-items-center paddingY">
+    <section className="bg-img-main-banner min-vh-86 d-flex align-items-center py-5">
       <div className="container">
         <Row className="align-items-center" data-aos="fade-up">
           <Col xs={12} lg={12} className="text-center">

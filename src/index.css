@@ -12,6 +12,7 @@
   --secondary-color: #2899f6;
   --white-color: #ffffff;
   --black-color: #222222;
+  --gray-color: #7a7a7a;
 
   --ff-primary: "Red Hat Display", sans-serif;
   --ff-secondary: "Open Sans", sans-serif;
@@ -39,6 +40,10 @@ body {
   color: var(--black-color);
 }
 
+.text-color-gray {
+  color: var(--gray-color);
+}
+
 .hover-text-secondary:hover {
   color: var(--secondary-color);
 }
@@ -57,8 +62,8 @@ body {
 
 .container {
   max-width: 1440px;
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-right: 20px;
+  padding-left: 20px;
   margin: 0 auto;
 }
 
@@ -68,6 +73,10 @@ a {
 
 .fs-12 {
   font-size: 12px;
+}
+
+.fs-13 {
+  font-size: 13px;
 }
 
 .fs-14 {
@@ -241,6 +250,46 @@ nav {
   padding-bottom: 80px;
 }
 
+.paddingY-56 {
+  padding-top: 56px;
+  padding-bottom: 56px;
+}
+
+.paddingTop {
+  padding-top: 80px;
+}
+
+.paddingTop-56 {
+  padding-top: 56px;
+}
+
+.paddingBottom {
+  padding-bottom: 80px;
+}
+
+.paddingBottom-56 {
+  padding-bottom: 56px;
+}
+
+.box-shadow-lg {
+  box-shadow: 0px 0px 15px #2c3e5025;
+}
+
+.max-w-600px {
+  max-width: 600px;
+}
+
+.truncate-line-3 {
+  display: -webkit-box !important;
+  -webkit-line-clamp: 3 !important;
+  -webkit-box-orient: vertical !important;
+  overflow: hidden;
+}
+
+/* =================================== 
+         main home page css 
+=================================== */
+
 .bg-img-main-banner {
   background-image: url("https://www.bpcoachtrain.com/wp-content/uploads/2016/12/Millennials-not-afraid-to-speak-up.jpg");
   position: relative;
@@ -262,8 +311,33 @@ nav {
   z-index: -1;
 }
 
-.max-w-600px{
-  max-width: 600px;
+.home-service-icon {
+  background-color: var(--primary-color);
+  height: 50px;
+  width: 50px;
+  transition: background-color 0.5s, color 0.5s;
+}
+
+.banner-service-hover-card {
+  transition: background-color 0.5s, color 0.5s;
+}
+
+.banner-service-hover-card:hover {
+  background-color: var(--primary-color);
+}
+
+.banner-service-hover-card:hover .text-color-primary {
+  color: var(--white-color);
+}
+
+.banner-service-hover-card:hover .text-color-gray {
+  color: var(--white-color);
+  opacity: 0.5;
+}
+
+.banner-service-hover-card:hover .home-service-icon {
+  background-color: var(--white-color);
+  color: var(--primary-color);
 }
 
 @keyframes up-down {
@@ -313,6 +387,11 @@ nav {
     font-size: 10px;
   }
 
+  .responsive .fs-13,
+  .responsive.fs-13 {
+    font-size: 10px;
+  }
+
   .responsive .fs-14,
   .responsive.fs-14 {
     font-size: 12px;
@@ -328,9 +407,65 @@ nav {
     font-size: 16px;
   }
 
+  .responsive .fs-20,
+  .responsive.fs-20 {
+    font-size: 18px;
+  }
+
+  .responsive .fs-24,
+  .responsive.fs-24 {
+    font-size: 21px;
+  }
+
+  .responsive .fs-28,
+  .responsive.fs-28 {
+    font-size: 24px;
+  }
+
+  .responsive .fs-30,
+  .responsive.fs-30 {
+    font-size: 26px;
+  }
+
+  .responsive .fs-34,
+  .responsive.fs-34 {
+    font-size: 30px;
+  }
+
+  .responsive .fs-38,
+  .responsive.fs-38 {
+    font-size: 34px;
+  }
+
+  .responsive .fs-48,
+  .responsive.fs-48 {
+    font-size: 42px;
+  }
+
   .paddingY {
     padding-top: 50px;
     padding-bottom: 50px;
+  }
+
+  .paddingY-56 {
+    padding-top: 26px;
+    padding-bottom: 26px;
+  }
+
+  .paddingTop {
+    padding-top: 50px;
+  }
+
+  .paddingTop-56 {
+    padding-top: 26px;
+  }
+
+  .paddingBottom {
+    padding-bottom: 50px;
+  }
+
+  .paddingBottom-56 {
+    padding-bottom: 26px;
   }
 
   .primary-btn,
@@ -353,8 +488,33 @@ nav {
     background-position: calc(35%);
   }
 
-  .bg-img-main-banner.min-vh-86{
+  .bg-img-main-banner.min-vh-86 {
     min-height: 80vh;
-    max-height: 50vh !important;
+  }
+
+  .paddingY {
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
+
+  .paddingY-56 {
+    padding-top: 2px;
+    padding-bottom: 2px;
+  }
+
+  .paddingTop {
+    padding-top: 24px;
+  }
+
+  .paddingTop-56 {
+    padding-top: 2px;
+  }
+
+  .paddingBottom {
+    padding-bottom: 24px;
+  }
+
+  .paddingBottom-56 {
+    padding-bottom: 2px;
   }
 }
