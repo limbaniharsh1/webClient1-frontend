@@ -15,7 +15,7 @@ const Header = () => {
               +91 {mobile}
             </span>
           </a>
-          
+
           <a href={`mailto:${email}`}>
             <i className="ri-mail-open-fill ms-2 ms-md-3 fs-18 me-2 text-color-secondary"></i>
             <span className="d-none d-sm-inline text-color-white hover-text-secondary transition-color">
@@ -27,6 +27,7 @@ const Header = () => {
           {socialMedia.map((item, index) => {
             return (
               <a
+                aria-label={item.icon}
                 href={item.link}
                 className="text-color-white"
                 target="_blank"
