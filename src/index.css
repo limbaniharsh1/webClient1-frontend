@@ -67,6 +67,13 @@ body {
   margin: 0 auto;
 }
 
+.pattern-bg {
+  background-image: url("/images/hero-bg-1.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 a {
   text-decoration: none;
 }
