@@ -21,7 +21,7 @@
 body {
   font-family: var(--ff-secondary);
   outline: none;
-  letter-spacing: 1.1px;
+  letter-spacing: .7px;
 }
 
 .text-color-primary {
@@ -199,7 +199,7 @@ nav {
 
 .white-btn {
   background-color: var(--white-color) !important;
-  border: 1px solid #e7e7e7 !important;
+  /* border: 1px solid #e7e7e7 !important; */
 }
 
 .primary-btn,

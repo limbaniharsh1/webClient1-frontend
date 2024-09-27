@@ -25,16 +25,16 @@ const ServicesSection = () => {
 
   return (
     <section>
-      <div className="container paddingBottom paddingTop-56">
-        <Col sm={12} lg={10} className="mx-auto">
-          <Row className="overflow-hidden">
+      <div className="container paddingBottom paddingTop-56 overflow-x-hidden ">
+        <Col sm={12} lg={10} className="mx-auto ">
+          <Row className="">
             {data?.map((item, index) => {
               return (
                 <Col
                   sm={12}
                   md={6}
                   lg={4}
-                  className="pt-4 responsive overflow-hidden"
+                  className="pt-4 responsive"
                   data-aos="fade-left"
                 >
                   <div className="box-shadow-lg rounded-3 p-4 banner-service-hover-card">

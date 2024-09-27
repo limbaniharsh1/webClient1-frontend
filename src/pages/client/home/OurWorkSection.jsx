@@ -1,17 +1,13 @@
 import Lottie from "lottie-react";
-import React from "react";
 import { Col, Row } from "react-bootstrap";
-import teamAnimation from "../../../assets/lottieFiles/team.json";
+import teamAnimation from "../../../assets/lottieFiles/team2.json";
 
-const AboutSection = () => {
+const OurWorkSection = () => {
   return (
-    <section className="pattern-bg">
+    <section className="">
       <div className="container paddingTop-56 paddingBottom">
         <Row className="align-items-center">
-          <Col sm={10} md={6} className="mt-4 mx-auto" data-aos="zoom-in">
-            <Lottie animationData={teamAnimation} loop={true} />
-          </Col>
-          <Col sm={12} md={6} className="mt-4 responsive">
+          <Col sm={12} md={6} className="mt-4 responsive order-2 order-md-1">
             <div className="px-lg-5">
               <h3 className="fs-24 ff-primary mb-3 mb-md-4" data-aos="fade-up">
                 About Shree International
@@ -29,10 +25,13 @@ const AboutSection = () => {
               </p>
             </div>
           </Col>
+          <Col sm={9} md={5} className="mt-4 mx-auto order-1 order-ms-2" data-aos="zoom-in">
+            <Lottie animationData={teamAnimation} loop={false} />
+          </Col>
         </Row>
       </div>
     </section>
   );
 };
 
-export default AboutSection;
+export default OurWorkSection;
