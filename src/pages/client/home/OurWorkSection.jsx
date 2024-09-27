@@ -7,7 +7,7 @@ const OurWorkSection = () => {
     <section className="">
       <div className="container paddingTop-56 paddingBottom">
         <Row className="align-items-center">
-          <Col sm={12} md={6} className="mt-4 responsive order-2 order-md-1">
+          <Col sm={12} md={7} xl={6} className="mt-4 responsive order-2 order-md-1">
             <div className="px-lg-5">
               <h3 className="fs-24 ff-primary mb-3 mb-md-4" data-aos="fade-up">
                 About Shree International
@@ -25,7 +25,7 @@ const OurWorkSection = () => {
               </p>
             </div>
           </Col>
-          <Col sm={9} md={5} className="mt-4 mx-auto order-1 order-ms-2" data-aos="zoom-in">
+          <Col sm={9} md={5} lg={5} className="mt-4 ms-auto me-auto me-md-0 ms-md-auto order-1 order-ms-2" >
             <Lottie animationData={teamAnimation} loop={false} />
           </Col>
         </Row>
