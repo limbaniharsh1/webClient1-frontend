@@ -34,10 +34,10 @@ const Team = () => {
   ];
 
   return (
-    <section>
-      <div className="container paddingBottom responsive">
-        <h4 className="text-center">Meet Our Leadership Team</h4>
-        <p className="max-w-800px text-center mx-auto text-color-gray fs-14 truncate-line-3">
+    <section className="pattern-bg">
+      <div className="container paddingY responsive overflow-hidden">
+        <h4 className="text-center fs-26 fw-bold mb-3" data-aos="fade-up">Meet Our Leadership Team</h4>
+        <p className="max-w-800px text-center mx-auto text-color-gray fs-14 truncate-line-3" data-aos="fade-up">
           Our expert team powers our import-export success, delivering
           exceptional service and innovative solutions in global trade,
           logistics, and finance. Meet the people behind it all!
@@ -52,7 +52,7 @@ const Team = () => {
 
               return (
                 <Col sm={6} xl={3} key={index} className="mt-4">
-                  <div>
+                  <div className="" data-aos="fade-left">
                     <div className="team-profile-img box-shadow-lg p-4">
                       <img
                         src={img}
@@ -60,9 +60,9 @@ const Team = () => {
                         alt=""
                       />
                     <div className="text-center mt-4 position-relative z-1">
-                      <h4 className="fs-20 text-color-primary fw-semibold mb-0 transition-color">{name}</h4>
+                      <h4 className="fs-18 text-color-primary fw-bold mb-0 transition-color">{name}</h4>
                       <span className="fs-14 text-color-secondary">{position}</span>
-                      <p className="fs-14 text-color-gray mt-2 transition-color">{description}</p>
+                      <p className="fs-14 text-color-gray mt-2 transition-color truncate-line-3">{description}</p>
                     </div>
                     </div>
                   </div>

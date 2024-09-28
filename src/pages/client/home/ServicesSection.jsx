@@ -41,7 +41,7 @@ const ServicesSection = () => {
                     <span className="home-service-icon d-block rounded-3 text-color-white d-flex align-items-center justify-content-center text-start fs-28">
                       <i className={item.icon}></i>
                     </span>
-                    <h3 className="fs-20 mt-4 ff-primary text-truncate text-color-primary">
+                    <h3 className="fs-20 mt-4 ff-primary text-truncate text-color-primary fw-bold">
                       {item.title}
                     </h3>
                     <p className="fs-14 truncate-line-3 text-color-gray">

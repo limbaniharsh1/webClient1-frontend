@@ -22,7 +22,7 @@
 body {
   font-family: var(--ff-secondary);
   outline: none;
-  letter-spacing: 0.7px;
+  letter-spacing: 0.3px;
 }
 
 .text-color-primary {
@@ -366,6 +366,7 @@ nav {
   position: relative;
   overflow: hidden;
   transition: background-color 0.3s;
+  background-color: var(--white-color);
 }
 
 .team-profile-img::after {

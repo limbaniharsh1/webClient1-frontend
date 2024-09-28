@@ -11,14 +11,14 @@ const Header = () => {
         <div>
           <a href={`tel:${mobile}`}>
             <i className="ri-phone-fill text-color-secondary fs-18 me-2"></i>
-            <span className="d-none d-sm-inline text-color-white hover-text-secondary transition-color">
+            <span className="d-none fs-14 fw-semibold d-sm-inline text-color-white hover-text-secondary transition-color">
               +91 {mobile}
             </span>
           </a>
 
           <a href={`mailto:${email}`}>
             <i className="ri-mail-open-fill ms-2 ms-md-3 fs-18 me-2 text-color-secondary"></i>
-            <span className="d-none d-sm-inline text-color-white hover-text-secondary transition-color">
+            <span className="d-none fs-14 fw-semibold d-sm-inline text-color-white hover-text-secondary transition-color">
               {email}
             </span>
           </a>
@@ -65,19 +65,19 @@ const Header = () => {
             <Nav className="ms-auto d-flex gap-3 py-3 py-md-0">
               <Link
                 to="/"
-                className="hover-text-secondary text-color-primary transition-color"
+                className="hover-text-secondary text-color-primary transition-color fw-semibold"
               >
                 Home
               </Link>
               <Link
                 to="/about"
-                className="hover-text-secondary text-color-primary transition-color"
+                className="hover-text-secondary text-color-primary transition-color fw-semibold"
               >
                 About Us
               </Link>
               <Link
                 to="/about"
-                className="hover-text-secondary text-color-primary transition-color"
+                className="hover-text-secondary text-color-primary transition-color fw-semibold"
               >
                 Product
               </Link>

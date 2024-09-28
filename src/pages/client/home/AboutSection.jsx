@@ -13,7 +13,7 @@ const AboutSection = () => {
           </Col>
           <Col sm={12} md={6} className="mt-4 responsive">
             <div className="px-lg-5">
-              <h3 className="fs-24 ff-primary mb-3 mb-md-4" data-aos="fade-up">
+              <h3 className="fs-26 ff-primary mb-3 mb-md-4 fw-bold" data-aos="fade-up">
                 About Shree International
               </h3>
               <p className="mb-2 fs-16 fw-medium" data-aos="fade-up">
