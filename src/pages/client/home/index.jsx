@@ -3,6 +3,7 @@ import BannerSection from "./BannerSection";
 import ServicesSection from "./ServicesSection";
 import AboutSection from "./AboutSection";
 import OurWorkSection from "./OurWorkSection";
+import Team from "./Team";
 
 const Home = () => {
   return (
@@ -11,6 +12,7 @@ const Home = () => {
       <ServicesSection />
       <AboutSection />
       <OurWorkSection />
+      <Team/>
     </>
   );
 };

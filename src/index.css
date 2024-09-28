@@ -13,6 +13,7 @@
   --white-color: #ffffff;
   --black-color: #222222;
   --gray-color: #7a7a7a;
+  --white-color-80: #ffffff80;
 
   --ff-primary: "Red Hat Display", sans-serif;
   --ff-secondary: "Open Sans", sans-serif;
@@ -21,7 +22,7 @@
 body {
   font-family: var(--ff-secondary);
   outline: none;
-  letter-spacing: .7px;
+  letter-spacing: 0.7px;
 }
 
 .text-color-primary {
@@ -286,6 +287,10 @@ nav {
   max-width: 600px;
 }
 
+.max-w-800px {
+  max-width: 800px;
+}
+
 .truncate-line-3 {
   display: -webkit-box !important;
   -webkit-line-clamp: 3 !important;
@@ -345,6 +350,45 @@ nav {
 .banner-service-hover-card:hover .home-service-icon {
   background-color: var(--white-color);
   color: var(--primary-color);
+}
+
+.team-profile-img img {
+  /* height: 180px; */
+  width: 70%;
+  max-width: 150px;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.team-profile-img {
+  border-radius: 15px;
+  position: relative;
+  overflow: hidden;
+  transition: background-color 0.3s;
+}
+
+.team-profile-img::after {
+  transition: all 0.5s;
+  position: absolute;
+  content: "";
+  width: 100%;
+  background-color: var(--primary-color);
+  height: 35%;
+  top: 0;
+  left: 0;
+}
+
+.team-profile-img:hover::after {
+  height: 100%;
+}
+
+.team-profile-img:hover .text-color-primary {
+  color: var(--white-color);
+}
+
+.team-profile-img:hover .text-color-gray {
+  color: var(--white-color-80);
 }
 
 @keyframes up-down {
