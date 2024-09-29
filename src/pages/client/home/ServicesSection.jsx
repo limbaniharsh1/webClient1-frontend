@@ -31,6 +31,7 @@ const ServicesSection = () => {
             {data?.map((item, index) => {
               return (
                 <Col
+                  key={index}
                   sm={12}
                   md={6}
                   lg={4}

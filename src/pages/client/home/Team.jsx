@@ -36,7 +36,7 @@ const Team = () => {
   return (
     <section className="pattern-bg">
       <div className="container paddingY responsive overflow-hidden">
-        <h4 className="text-center fs-26 fw-bold mb-3" data-aos="fade-up">Meet Our Leadership Team</h4>
+        <h4 className="text-center fs-28 ff-primary fw-bold mb-3" data-aos="fade-up">Meet Our Leadership Team</h4>
         <p className="max-w-800px text-center mx-auto text-color-gray fs-14 truncate-line-3" data-aos="fade-up">
           Our expert team powers our import-export success, delivering
           exceptional service and innovative solutions in global trade,

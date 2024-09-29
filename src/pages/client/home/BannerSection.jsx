@@ -24,7 +24,7 @@ const BannerSection = () => {
                 Get started <i className="ms-1 ri-arrow-right-line"></i>
               </Button>
               <Button className="white-btn fs-16 fw-bold text-color-primary">
-                Let's Talk With Us <i className="ms-1 ri-arrow-right-line"></i>
+                Let&apos;s Talk With Us <i className="ms-1 ri-arrow-right-line"></i>
               </Button>
             </div>
           </Col>

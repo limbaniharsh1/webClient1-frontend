@@ -9,6 +9,7 @@
 
 :root {
   --primary-color: #2c3e50;
+  --primary-color-80: #465a6ed5;
   --secondary-color: #2899f6;
   --white-color: #ffffff;
   --black-color: #222222;
@@ -25,6 +26,10 @@ body {
   letter-spacing: 0.3px;
 }
 
+ul li {
+  list-style: none;
+}
+
 .text-color-primary {
   color: var(--primary-color);
 }
@@ -35,6 +40,10 @@ body {
 
 .text-color-white {
   color: var(--white-color);
+}
+
+.text-color-white-80 {
+  color: var(--white-color-80);
 }
 
 .text-color-black {
@@ -57,6 +66,10 @@ body {
   background-color: var(--primary-color);
 }
 
+.bg-color-primary-80 {
+  background-color: var(--primary-color-80);
+}
+
 .ff-primary {
   font-family: var(--ff-primary);
 }
@@ -66,6 +79,10 @@ body {
   padding-right: 20px;
   padding-left: 20px;
   margin: 0 auto;
+}
+
+.common-white-border {
+  border-color: rgba(255, 255, 255, 0.122) !important;
 }
 
 .pattern-bg {
@@ -203,8 +220,13 @@ nav {
   /* border: 1px solid #e7e7e7 !important; */
 }
 
+.secondary-btn {
+  background-color: var(--secondary-color) !important;
+}
+
 .primary-btn,
-.white-btn {
+.white-btn,
+.secondary-btn {
   border: 0;
   padding-left: 34px;
   padding-right: 34px;
@@ -223,8 +245,13 @@ nav {
   background-color: var(--primary-color);
 }
 
+.secondary-btn::after {
+  background-color: var(--white-color);
+}
+
 .primary-btn::after,
-.white-btn::after {
+.white-btn::after,
+.secondary-btn::after {
   z-index: -1;
   position: absolute;
   content: "";
@@ -236,8 +263,13 @@ nav {
 }
 
 .primary-btn:hover::after,
-.white-btn:hover::after {
+.white-btn:hover::after,
+.secondary-btn:hover::after {
   height: 100%;
+}
+
+.secondary-btn:hover{
+  color: var(--primary-color);
 }
 
 .header-icon {
@@ -392,6 +424,10 @@ nav {
   color: var(--white-color-80);
 }
 
+footer {
+  background-color: var(--primary-color);
+}
+
 @keyframes up-down {
   0% {
     transform: translateY(0px);
@@ -521,7 +557,8 @@ nav {
   }
 
   .primary-btn,
-  .white-btn {
+  .white-btn,
+  .secondary-btn {
     padding-left: 24px;
     padding-right: 24px;
   }
