@@ -323,6 +323,16 @@ nav {
   max-width: 800px;
 }
 
+.no-resize {
+  resize: none;
+}
+
+.no-spinners::-webkit-outer-spin-button,
+.no-spinners::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
 .truncate-line-3 {
   display: -webkit-box !important;
   -webkit-line-clamp: 3 !important;
@@ -426,6 +436,19 @@ nav {
 
 footer {
   background-color: var(--primary-color);
+}
+
+.form-control:focus{
+  box-shadow: none;
+  outline: none;
+}
+
+.form-control{
+  padding: 10px;
+}
+
+.form-label{
+  font-family: var(--ff-primary);
 }
 
 @keyframes up-down {
@@ -565,6 +588,14 @@ footer {
 
   .main-banner-title {
     font-size: 38px;
+  }
+
+  .form-control{
+   font-size: 14px;
+  }
+  
+  .form-label{
+    font-size: 14px;
   }
 }
 
