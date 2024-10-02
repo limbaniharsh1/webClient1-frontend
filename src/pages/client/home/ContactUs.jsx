@@ -1,31 +1,114 @@
 import React from "react";
 import { Button, Form } from "react-bootstrap";
+import { useFormik } from "formik";
+import * as Yup from "yup";
 
 const ContactUs = () => {
+  // Formik setup with validation
+  const formik = useFormik({
+    initialValues: {
+      name: "",
+      email: "",
+      phone: "",
+      message: ""
+    },
+    validationSchema: Yup.object({
+      name: Yup.string()
+        .required("Name is required")
+        .min(2, "Name must be at least 2 characters"),
+      email: Yup.string()
+        .email("Invalid email address")
+        .required("Email is required"),
+      phone: Yup.string()
+        .required("Phone is required")
+        .matches(/^[0-9]{10}$/, "Phone must be exactly 10 digits"),
+      message: Yup.string()
+        .required("Message is required")
+        .min(10, "Message must be at least 10 characters")
+    }),
+    onSubmit: (values) => {
+      console.log("Form Values", values);
+      // Add the submit logic here (e.g., send to backend)
+    },
+  });
+
   return (
     <section>
       <div className="container paddingY responsive">
         <h5 className="fs-28 fw-bold text-center ff-primary">
           Share Your Requirement
         </h5>
-        <Form className="max-w-600px mx-auto box-shadow-lg p-4 rounded-4 mt-4">
-          <Form.Group className="mb-3" controlId="formBasicEmail">
+        <Form onSubmit={formik.handleSubmit} className="max-w-600px mx-auto box-shadow-lg p-4 rounded-4 mt-4">
+          <Form.Group className="mb-3" controlId="formBasicName">
             <Form.Label>Name</Form.Label>
-            <Form.Control type="text" placeholder="Enter name" />
+            <Form.Control
+              type="text"
+              name="name"
+              placeholder="Enter name"
+              onChange={formik.handleChange}
+              onBlur={formik.handleBlur}
+              value={formik.values.name}
+              isInvalid={formik.touched.name && formik.errors.name}
+            />
+            {formik.touched.name && formik.errors.name ? (
+              <span className="text-danger fs-12 fw-medium">{formik.errors.name}</span>
+            ) : null}
           </Form.Group>
+
           <Form.Group className="mb-3" controlId="formBasicEmail">
             <Form.Label>Email address</Form.Label>
-            <Form.Control type="email" placeholder="Enter email" />
+            <Form.Control
+              type="email"
+              name="email"
+              placeholder="Enter email"
+              onChange={formik.handleChange}
+              onBlur={formik.handleBlur}
+              value={formik.values.email}
+              isInvalid={formik.touched.email && formik.errors.email}
+            />
+            {formik.touched.email && formik.errors.email ? (
+              <span className="text-danger fs-12 fw-medium">{formik.errors.email}</span>
+            ) : null}
           </Form.Group>
-          <Form.Group className="mb-3" controlId="formBasicEmail">
+
+          <Form.Group className="mb-3" controlId="formBasicPhone">
             <Form.Label>Phone no.</Form.Label>
-            <Form.Control type="number" placeholder="Enter phone no." className="no-spinners" />
+            <Form.Control
+              type="text"
+              name="phone"
+              placeholder="Enter phone no."
+              onChange={formik.handleChange}
+              onBlur={formik.handleBlur}
+              value={formik.values.phone}
+              isInvalid={formik.touched.phone && formik.errors.phone}
+              className="no-spinners"
+            />
+            {formik.touched.phone && formik.errors.phone ? (
+              <span className="text-danger fs-12 fw-medium">{formik.errors.phone}</span>
+            ) : null}
           </Form.Group>
-          <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
-            <Form.Label>Example textarea</Form.Label>
-            <Form.Control as="textarea" className="no-resize" placeholder="Start message from here..." rows={3} />
+
+          <Form.Group className="mb-3" controlId="formBasicMessage">
+            <Form.Label>Message</Form.Label>
+            <Form.Control
+              as="textarea"
+              name="message"
+              placeholder="Start message from here..."
+              rows={3}
+              onChange={formik.handleChange}
+              onBlur={formik.handleBlur}
+              value={formik.values.message}
+              isInvalid={formik.touched.message && formik.errors.message}
+              className="no-resize"
+            />
+            {formik.touched.message && formik.errors.message ? (
+              <span className="text-danger fs-12 fw-medium">{formik.errors.message}</span>
+            ) : null}
           </Form.Group>
-          <Button className="primary-btn w-100 fs-16">Submit</Button>
+
+          <Button type="submit" className="primary-btn w-100 fs-16">
+            Submit
+          </Button>
         </Form>
       </div>
     </section>
