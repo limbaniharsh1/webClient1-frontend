@@ -4,6 +4,7 @@ import { useFormik } from "formik";
 import * as Yup from "yup";
 import { useDispatch, useSelector } from "react-redux";
 import { postContactThunk } from "../../../store/contact/thunk";
+import { toast } from "react-toastify";
 
 const ContactUs = () => {
   const dispatch = useDispatch();
@@ -35,6 +36,7 @@ const ContactUs = () => {
       // Add the submit logic here (e.g., send to backend)
       const response = await dispatch(postContactThunk(values));
       if(postContactThunk.fulfilled.match(response)){
+        toast.success("Thanks for contacting us")
         resetForm();
       }
     },
