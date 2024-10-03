@@ -35,7 +35,7 @@ const ContactUs = () => {
       // Add the submit logic here (e.g., send to backend)
       const response = await dispatch(postContactThunk(values));
       if(postContactThunk.fulfilled.match(response)){
-        resetForm()
+        resetForm();
       }
     },
   });
