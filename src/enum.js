@@ -19,3 +19,5 @@ export const socialMedia = [
     icon: "ri-instagram-line",
   },
 ];
+
+export const baseUrl = "https://webclient1-backend.onrender.com/"

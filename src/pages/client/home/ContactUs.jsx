@@ -2,15 +2,20 @@ import React from "react";
 import { Button, Form } from "react-bootstrap";
 import { useFormik } from "formik";
 import * as Yup from "yup";
+import { useDispatch, useSelector } from "react-redux";
+import { postContactThunk } from "../../../store/contact/thunk";
 
 const ContactUs = () => {
+  const dispatch = useDispatch();
+  const { loading } = useSelector((store) => store.contact);
+
   // Formik setup with validation
   const formik = useFormik({
     initialValues: {
       name: "",
       email: "",
       phone: "",
-      message: ""
+      message: "",
     },
     validationSchema: Yup.object({
       name: Yup.string()
@@ -24,11 +29,14 @@ const ContactUs = () => {
         .matches(/^[0-9]{10}$/, "Phone must be exactly 10 digits"),
       message: Yup.string()
         .required("Message is required")
-        .min(10, "Message must be at least 10 characters")
+        .min(10, "Message must be at least 10 characters"),
     }),
-    onSubmit: (values) => {
-      console.log("Form Values", values);
+    onSubmit: async(values,{resetForm}) => {
       // Add the submit logic here (e.g., send to backend)
+      const response = await dispatch(postContactThunk(values));
+      if(postContactThunk.fulfilled.match(response)){
+        resetForm()
+      }
     },
   });
 
@@ -38,7 +46,10 @@ const ContactUs = () => {
         <h5 className="fs-28 fw-bold text-center ff-primary">
           Share Your Requirement
         </h5>
-        <Form onSubmit={formik.handleSubmit} className="max-w-600px mx-auto box-shadow-lg p-4 rounded-4 mt-4">
+        <Form
+          onSubmit={formik.handleSubmit}
+          className="max-w-600px mx-auto box-shadow-lg p-4 rounded-4 mt-4"
+        >
           <Form.Group className="mb-3" controlId="formBasicName">
             <Form.Label>Name</Form.Label>
             <Form.Control
@@ -51,7 +62,9 @@ const ContactUs = () => {
               isInvalid={formik.touched.name && formik.errors.name}
             />
             {formik.touched.name && formik.errors.name ? (
-              <span className="text-danger fs-12 fw-medium">{formik.errors.name}</span>
+              <span className="text-danger fs-12 fw-medium">
+                {formik.errors.name}
+              </span>
             ) : null}
           </Form.Group>
 
@@ -67,7 +80,9 @@ const ContactUs = () => {
               isInvalid={formik.touched.email && formik.errors.email}
             />
             {formik.touched.email && formik.errors.email ? (
-              <span className="text-danger fs-12 fw-medium">{formik.errors.email}</span>
+              <span className="text-danger fs-12 fw-medium">
+                {formik.errors.email}
+              </span>
             ) : null}
           </Form.Group>
 
@@ -84,7 +99,9 @@ const ContactUs = () => {
               className="no-spinners"
             />
             {formik.touched.phone && formik.errors.phone ? (
-              <span className="text-danger fs-12 fw-medium">{formik.errors.phone}</span>
+              <span className="text-danger fs-12 fw-medium">
+                {formik.errors.phone}
+              </span>
             ) : null}
           </Form.Group>
 
@@ -102,12 +119,18 @@ const ContactUs = () => {
               className="no-resize"
             />
             {formik.touched.message && formik.errors.message ? (
-              <span className="text-danger fs-12 fw-medium">{formik.errors.message}</span>
+              <span className="text-danger fs-12 fw-medium">
+                {formik.errors.message}
+              </span>
             ) : null}
           </Form.Group>
 
-          <Button type="submit" className="primary-btn w-100 fs-16">
-            Submit
+          <Button
+            type="submit"
+            className="primary-btn w-100 fs-16"
+            disabled={loading}
+          >
+            {loading ? "Loading..." : "Submit"}
           </Button>
         </Form>
       </div>
