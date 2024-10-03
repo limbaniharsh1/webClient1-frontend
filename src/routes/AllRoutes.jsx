@@ -3,6 +3,8 @@ import { CLIENT } from "./routeConstants";
 import Home from "../pages/client/home";
 import { Route, Routes } from "react-router-dom";
 import AboutUs from "../pages/client/aboutUs";
+import Accreditation from "../pages/client/accreditation";
+import ContactUs from "../pages/client/contactUs";
 import clientLayout from "../pages/client/Layout";
 import Layout from "../pages/client/Layout";
 
@@ -11,6 +13,8 @@ const AllRoutes = () => {
   const clientRoutes = [
     { path: client.INDEX, component: <Home /> },
     { path: client.ABOUT_US, component: <AboutUs /> },
+    { path: client.ACCREDITATION, component: <Accreditation /> },
+    { path: client.CONTACT_US, component: <ContactUs /> },
   ];
 
   return (

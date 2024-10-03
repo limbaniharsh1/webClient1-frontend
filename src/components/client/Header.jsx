@@ -2,8 +2,28 @@ import React from "react";
 import { email, mobile, socialMedia } from "../../enum";
 import { Nav, Navbar } from "react-bootstrap";
 import { Link } from "react-router-dom";
+import { CLIENT } from "../../routes/routeConstants";
 
 const Header = () => {
+  const data = [
+    {
+      title: "home",
+      path: CLIENT.INDEX,
+    },
+    {
+      title: "About Us",
+      path: CLIENT.ABOUT_US,
+    },
+    {
+      title: "Accreditation",
+      path: CLIENT.ACCREDITATION,
+    },
+    {
+      title: "Contact Us",
+      path: CLIENT.CONTACT_US,
+    },
+  ];
+
   return (
     <header className="bg-color-primary w-100 responsive">
       {/* navbar stripe */}
@@ -63,24 +83,17 @@ const Header = () => {
           {/* Right Side: Navigation Links */}
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto d-flex gap-3 py-3 py-md-0">
-              <Link
-                to="/"
-                className="hover-text-secondary text-color-primary transition-color fw-semibold"
-              >
-                Home
-              </Link>
-              <Link
-                to="/about"
-                className="hover-text-secondary text-color-primary transition-color fw-semibold"
-              >
-                About Us
-              </Link>
-              <Link
-                to="/about"
-                className="hover-text-secondary text-color-primary transition-color fw-semibold"
-              >
-                Product
-              </Link>
+              {data?.map((item, index) => {
+                return (
+                  <Link
+                    key={index}
+                    to={item.path}
+                    className="hover-text-secondary text-color-primary transition-color fw-semibold text-capitalize"
+                  >
+                    {item.title}
+                  </Link>
+                );
+              })}
             </Nav>
           </Navbar.Collapse>
         </div>
