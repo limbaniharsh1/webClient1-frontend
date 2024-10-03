@@ -20,4 +20,4 @@ export const socialMedia = [
   },
 ];
 
-export const baseUrl = "https://webclient1-backend.onrender.com/"
+export const baseUrl = "https://webclient1-backend.onrender.com"
