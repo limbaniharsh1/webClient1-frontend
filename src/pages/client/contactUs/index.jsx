@@ -5,6 +5,8 @@ import * as Yup from "yup";
 import { useDispatch, useSelector } from "react-redux";
 import { useFormik } from "formik";
 import { email, mobile } from "../../../enum";
+import { postContactThunk } from "../../../store/contact/thunk";
+import { toast } from "react-toastify";
 
 const index = () => {
   const dispatch = useDispatch();
@@ -143,7 +145,9 @@ const index = () => {
             <div className="d-flex flex-column gap-4">
               <div className="text-center box-shadow-lg p-4 rounded-4">
                 <i className="ri-map-pin-2-fill fs-34"></i>
-                <h6 className="fs-20 fw-bold mb-1 text-color-primary">Location</h6>
+                <h6 className="fs-20 fw-bold mb-1 text-color-primary">
+                  Location
+                </h6>
                 <p className="fs-14 p-0 m-0">
                   516, MBC(Meridian Business Centre, Lajamni chowk, Mota
                   Varachha Surat – 394101, Gujarat, India.
@@ -162,7 +166,10 @@ const index = () => {
               <div className="text-center box-shadow-lg p-4 rounded-4">
                 <i className="ri-mail-open-fill fs-34"></i>
                 <h6 className="fs-20 fw-bold mb-1">Mail</h6>
-                <a href={"mailto:" + email} className="fs-14 p-0 m-0 text-color-primary">
+                <a
+                  href={"mailto:" + email}
+                  className="fs-14 p-0 m-0 text-color-primary"
+                >
                   {email}
                 </a>
               </div>
