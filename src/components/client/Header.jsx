@@ -19,6 +19,10 @@ const Header = () => {
       path: CLIENT.ACCREDITATION,
     },
     {
+      title: "Participation",
+      path: CLIENT.PARTICIPATION,
+    },
+    {
       title: "Contact Us",
       path: CLIENT.CONTACT_US,
     },

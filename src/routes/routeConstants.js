@@ -3,4 +3,5 @@ export const CLIENT = {
   ABOUT_US: "/about-us",
   ACCREDITATION: "/accreditation",
   CONTACT_US: "/contact-us",
+  PARTICIPATION:"/participation"
 };
