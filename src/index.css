@@ -216,6 +216,7 @@ nav {
 .common-bg::after {
   position: absolute;
   left: 0;
+  top: 0;
   content: "";
   height: 100%;
   width: 100%;
