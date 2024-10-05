@@ -1,12 +1,12 @@
-import React from "react";
+import React, { useState } from "react";
 import { email, mobile, socialMedia } from "../../enum";
 import { Nav, Navbar } from "react-bootstrap";
 import { Link, useLocation } from "react-router-dom";
 import { CLIENT } from "../../routes/routeConstants";
 
 const Header = () => {
-
-  const {pathname} = useLocation()
+  const [expanded, setExpanded] = useState(false);
+  const { pathname } = useLocation();
 
   const data = [
     {
@@ -70,7 +70,7 @@ const Header = () => {
       </div>
 
       {/* nav bar */}
-      <Navbar bg="light" expand="md">
+      <Navbar bg="light" expand="md" expanded={expanded}>
         <div className="container">
           {/* Left Side: Logo */}
           <Navbar.Brand href="/">
@@ -85,7 +85,10 @@ const Header = () => {
           </Navbar.Brand>
 
           {/* Responsive Toggle Button */}
-          <Navbar.Toggle aria-controls="basic-navbar-nav" />
+          <Navbar.Toggle
+            aria-controls="basic-navbar-nav"
+            onClick={() => setExpanded((pre) => !pre)}
+          />
 
           {/* Right Side: Navigation Links */}
           <Navbar.Collapse id="basic-navbar-nav">
@@ -93,9 +96,14 @@ const Header = () => {
               {data?.map((item, index) => {
                 return (
                   <Link
+                    onClick={() => setExpanded(false)}
                     key={index}
                     to={item.path}
-                    className={`${pathname !== item.path ? "hover-text-secondary text-color-primary" : "text-color-secondary"}  transition-color fw-semibold text-capitalize`}
+                    className={`${
+                      pathname !== item.path
+                        ? "hover-text-secondary text-color-primary"
+                        : "text-color-secondary"
+                    }  transition-color fw-semibold text-capitalize`}
                   >
                     {item.title}
                   </Link>
