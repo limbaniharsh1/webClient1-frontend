@@ -5,7 +5,7 @@ import teamAnimation from "../../../assets/lottieFiles/team.json";
 
 const AboutSection = () => {
   return (
-    <section className="pattern-bg">
+    <section className="bg-lightest-gray">
       <div className="container paddingTop-56 paddingBottom">
         <Row className="align-items-center">
           <Col sm={10} md={6} className="mt-4 mx-auto" data-aos="zoom-in">
@@ -13,7 +13,10 @@ const AboutSection = () => {
           </Col>
           <Col sm={12} md={6} className="mt-4 responsive">
             <div className="px-lg-5">
-              <h3 className="fs-26 ff-primary mb-3 mb-md-4 fw-bold" data-aos="fade-up">
+              <h3
+                className="fs-26 ff-primary mb-3 mb-md-4 fw-bold"
+                data-aos="fade-up"
+              >
                 About Shree International
               </h3>
               <p className="mb-2 fs-16 fw-medium" data-aos="fade-up">

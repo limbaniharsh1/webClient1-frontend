@@ -34,15 +34,23 @@ const Team = () => {
   ];
 
   return (
-    <section className="pattern-bg">
+    <section className="bg-lightest-gray">
       <div className="container paddingY responsive overflow-hidden">
-        <h4 className="text-center fs-28 ff-primary fw-bold mb-3" data-aos="fade-up">Meet Our Leadership Team</h4>
-        <p className="max-w-800px text-center mx-auto text-color-gray fs-14 truncate-line-3" data-aos="fade-up">
+        <h4
+          className="text-center fs-28 ff-primary fw-bold mb-3"
+          data-aos="fade-up"
+        >
+          Meet Our Leadership Team
+        </h4>
+        <p
+          className="max-w-800px text-center mx-auto text-color-gray fs-14 truncate-line-3"
+          data-aos="fade-up"
+        >
           Our expert team powers our import-export success, delivering
           exceptional service and innovative solutions in global trade,
           logistics, and finance. Meet the people behind it all!
         </p>
-        <div>
+        <div className="">
           <Row>
             {data.map((item, index) => {
               const img = item.img;
@@ -59,11 +67,17 @@ const Team = () => {
                         className="mx-auto d-block position-relative z-1"
                         alt=""
                       />
-                    <div className="text-center mt-4 position-relative z-1">
-                      <h4 className="fs-18 text-color-primary fw-bold mb-0 transition-color">{name}</h4>
-                      <span className="fs-14 text-color-secondary">{position}</span>
-                      <p className="fs-14 text-color-gray mt-2 transition-color truncate-line-3">{description}</p>
-                    </div>
+                      <div className="text-center mt-4 position-relative z-1">
+                        <h4 className="fs-18 text-color-primary fw-bold mb-0 transition-color">
+                          {name}
+                        </h4>
+                        <span className="fs-14 text-color-secondary">
+                          {position}
+                        </span>
+                        <p className="fs-14 text-color-gray mt-2 transition-color truncate-line-3">
+                          {description}
+                        </p>
+                      </div>
                     </div>
                   </div>
                 </Col>

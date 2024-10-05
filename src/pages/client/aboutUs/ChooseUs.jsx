@@ -13,7 +13,7 @@ const ChooseUs = () => {
   ];
 
   return (
-    <section className="pattern-bg paddingY responsive">
+    <section className="bg-lightest-gray paddingY responsive">
       <div className="container">
         <h3
           className="fs-26 ff-primary mb-3 mb-md-4 fw-bold text-center"

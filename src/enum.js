@@ -20,4 +20,5 @@ export const socialMedia = [
   },
 ];
 
-export const baseUrl = "https://webclient1-backend.onrender.com"
+// export const baseUrl = "https://webclient1-backend.onrender.com"
+export const baseUrl = "https://ugly-julianne-harshlimbani-27b28002.koyeb.app"
