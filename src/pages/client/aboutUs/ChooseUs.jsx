@@ -42,7 +42,7 @@ const ChooseUs = () => {
                     key={index}
                     className="fs-14 d-flex align-items-center gap-3"
                   >
-                    <i class="ri-arrow-right-circle-fill fs-18"></i>
+                    <i className="ri-arrow-right-circle-fill fs-18"></i>
                     {item}
                   </li>
                   //   <li

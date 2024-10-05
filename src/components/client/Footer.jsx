@@ -1,21 +1,25 @@
 import React from "react";
 import { Button, Col, Row } from "react-bootstrap";
 import { email, mobile } from "../../enum";
+import { Link } from "react-router-dom";
+import { CLIENT } from "../../routes/routeConstants";
 
 const Footer = () => {
   return (
     <footer className="paddingY px-4 responsive">
-        <div className="pb-5">
-          <span className="d-block text-center text-color-white-80 fs-14">
-            Get in Touch with Us
-          </span>
-          <h3 className="fs-26 fw-bold  ff-primary mb-3 mb-md-4 text-center text-color-white mt-2">
-            Let’s Make International Trade <br /> Simple
-          </h3>
+      <div className="pb-5">
+        <span className="d-block text-center text-color-white-80 fs-14">
+          Get in Touch with Us
+        </span>
+        <h3 className="fs-26 fw-bold  ff-primary mb-3 mb-md-4 text-center text-color-white mt-2">
+          Let’s Make International Trade <br /> Simple
+        </h3>
+        <Link to={CLIENT.CONTACT_US}>
           <Button className="secondary-btn text-color-white fs-14 fw-bold mx-auto d-block">
             Let&apos;s Talk With Us <i className="ms-1 ri-arrow-right-line"></i>
           </Button>
-        </div>
+        </Link>
+      </div>
       <div className="container bg-color-primary-80 rounded-4  pb-5 box-shadow-lg">
         <Col sm={12} xl={11} className="mx-auto">
           <Row>

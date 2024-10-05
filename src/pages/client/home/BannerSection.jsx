@@ -1,5 +1,7 @@
 import React from "react";
 import { Button, Col, Row } from "react-bootstrap";
+import { Link } from "react-router-dom";
+import { CLIENT } from "../../../routes/routeConstants";
 
 const BannerSection = () => {
   return (
@@ -16,16 +18,21 @@ const BannerSection = () => {
             </h2>
             <p className="fs-14 responsive max-w-600px mx-auto">
               Our import-export business specializes in managing global supply
-              chains,ensuring that your products reach their destination on
-              time and within budget.
+              chains,ensuring that your products reach their destination on time
+              and within budget.
             </p>
             <div className=" mt-md-5 d-flex gap-3 flex-wrap responsive justify-content-center">
-              <Button className="primary-btn fs-16 fw-bold">
-                Get started <i className="ms-1 ri-arrow-right-line"></i>
-              </Button>
-              <Button className="white-btn fs-16 fw-bold text-color-primary">
-                Let&apos;s Talk With Us <i className="ms-1 ri-arrow-right-line"></i>
-              </Button>
+              <a href="#getStart">
+                <Button className="primary-btn fs-16 fw-bold">
+                  Get started <i className="ms-1 ri-arrow-right-line"></i>
+                </Button>
+              </a>
+              <Link to={CLIENT.CONTACT_US}>
+                <Button className="white-btn fs-16 fw-bold text-color-primary">
+                  Let&apos;s Talk With Us{" "}
+                  <i className="ms-1 ri-arrow-right-line"></i>
+                </Button>
+              </Link>
             </div>
           </Col>
           {/* <Col xs={12} lg={6} className="mt-4 mt-lg-0 d-none d-lg-block">

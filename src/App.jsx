@@ -7,9 +7,16 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "remixicon/fonts/remixicon.css";
 import Aos from "aos";
 import "aos/dist/aos.css";
+import { useLocation } from "react-router-dom";
 
 function App() {
   const [count, setCount] = useState(0);
+
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
 
   useEffect(() => {
     Aos.init({

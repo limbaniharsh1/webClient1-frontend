@@ -5,7 +5,7 @@ import teamAnimation from "../../../assets/lottieFiles/team.json";
 
 const AboutSection = () => {
   return (
-    <section className="bg-lightest-gray">
+    <section className="bg-lightest-gray" id="getStart">
       <div className="container paddingTop-56 paddingBottom">
         <Row className="align-items-center">
           <Col sm={10} md={6} className="mt-4 mx-auto" data-aos="zoom-in">

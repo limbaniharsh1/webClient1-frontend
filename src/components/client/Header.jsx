@@ -1,10 +1,13 @@
 import React from "react";
 import { email, mobile, socialMedia } from "../../enum";
 import { Nav, Navbar } from "react-bootstrap";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import { CLIENT } from "../../routes/routeConstants";
 
 const Header = () => {
+
+  const {pathname} = useLocation()
+
   const data = [
     {
       title: "home",
@@ -92,7 +95,7 @@ const Header = () => {
                   <Link
                     key={index}
                     to={item.path}
-                    className="hover-text-secondary text-color-primary transition-color fw-semibold text-capitalize"
+                    className={`${pathname !== item.path ? "hover-text-secondary text-color-primary" : "text-color-secondary"}  transition-color fw-semibold text-capitalize`}
                   >
                     {item.title}
                   </Link>
