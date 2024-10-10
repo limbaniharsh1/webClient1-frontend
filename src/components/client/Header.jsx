@@ -124,7 +124,7 @@ const Header = () => {
                             pathname !== item?.path
                               ? "hover-text-secondary text-color-primary"
                               : "text-color-secondary"
-                          }  transition-color fw-semibold text-capitalize  d-block cursor-pointer py-2 py-md-3`}
+                          }  transition-color fw-semibold text-capitalize  d-block cursor-pointer py-2 py-md-3 fs-16`}
                         >
                           {item.title}
                           <span className="d-md-none">
@@ -145,7 +145,7 @@ const Header = () => {
                                     pathname !== item?.path
                                       ? "hover-text-secondary text-color-primary"
                                       : "text-color-secondary"
-                                  }  transition-color fw-semibold text-capitalize hover-nav d-block cursor-pointer`}
+                                  }  transition-color fw-semibold text-capitalize hover-nav d-block cursor-pointer fs-16`}
                                 >
                                   {item?.title}
                                 </li>
@@ -163,7 +163,7 @@ const Header = () => {
                                       pathname !== item?.path
                                         ? "hover-text-secondary text-color-primary"
                                         : "text-color-secondary"
-                                    }  transition-color fw-semibold text-capitalize d-block cursor-pointer py-2`}
+                                    }  transition-color fw-semibold text-capitalize d-block cursor-pointer py-2 fs-q6`}
                                   >
                                     {item?.title}
                                   </li>
