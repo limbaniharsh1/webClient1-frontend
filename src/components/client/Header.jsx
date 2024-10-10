@@ -85,7 +85,7 @@ const Header = () => {
       </div>
 
       {/* nav bar */}
-      <header className=" responsive  z-3 position-sticky top-0">
+      <header className=" responsive  z-3 position-sticky top-0 responsive">
         <Navbar bg="light" expand="md" expanded={expanded} className="py-0">
           <div className="container">
             {/* Left Side: Logo */}
