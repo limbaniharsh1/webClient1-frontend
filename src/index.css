@@ -482,6 +482,50 @@ footer {
   font-family: var(--ff-primary);
 }
 
+.hover-nav{
+  position: relative;
+}
+
+.hover-nav ul{
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s;
+}
+
+.hover-nav:hover ul{
+  opacity: 1;
+  visibility: visible;
+}
+
+.hover-nav ul{
+  position: absolute;
+  top: 100 !important;
+  right: -10px;
+  /* margin-top: 10px !important; */
+  background-color: var(--white-color);
+  padding: 24px;
+  text-wrap: nowrap;
+}
+
+.cursor-pointer{
+  cursor: pointer;
+}
+
+header .navbar{
+  /* padding: 0; */
+}
+
+.fix-whatsapp-icon{
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+  background-color: rgb(45, 183, 66);
+  z-index: 99;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
 @keyframes up-down {
   0% {
     transform: translateY(0px);
