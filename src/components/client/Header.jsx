@@ -4,6 +4,7 @@ import { Collapse, Nav, Navbar } from "react-bootstrap";
 import { Link, useLocation } from "react-router-dom";
 import { CLIENT } from "../../routes/routeConstants";
 import { useMediaQuery } from "react-responsive";
+import { prductList } from "../../data/productsData";
 
 const Header = () => {
   const [expanded, setExpanded] = useState(false);
@@ -23,12 +24,7 @@ const Header = () => {
     },
     {
       title: "Products",
-      subNav: [
-        {
-          title: "surgical disposable",
-          path: "/surgicle-disposable",
-        },
-      ],
+      subNav: prductList,
     },
     {
       title: "Accreditation",
@@ -129,7 +125,7 @@ const Header = () => {
                           {item.title}
                           <span className="d-md-none">
                             {item?.title == open ? (
-                              <i class="ri-arrow-drop-up-fill ms-2"></i>
+                              <i className="ri-arrow-drop-up-fill ms-2"></i>
                             ) : (
                               <i className="ri-arrow-drop-down-fill ms-2"></i>
                             )}
@@ -138,6 +134,8 @@ const Header = () => {
                         {!md ? (
                           <ul className="rounded-3">
                             {subNav?.map((item, index) => {
+                              const path = item?.path;
+                              const title = item?.title;
                               return (
                                 <li
                                   key={index}
@@ -147,7 +145,12 @@ const Header = () => {
                                       : "text-color-secondary"
                                   }  transition-color fw-semibold text-capitalize hover-nav d-block cursor-pointer`}
                                 >
-                                  {item?.title}
+                                  <Link
+                                    to={path}
+                                    className={`text-color-primary hover-text-secondary`}
+                                  >
+                                    {title}
+                                  </Link>
                                 </li>
                               );
                             })}

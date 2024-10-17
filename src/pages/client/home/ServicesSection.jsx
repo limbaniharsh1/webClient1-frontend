@@ -45,7 +45,7 @@ const ServicesSection = () => {
                     <h3 className="fs-20 mt-4 ff-primary text-truncate text-color-primary fw-bold">
                       {item.title}
                     </h3>
-                    <p className="fs-14 truncate-line-3 text-color-gray">
+                    <p className="fs-16 truncate-line-3 text-color-gray">
                       {item.description}
                     </p>
                   </div>

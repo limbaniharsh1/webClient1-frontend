@@ -17,6 +17,8 @@
   --white-color-80: #ffffff80;
   --lightest-gray: #edf5f4;
 
+  --lg-shadow: 0px 0px 15px #2c3e5025;
+
   --ff-primary: "Red Hat Display", sans-serif;
   --ff-secondary: "Open Sans", sans-serif;
 }
@@ -24,7 +26,7 @@
 body {
   font-family: var(--ff-secondary);
   outline: none;
-  letter-spacing: 0.3px;
+  letter-spacing: 0.2px;
 }
 
 ul li {
@@ -52,7 +54,7 @@ ul li {
 }
 
 .text-color-gray {
-  color: var(--gray-color);
+  color: var(--gray-color) !important;
 }
 
 .hover-bg-primary:hover {
@@ -222,6 +224,10 @@ nav {
   z-index: -1;
 }
 
+.aspect-card-img {
+  aspect-ratio: 1.3/1;
+}
+
 .vh-100 {
   height: 100vh;
 }
@@ -343,7 +349,7 @@ nav {
 }
 
 .box-shadow-lg {
-  box-shadow: 0px 0px 15px #2c3e5025;
+  box-shadow: var(--lg-shadow);
 }
 
 .max-w-600px {
@@ -482,22 +488,22 @@ footer {
   font-family: var(--ff-primary);
 }
 
-.hover-nav{
+.hover-nav {
   position: relative;
 }
 
-.hover-nav ul{
+.hover-nav ul {
   opacity: 0;
   visibility: hidden;
   transition: all 0.3s;
 }
 
-.hover-nav:hover ul{
+.hover-nav:hover ul {
   opacity: 1;
   visibility: visible;
 }
 
-.hover-nav ul{
+.hover-nav ul {
   position: absolute;
   top: 100 !important;
   right: -10px;
@@ -507,15 +513,15 @@ footer {
   text-wrap: nowrap;
 }
 
-.cursor-pointer{
+.cursor-pointer {
   cursor: pointer;
 }
 
-header .navbar{
+header .navbar {
   /* padding: 0; */
 }
 
-.fix-whatsapp-icon{
+.fix-whatsapp-icon {
   position: fixed;
   right: 30px;
   bottom: 30px;
@@ -524,6 +530,18 @@ header .navbar{
   height: 50px;
   width: 50px;
   border-radius: 50%;
+}
+
+.hover-card-translate{
+  transition: transform 0.3s;
+}
+
+.hover-card-translate:hover{
+  transform: translateY(-5px);
+}
+
+.mt-6{
+  margin-top: 100px;
 }
 
 @keyframes up-down {

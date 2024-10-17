@@ -8,15 +8,17 @@ import ContactUs from "../pages/client/contactUs";
 import Participation from "../pages/client/participation";
 import clientLayout from "../pages/client/Layout";
 import Layout from "../pages/client/Layout";
+import Products from "../pages/client/products";
 
 const AllRoutes = () => {
   const client = CLIENT;
   const clientRoutes = [
     { path: client.INDEX, component: <Home /> },
     { path: client.ABOUT_US, component: <AboutUs /> },
+    { path: client.PRODUCTS + "/:product/:subProduct?", component: <Products /> },
     { path: client.ACCREDITATION, component: <Accreditation /> },
-    { path: client.CONTACT_US, component: <ContactUs /> },
     { path: client.PARTICIPATION, component: <Participation /> },
+    { path: client.CONTACT_US, component: <ContactUs /> },
   ];
 
   return (

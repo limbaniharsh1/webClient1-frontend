@@ -16,7 +16,7 @@ const BannerSection = () => {
               Expanding Horizons <br /> Through Global{" "}
               <span className="text-color-secondary"> Trade </span>
             </h2>
-            <p className="fs-14 responsive max-w-600px mx-auto">
+            <p className="fs-16 responsive max-w-600px mx-auto">
               Our import-export business specializes in managing global supply
               chains,ensuring that your products reach their destination on time
               and within budget.

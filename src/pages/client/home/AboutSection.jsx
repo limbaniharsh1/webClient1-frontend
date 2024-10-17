@@ -14,16 +14,16 @@ const AboutSection = () => {
           <Col sm={12} md={6} className="mt-4 responsive">
             <div className="px-lg-5">
               <h3
-                className="fs-26 ff-primary mb-3 mb-md-4 fw-bold"
+                className="fs-28 ff-primary mb-3 mb-md-4 fw-bold"
                 data-aos="fade-up"
               >
                 About Shree International
               </h3>
-              <p className="mb-2 fs-16 fw-medium" data-aos="fade-up">
+              <p className="mb-2 fs-16 fw-semibold" data-aos="fade-up">
                 Insights and Resources to help drive your Business Forward
                 Faster.
               </p>
-              <p className="fs-14 text-color-gray" data-aos="fade-up">
+              <p className="fs-16 text-color-gray" data-aos="fade-up">
                 We build results-oriented brand strategy and continually refine
                 the campaign for the greatest outcome. From full scale branding
                 strategy, we are reaching to almost desired buyers throughout
