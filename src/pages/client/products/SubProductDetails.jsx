@@ -3,7 +3,6 @@ import { Table } from "react-bootstrap";
 import { contentConstsnts } from "../../../constsnts/productConstants";
 
 const SubProductDetails = ({ product }) => {
-  console.log(product);
   const img = product?.img;
   const title = product?.title;
   const subTitle = product?.subTitle;
@@ -40,19 +39,21 @@ const SubProductDetails = ({ product }) => {
                 const data = item?.data;
                 if (data?.length && type == contentConstsnts.CONTENT) {
                   return (
-                    <div className="mt-6" key={index}>
+                    <div className="mt-5 mt-md-100px" key={index}>
                       {" "}
                       {data?.map((item, index) => {
                         const title = item?.title;
                         const description = item?.description;
                         return (
                           <div key={index}>
-                            <h4
-                              className="fs-24 fw-bold text-uppercase ff-primary mb-3 mb-md-4 text-start"
-                              data-aos="fade-up"
-                            >
-                              {title}
-                            </h4>
+                            {title && (
+                              <h4
+                                className="fs-24 fw-bold text-uppercase ff-primary mb-3 mb-md-4 text-start"
+                                data-aos="fade-up"
+                              >
+                                {title}
+                              </h4>
+                            )}
                             <p className="fs-16 text-color-gray">
                               {description}
                             </p>
@@ -66,7 +67,7 @@ const SubProductDetails = ({ product }) => {
                   type == contentConstsnts.SPECIFICATIONS
                 ) {
                   return (
-                    <div className="mt-6" key={index}>
+                    <div className="mt-5 mt-md-100px" key={index}>
                       <h4
                         className="fs-24 fw-bold text-uppercase ff-primary mb-3 mb-md-4 text-start"
                         data-aos="fade-up"
@@ -98,7 +99,7 @@ const SubProductDetails = ({ product }) => {
                   type == contentConstsnts.INGREDIENTS
                 ) {
                   return (
-                    <div className="mt-6" key={index}>
+                    <div className="mt-5 mt-md-100px" key={index}>
                       <h4
                         className="fs-24 fw-bold text-uppercase ff-primary mb-3 mb-md-4 text-start"
                         data-aos="fade-up"
@@ -118,7 +119,9 @@ const SubProductDetails = ({ product }) => {
                                 <td className="text-start border text-color-gray">
                                   {values?.map((item, index) => {
                                     return (
-                                      <span className="d-block" key={index}>{item}</span>
+                                      <span className="d-block" key={index}>
+                                        {item}
+                                      </span>
                                     );
                                   })}
                                 </td>
