@@ -168,7 +168,13 @@ const Header = () => {
                                         : "text-color-secondary"
                                     }  transition-color fw-semibold text-capitalize d-block cursor-pointer py-2`}
                                   >
-                                    {item?.title}
+                                    <Link
+                                     onClick={() => setExpanded(false)}
+                                      to={item?.path}
+                                      className={`text-color-primary hover-text-secondary`}
+                                    >
+                                      {item?.title}
+                                    </Link>
                                   </li>
                                 );
                               })}
