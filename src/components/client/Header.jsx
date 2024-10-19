@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { email, mobile, socialMedia } from "../../enum";
 import { Collapse, Nav, Navbar } from "react-bootstrap";
-import { Link, useLocation } from "react-router-dom";
+import { Link, useLocation, useParams } from "react-router-dom";
 import { CLIENT } from "../../routes/routeConstants";
 import { useMediaQuery } from "react-responsive";
 import { prductList } from "../../data/productsData";
@@ -9,6 +9,7 @@ import { prductList } from "../../data/productsData";
 const Header = () => {
   const [expanded, setExpanded] = useState(false);
   const { pathname } = useLocation();
+  const { product } = useParams();
   const [open, setOpen] = useState(null);
 
   const md = useMediaQuery({ query: "(max-width: 768px)" });
@@ -137,17 +138,14 @@ const Header = () => {
                               const path = item?.path;
                               const title = item?.title;
                               return (
-                                <li
-                                  key={index}
-                                  className={`${
-                                    pathname !== item?.path
-                                      ? "hover-text-secondary text-color-primary"
-                                      : "text-color-secondary"
-                                  }  transition-color fw-semibold text-capitalize hover-nav d-block cursor-pointer`}
-                                >
+                                <li key={index}>
                                   <Link
                                     to={path}
-                                    className={`text-color-primary hover-text-secondary`}
+                                    className={`${
+                                      product !== item?.slug
+                                        ? "hover-text-secondary text-color-primary"
+                                        : "text-color-secondary"
+                                    }  transition-color fw-semibold text-capitalize hover-nav d-block cursor-pointer`}
                                   >
                                     {title}
                                   </Link>
@@ -160,18 +158,15 @@ const Header = () => {
                             <ul className="rounded-3 p-0 m-0 ms-3">
                               {subNav?.map((item, index) => {
                                 return (
-                                  <li
-                                    key={index}
-                                    className={`${
-                                      pathname !== item?.path
-                                        ? "hover-text-secondary text-color-primary"
-                                        : "text-color-secondary"
-                                    }  transition-color fw-semibold text-capitalize d-block cursor-pointer py-2`}
-                                  >
+                                  <li key={index}>
                                     <Link
-                                     onClick={() => setExpanded(false)}
+                                      onClick={() => setExpanded(false)}
                                       to={item?.path}
-                                      className={`text-color-primary hover-text-secondary`}
+                                      className={`${
+                                        pathname !== item?.path
+                                          ? "hover-text-secondary text-color-primary"
+                                          : "text-color-secondary"
+                                      }  transition-color fw-semibold text-capitalize d-block cursor-pointer py-2`}
                                     >
                                       {item?.title}
                                     </Link>

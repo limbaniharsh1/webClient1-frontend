@@ -7,6 +7,7 @@ export const prductList = [
   {
     path: productConstants.HONEY.PATH,
     title: productConstants.HONEY.TITLE,
+    slug: productConstants.HONEY.SLUG,
   },
 ];
 
@@ -99,7 +100,6 @@ export const productData = [
               },
             ],
           },
-          
         ],
       },
     ],
