@@ -24,7 +24,7 @@ const ProductDetails = ({ product }) => {
       <section className="paddingY text-center">
         <div className="container">
           <h3
-            className="fs-34 fw-bold  ff-primary mb-3 mb-md-4"
+            className="fs-28 fw-bold  ff-primary mb-3 mb-md-4"
             data-aos="fade-up"
           >
             {subTitle}

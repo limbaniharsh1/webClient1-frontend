@@ -148,7 +148,7 @@ const index = () => {
                 <h6 className="fs-20 fw-bold mb-1 text-color-primary">
                   Location
                 </h6>
-                <p className="fs-14 p-0 m-0">
+                <p className="fs-16 text-color-gray p-0 m-0">
                   516, MBC(Meridian Business Centre, Lajamni chowk, Mota
                   Varachha Surat – 394101, Gujarat, India.
                 </p>
@@ -158,7 +158,7 @@ const index = () => {
                 <h6 className="fs-20 fw-bold mb-1">Contact</h6>
                 <a
                   href={"tel:" + mobile}
-                  className="fs-14 p-0 m-0 text-color-primary"
+                  className="fs-16 text-color-gray p-0 m-0"
                 >
                   +91 {mobile}
                 </a>
@@ -168,7 +168,7 @@ const index = () => {
                 <h6 className="fs-20 fw-bold mb-1">Mail</h6>
                 <a
                   href={"mailto:" + email}
-                  className="fs-14 p-0 m-0 text-color-primary"
+                  className="fs-16 text-color-gray p-0 m-0"
                 >
                   {email}
                 </a>

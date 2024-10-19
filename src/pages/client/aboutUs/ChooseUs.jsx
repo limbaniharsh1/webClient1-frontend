@@ -40,7 +40,7 @@ const ChooseUs = () => {
                 return (
                   <li
                     key={index}
-                    className="fs-14 d-flex align-items-center gap-3"
+                    className="fs-16 d-flex align-items-center gap-3"
                   >
                     <i className="ri-arrow-right-circle-fill fs-18"></i>
                     {item}

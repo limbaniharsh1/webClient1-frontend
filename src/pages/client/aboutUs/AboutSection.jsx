@@ -14,25 +14,21 @@ const AboutSection = () => {
           <Col sm={12} md={6} className="mt-4 responsive">
             <div className="px-lg-5">
               <h3
-                className="fs-26 ff-primary mb-3 mb-md-4 fw-bold"
+                className="fs-28 ff-primary mb-3 mb-md-4 fw-bold"
                 data-aos="fade-up"
               >
                 About Shree International
               </h3>
-              <p className="mb-2 fs-16 fw-medium" data-aos="fade-up">
+              <p className="mb-2 fs-16 fw-semibold" data-aos="fade-up">
                 Insights and Resources to help drive your Business Forward
                 Faster.
               </p>
-              <p className="fs-14 text-color-gray" data-aos="fade-up">
-                Established in the year 2014 at Surat (Gujarat, India), we
-                “Atlantico International” are a Sole Proprietorship firm
-                recognized as the noteworthy manufacturer and trader of an
-                exclusive range of Shoe Cover, Face Mask, Surgeon Cap, Surgical
-                Disposables Items, Chocolate drink, Milk beverages and Moringa
-                products. We offer these products in diverse specifications in
-                order to meet the variegated needs of our clients. Under the
-                guidance of mentor “Mr. Amit Mulani”, we have been able to
-                provide utmost satisfaction to our esteemed clients.
+              <p className="fs-16 text-color-gray" data-aos="fade-up">
+                We build results-oriented brand strategy and continually refine
+                the campaign for the greatest outcome. From full scale branding
+                strategy, we are reaching to almost desired buyers throughout
+                the world. Greatest Indian products have to be present globally
+                and that is our vision of hard work.
               </p>
             </div>
           </Col>

@@ -19,7 +19,7 @@ const Infrastructure = () => {
               >
                 Our Infrastructure
               </h3>
-              <p className="fs-14 text-color-gray" data-aos="fade-up">
+              <p className="fs-16 text-color-gray" data-aos="fade-up">
                 We are supported by an advanced infrastructure facility which
                 spreads over a large area of land. In order to ensure smooth
                 functioning, our unit is precisely segregated into various
