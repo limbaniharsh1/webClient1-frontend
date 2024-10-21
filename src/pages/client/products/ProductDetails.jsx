@@ -40,7 +40,7 @@ const ProductDetails = ({ product }) => {
                   const title = item?.title;
                   const path = item?.path;
                   return (
-                    <Col xs={12} sm={6} md={4} xl={3} key={index}>
+                    <Col xs={12} sm={6} md={4} xl={3} key={index} className="mb-4">
                       <div className="bg-color-white p-3 box-shadow-lg rounded-4 w-100 hover-card-translate">
                         <Link to={path}>
                           <img

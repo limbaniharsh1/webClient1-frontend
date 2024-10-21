@@ -138,7 +138,7 @@ const Header = () => {
                               const path = item?.path;
                               const title = item?.title;
                               return (
-                                <li key={index}>
+                                <li key={index} className="mb-2">
                                   <Link
                                     to={path}
                                     className={`${
