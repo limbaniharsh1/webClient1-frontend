@@ -47,6 +47,9 @@ export const prductList = [
 ];
 
 export const productData = [
+  // ========================================================
+  //                         honey
+  // ========================================================
   {
     img: "https://selcdn.fedsp.com/circinus/28/29380/925f1fd56634bf6.jpg",
     title: productConstants.HONEY.TITLE,
@@ -139,6 +142,9 @@ export const productData = [
       },
     ],
   },
+  // ========================================================
+  //                      cotton bales
+  // ========================================================
   {
     img: "https://www.tutete.com/tienda/images/5a1fddfe24c38-Cottonove-Love-Guirnalda-Luces-2B-Cute-Tutete-3_l.jpg",
     title: productConstants.COTTON_BALES.TITLE,
@@ -231,6 +237,9 @@ export const productData = [
       },
     ],
   },
+  // ========================================================
+  //                         pulses
+  // ========================================================
   {
     img: "https://avatars.mds.yandex.net/i?id=f980f423294dfa5b03ba267e62b00c85f4e694ea-11551355-images-thumbs&n=13",
     title: productConstants.PULSES.TITLE,
@@ -647,6 +656,9 @@ export const productData = [
       },
     ],
   },
+  // ========================================================
+  //                       oil seeds
+  // ========================================================
   {
     img: "https://www.seniorlivingresidences.com/wp-content/uploads/2019/10/Oldways-healthy-eating-for-seniors.jpg",
     title: productConstants.OIL_SEEDS.TITLE,
@@ -982,6 +994,9 @@ export const productData = [
       },
     ],
   },
+  // ========================================================
+  //                        spices
+  // ========================================================
   {
     img: "https://avatars.mds.yandex.net/get-mpic/5319505/img_id3285105993846025319.jpeg/orig",
     title: productConstants.SPICES.TITLE,
@@ -1803,6 +1818,9 @@ export const productData = [
       },
     ],
   },
+  // ========================================================
+  //                      dry fruits
+  // ========================================================
   {
     img: "https://avatars.mds.yandex.net/i?id=fc8f3a201921d39e1b0ffa3aff535b85418a8629-12361708-images-thumbs&n=13",
     title: productConstants.DRY_FRUITS.TITLE,
@@ -2138,6 +2156,9 @@ export const productData = [
       },
     ],
   },
+  // ========================================================
+  //                        grains
+  // ========================================================
   {
     img: "https://avatars.mds.yandex.net/i?id=5d74695a6bf97599a9d602adbc05a998dcdb4a2b-10512135-images-thumbs&n=13",
     title: productConstants.GRAINS.TITLE,
@@ -2553,6 +2574,9 @@ export const productData = [
       },
     ],
   },
+  // ========================================================
+  //                        cosmatic
+  // ========================================================
   {
     img: "https://avatars.mds.yandex.net/i?id=31523cc5669270f3e9520d7621fd57a033243710-11032733-images-thumbs&n=13",
     title: productConstants.COSMATIC.TITLE,
