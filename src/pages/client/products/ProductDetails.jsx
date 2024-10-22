@@ -25,11 +25,10 @@ const ProductDetails = ({ product }) => {
         <div className="container">
           <h3
             className="fs-28 fw-bold  ff-primary mb-3 mb-md-4"
-            data-aos="fade-up"
           >
             {subTitle}
           </h3>
-          <p className="fs-16 text-color-gray" data-aos="fade-up">
+          <p className="fs-16 text-color-gray">
             {description}
           </p>
           {subProductData?.length ? (

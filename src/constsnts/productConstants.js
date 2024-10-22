@@ -18,6 +18,18 @@ const allPath = {
     PATH: `${CLIENT.PRODUCTS}/spices`,
     SLUG: "spices",
   },
+  DRY_FRUITS: {
+    PATH: `${CLIENT.PRODUCTS}/dry-fruits`,
+    SLUG: "dry-fruits",
+  },
+  GRAINS: {
+    PATH: `${CLIENT.PRODUCTS}/grains`,
+    SLUG: "grains",
+  },
+  COSMATIC: {
+    PATH: `${CLIENT.PRODUCTS}/cosmatic`,
+    SLUG: "cosmatic",
+  },
 };
 
 export const productConstants = {
@@ -158,6 +170,77 @@ export const productConstants = {
         PATH: `${allPath.SPICES.PATH}/sugar-cane`,
         TITLE: "Sugar cane / jaggery",
         SLUG: "sugar-cane",
+      },
+    },
+  },
+  DRY_FRUITS: {
+    PATH: allPath.DRY_FRUITS.PATH,
+    TITLE: "dry fruits",
+    SLUG: allPath.DRY_FRUITS.SLUG,
+    SUB_PRODUCT: {
+      RAISINS: {
+        PATH: `${allPath.DRY_FRUITS.PATH}/raisins`,
+        TITLE: "raisins",
+        SLUG: "raisins",
+      },
+      BLACK_RAISINS: {
+        PATH: `${allPath.DRY_FRUITS.PATH}/black-raisins`,
+        TITLE: "black raisins",
+        SLUG: "black-raisins",
+      },
+      CASHEW: {
+        PATH: `${allPath.DRY_FRUITS.PATH}/cashew`,
+        TITLE: "cashew",
+        SLUG: "cashew",
+      },
+      POPPY_SEEDS: {
+        PATH: `${allPath.DRY_FRUITS.PATH}/poppy-seeds`,
+        TITLE: "poppy seeds",
+        SLUG: "poppy-seeds",
+      },
+    },
+  },
+  GRAINS: {
+    PATH: allPath.GRAINS.PATH,
+    TITLE: "grains",
+    SLUG: allPath.GRAINS.SLUG,
+    SUB_PRODUCT: {
+      MILLET: {
+        PATH: `${allPath.GRAINS.PATH}/millet`,
+        TITLE: "millet",
+        SLUG: "millet",
+      },
+      RICE: {
+        PATH: `${allPath.GRAINS.PATH}/rice`,
+        TITLE: "rice",
+        SLUG: "rice",
+      },
+      WHEAT: {
+        PATH: `${allPath.GRAINS.PATH}/wheat`,
+        TITLE: "wheat",
+        SLUG: "wheat",
+      },
+      BLACK_WHEAT: {
+        PATH: `${allPath.GRAINS.PATH}/black-wheat`,
+        TITLE: "black wheat",
+        SLUG: "black-wheat",
+      },
+      SORGHUM: {
+        PATH: `${allPath.GRAINS.PATH}/sorghum`,
+        TITLE: "sorghum",
+        SLUG: "sorghum",
+      },
+    },
+  },
+  COSMATIC: {
+    PATH: allPath.COSMATIC.PATH,
+    TITLE: "cosmatic",
+    SLUG: allPath.COSMATIC.SLUG,
+    SUB_PRODUCT: {
+      BANANA_POWDER: {
+        PATH: `${allPath.COSMATIC.PATH}/banana-powder`,
+        TITLE: "banana powder",
+        SLUG: "banana-powder",
       },
     },
   },

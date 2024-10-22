@@ -22,15 +22,10 @@ const SubProductDetails = ({ product }) => {
       </div>
       <section className="paddingY ">
         <div className="container">
-          <h3
-            className="fs-34 fw-bold  ff-primary mb-3 mb-md-4 text-center"
-            data-aos="fade-up"
-          >
+          <h3 className="fs-34 fw-bold  ff-primary mb-3 mb-md-4 text-center">
             {subTitle}
           </h3>
-          <p className="fs-16 text-color-gray" data-aos="fade-up">
-            {description}
-          </p>
+          <p className="fs-16 text-color-gray">{description}</p>
 
           {productContent?.length ? (
             <div>
@@ -47,10 +42,7 @@ const SubProductDetails = ({ product }) => {
                         return (
                           <div key={index}>
                             {title && (
-                              <h4
-                                className="fs-24 fw-bold text-uppercase ff-primary mb-3 mb-md-4 text-start"
-                                data-aos="fade-up"
-                              >
+                              <h4 className="fs-24 fw-bold text-uppercase ff-primary mb-3 mb-md-4 text-start">
                                 {title}
                               </h4>
                             )}
@@ -68,10 +60,7 @@ const SubProductDetails = ({ product }) => {
                 ) {
                   return (
                     <div className="mt-5 mt-md-100px" key={index}>
-                      <h4
-                        className="fs-24 fw-bold text-uppercase ff-primary mb-3 mb-md-4 text-start"
-                        data-aos="fade-up"
-                      >
+                      <h4 className="fs-24 fw-bold text-uppercase ff-primary mb-3 mb-md-4 text-start">
                         Specifications
                       </h4>
                       <Table>
@@ -100,10 +89,7 @@ const SubProductDetails = ({ product }) => {
                 ) {
                   return (
                     <div className="mt-5 mt-md-100px" key={index}>
-                      <h4
-                        className="fs-24 fw-bold text-uppercase ff-primary mb-3 mb-md-4 text-start"
-                        data-aos="fade-up"
-                      >
+                      <h4 className="fs-24 fw-bold text-uppercase ff-primary mb-3 mb-md-4 text-start">
                         Ingredients
                       </h4>
                       <Table>
