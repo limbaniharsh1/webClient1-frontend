@@ -4,6 +4,7 @@ import Footer from "../../components/client/Footer";
 import { mobile } from "../../enum";
 
 const Layout = ({ children }) => {
+
   return (
     <main>
       <Header />

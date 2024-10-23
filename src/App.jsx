@@ -14,8 +14,21 @@ function App() {
 
   const { pathname } = useLocation();
 
+  const capitalizeFirstWord = (str) => {
+    return str.replace(/\b\w/g, (match) => match.toUpperCase());
+  };
+  const titleValue = location.pathname
+    .split("/")
+    .slice(-1)[0]
+    .split("-")
+    .join(" ");
+
   useEffect(() => {
     window.scrollTo(0, 0);
+    document.title =
+      (titleValue ? capitalizeFirstWord(titleValue + " " + "-") : "") +
+      " " +
+      "Shree Varni Export - Leading Import Export Company";
   }, [pathname]);
 
   useEffect(() => {
