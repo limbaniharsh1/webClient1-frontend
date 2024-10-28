@@ -5,7 +5,7 @@ import { productData } from "../../../data/productsData";
 
 const Products = () => {
   return (
-    <section className="paddingTop paddingBottom-56 container">
+    <section className="paddingTop paddingBottom-56 container responsive">
       <h3
         className="fs-28 ff-primary mb-3 mb-md-4 fw-bold text-center"
         //    data-aos="fade-up"

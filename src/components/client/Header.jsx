@@ -86,7 +86,7 @@ const Header = () => {
         <Navbar bg="light" expand="md" expanded={expanded} className="py-0">
           <div className="container">
             {/* Left Side: Logo */}
-            <Navbar.Brand href="/" className="py-3">
+            <Link to="/" className="py-3 text-color-primary fs-20">
               {/* <img
               src="/path-to-your-logo.png"
               alt="Logo"
@@ -95,7 +95,7 @@ const Header = () => {
               className="d-inline-block align-top"
             />{" "} */}
               SHREE
-            </Navbar.Brand>
+            </Link>
 
             {/* Responsive Toggle Button */}
             <Navbar.Toggle
