@@ -5,16 +5,18 @@ import AboutSection from "./AboutSection";
 import OurWorkSection from "./OurWorkSection";
 import Team from "./Team";
 import ContactUs from "./ContactUs";
+import Products from "./Products";
 
 const Home = () => {
   return (
     <>
       <BannerSection />
-      <ServicesSection />
+      {/* <ServicesSection /> */}
+      <Products />
       <AboutSection />
       <OurWorkSection />
-      <Team/>
-      <ContactUs/>
+      <Team />
+      <ContactUs />
     </>
   );
 };
