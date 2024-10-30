@@ -1,6 +1,7 @@
 import { CLIENT } from "../routes/routeConstants";
 
 const allPath = {
+  DISPOSABLE: { PATH: `${CLIENT.PRODUCTS}/disposable`, SLUG: "disposable" },
   HONEY: { PATH: `${CLIENT.PRODUCTS}/honey`, SLUG: "honey" },
   COTTON_BALES: {
     PATH: `${CLIENT.PRODUCTS}/cotton-bales`,
@@ -33,6 +34,33 @@ const allPath = {
 };
 
 export const productConstants = {
+  DISPOSABLE: {
+    PATH: allPath.DISPOSABLE.PATH,
+    TITLE: "Disposable",
+    SLUG: allPath.DISPOSABLE.SLUG,
+    SUB_PRODUCT: {
+      PLAIN_DISH: {
+        PATH: `${allPath.DISPOSABLE.PATH}/plain-dish`,
+        TITLE: "plain dish",
+        SLUG: "plain-dish",
+      },
+      COMPARTMENT_DISH: {
+        PATH: `${allPath.DISPOSABLE.PATH}/compartment-dish`,
+        TITLE: "compartment dish",
+        SLUG: "compartment-dish",
+      },
+      BAGASSE_BOWLS: {
+        PATH: `${allPath.DISPOSABLE.PATH}/bagasse-bowls`,
+        TITLE: "bagasse bowls",
+        SLUG: "bagasse-bowls",
+      },
+      PRODO_BAGASSE_CUPS_120ML: {
+        PATH: `${allPath.DISPOSABLE.PATH}/prodo-bagasse-cups-120ml`,
+        TITLE: "PRODO bagasse cups 120ml",
+        SLUG: "prodo-bagasse-cups-120ml",
+      },
+    },
+  },
   HONEY: {
     PATH: allPath.HONEY.PATH,
     TITLE: "Honey",

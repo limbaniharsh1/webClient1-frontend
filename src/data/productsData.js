@@ -5,6 +5,11 @@ import {
 
 export const prductList = [
   {
+    path: productConstants.DISPOSABLE.PATH,
+    title: productConstants.DISPOSABLE.TITLE,
+    slug: productConstants.DISPOSABLE.SLUG,
+  },
+  {
     path: productConstants.HONEY.PATH,
     title: productConstants.HONEY.TITLE,
     slug: productConstants.HONEY.SLUG,
@@ -47,6 +52,349 @@ export const prductList = [
 ];
 
 export const productData = [
+  // ========================================================
+  //                         disposable
+  // ========================================================
+  {
+    img: "https://sun9-67.userapi.com/impg/e2EcKnHb9INgp4rywvrngyBR4XwAU09T7vjKkg/yfALvGnFeN8.jpg?size=807x454&quality=95&sign=70dce7944a52e8923d3c894a8a82b64a&c_uniq_tag=SKInsatTg7Xituqi1RwiQopypoizIQekmoKqPfQhfos&type=album",
+    title: productConstants.DISPOSABLE.TITLE,
+    slug: productConstants.DISPOSABLE.SLUG,
+    path: productConstants.DISPOSABLE.PATH,
+    subTitle: "Nature's Golden Sweetener",
+    description:
+      "Honey is a natural, golden liquid produced by honeybees from the nectar of flowers. Known for its rich sweetness, honey has been used for centuries not only as a food but also for medicinal and therapeutic purposes. It’s packed with antioxidants, vitamins, and minerals, making it much more than just a natural sweetener.",
+
+    subProducts: [
+      {
+        img: "https://images.jdmagicbox.com/quickquotes/images_main/disposable-plate-384205556-xdnlt.jpg",
+        title: productConstants.DISPOSABLE.SUB_PRODUCT.PLAIN_DISH.TITLE,
+        path: productConstants.DISPOSABLE.SUB_PRODUCT.PLAIN_DISH.PATH,
+        slug: productConstants.DISPOSABLE.SUB_PRODUCT.PLAIN_DISH.SLUG,
+        subTitle: "Savor the Sweetness",
+        description:
+          "Honey is a natural, golden liquid produced by honeybees from the nectar of flowers. Known for its rich sweetness, honey has been used for centuries not only as a food but also for medicinal and therapeutic purposes. It’s packed with antioxidants, vitamins, and minerals, making it much more than just a natural sweetener.",
+
+        productContent: [
+          {
+            type: contentConstsnts.CONTENT,
+            data: [
+              {
+                title: "Global Market Demand",
+                description:
+                  "Rye import from India has been increasing over the years due to various health and medicinal benefits from Rye. Rye is extensively used in India and Indonesian cuisines which may be one important reason for the increasing popularity of export of Rye. The rising global demand for Rye is a good opportunity for Rye exporter in India to expand its business and enter the international market.",
+              },
+            ],
+          },
+          {
+            type: contentConstsnts.SPECIFICATIONS,
+            data: [
+              {
+                title: "Product Name",
+                value: "Rye",
+              },
+              {
+                title: "Origin",
+                value: "Southwestern Asia",
+              },
+              {
+                title: "Family",
+                value: "Poaceae",
+              },
+              {
+                title: "Binomial name",
+                value: "Secale Cereale",
+              },
+            ],
+          },
+          {
+            type: contentConstsnts.INGREDIENTS,
+            data: [
+              {
+                title: "Nutrients",
+                values: [
+                  "259 Calories",
+                  "Total Carbohydrate - 48 g",
+                  "Dietary fibre - 6 g",
+                ],
+              },
+              {
+                title: "Minerals",
+                values: [
+                  "Copper",
+                  "Magnesium",
+                  "Phosphorous",
+                  "Thiamin",
+                  "Riboflavin",
+                  "Niacin",
+                  "Folate",
+                  "Pantothenic Acid",
+                ],
+              },
+              {
+                title: "Vitamin",
+                values: ["Vitamin B6"],
+              },
+              {
+                title: "Protein",
+                values: ["9 g"],
+              },
+              {
+                title: "Fats",
+                values: ["3.3g"],
+              },
+            ],
+          },
+        ],
+      },
+      {
+        img: "https://mat-pac.com/wp-content/uploads/2017/02/plate-set.png",
+        title: productConstants.DISPOSABLE.SUB_PRODUCT.COMPARTMENT_DISH.TITLE,
+        path: productConstants.DISPOSABLE.SUB_PRODUCT.COMPARTMENT_DISH.PATH,
+        slug: productConstants.DISPOSABLE.SUB_PRODUCT.COMPARTMENT_DISH.SLUG,
+        subTitle: "Savor the Sweetness",
+        description:
+          "Honey is a natural, golden liquid produced by honeybees from the nectar of flowers. Known for its rich sweetness, honey has been used for centuries not only as a food but also for medicinal and therapeutic purposes. It’s packed with antioxidants, vitamins, and minerals, making it much more than just a natural sweetener.",
+
+        productContent: [
+          {
+            type: contentConstsnts.CONTENT,
+            data: [
+              {
+                title: "Global Market Demand",
+                description:
+                  "Rye import from India has been increasing over the years due to various health and medicinal benefits from Rye. Rye is extensively used in India and Indonesian cuisines which may be one important reason for the increasing popularity of export of Rye. The rising global demand for Rye is a good opportunity for Rye exporter in India to expand its business and enter the international market.",
+              },
+            ],
+          },
+          {
+            type: contentConstsnts.SPECIFICATIONS,
+            data: [
+              {
+                title: "Product Name",
+                value: "Rye",
+              },
+              {
+                title: "Origin",
+                value: "Southwestern Asia",
+              },
+              {
+                title: "Family",
+                value: "Poaceae",
+              },
+              {
+                title: "Binomial name",
+                value: "Secale Cereale",
+              },
+            ],
+          },
+          {
+            type: contentConstsnts.INGREDIENTS,
+            data: [
+              {
+                title: "Nutrients",
+                values: [
+                  "259 Calories",
+                  "Total Carbohydrate - 48 g",
+                  "Dietary fibre - 6 g",
+                ],
+              },
+              {
+                title: "Minerals",
+                values: [
+                  "Copper",
+                  "Magnesium",
+                  "Phosphorous",
+                  "Thiamin",
+                  "Riboflavin",
+                  "Niacin",
+                  "Folate",
+                  "Pantothenic Acid",
+                ],
+              },
+              {
+                title: "Vitamin",
+                values: ["Vitamin B6"],
+              },
+              {
+                title: "Protein",
+                values: ["9 g"],
+              },
+              {
+                title: "Fats",
+                values: ["3.3g"],
+              },
+            ],
+          },
+        ],
+      },
+      {
+        img: "https://i.pinimg.com/originals/12/88/19/128819df93ad9a6be10116b3c9322cec.jpg",
+        title: productConstants.DISPOSABLE.SUB_PRODUCT.BAGASSE_BOWLS.TITLE,
+        path: productConstants.DISPOSABLE.SUB_PRODUCT.BAGASSE_BOWLS.PATH,
+        slug: productConstants.DISPOSABLE.SUB_PRODUCT.BAGASSE_BOWLS.SLUG,
+        subTitle: "Savor the Sweetness",
+        description:
+          "Honey is a natural, golden liquid produced by honeybees from the nectar of flowers. Known for its rich sweetness, honey has been used for centuries not only as a food but also for medicinal and therapeutic purposes. It’s packed with antioxidants, vitamins, and minerals, making it much more than just a natural sweetener.",
+
+        productContent: [
+          {
+            type: contentConstsnts.CONTENT,
+            data: [
+              {
+                title: "Global Market Demand",
+                description:
+                  "Rye import from India has been increasing over the years due to various health and medicinal benefits from Rye. Rye is extensively used in India and Indonesian cuisines which may be one important reason for the increasing popularity of export of Rye. The rising global demand for Rye is a good opportunity for Rye exporter in India to expand its business and enter the international market.",
+              },
+            ],
+          },
+          {
+            type: contentConstsnts.SPECIFICATIONS,
+            data: [
+              {
+                title: "Product Name",
+                value: "Rye",
+              },
+              {
+                title: "Origin",
+                value: "Southwestern Asia",
+              },
+              {
+                title: "Family",
+                value: "Poaceae",
+              },
+              {
+                title: "Binomial name",
+                value: "Secale Cereale",
+              },
+            ],
+          },
+          {
+            type: contentConstsnts.INGREDIENTS,
+            data: [
+              {
+                title: "Nutrients",
+                values: [
+                  "259 Calories",
+                  "Total Carbohydrate - 48 g",
+                  "Dietary fibre - 6 g",
+                ],
+              },
+              {
+                title: "Minerals",
+                values: [
+                  "Copper",
+                  "Magnesium",
+                  "Phosphorous",
+                  "Thiamin",
+                  "Riboflavin",
+                  "Niacin",
+                  "Folate",
+                  "Pantothenic Acid",
+                ],
+              },
+              {
+                title: "Vitamin",
+                values: ["Vitamin B6"],
+              },
+              {
+                title: "Protein",
+                values: ["9 g"],
+              },
+              {
+                title: "Fats",
+                values: ["3.3g"],
+              },
+            ],
+          },
+        ],
+      },
+      {
+        img: "http://www.ritikaventures.com/wp-content/uploads/2018/02/polysterine-cup.jpg",
+        title:
+          productConstants.DISPOSABLE.SUB_PRODUCT.PRODO_BAGASSE_CUPS_120ML
+            .TITLE,
+        path: productConstants.DISPOSABLE.SUB_PRODUCT.PRODO_BAGASSE_CUPS_120ML
+          .PATH,
+        slug: productConstants.DISPOSABLE.SUB_PRODUCT.PRODO_BAGASSE_CUPS_120ML
+          .SLUG,
+        subTitle: "Savor the Sweetness",
+        description:
+          "Honey is a natural, golden liquid produced by honeybees from the nectar of flowers. Known for its rich sweetness, honey has been used for centuries not only as a food but also for medicinal and therapeutic purposes. It’s packed with antioxidants, vitamins, and minerals, making it much more than just a natural sweetener.",
+
+        productContent: [
+          {
+            type: contentConstsnts.CONTENT,
+            data: [
+              {
+                title: "Global Market Demand",
+                description:
+                  "Rye import from India has been increasing over the years due to various health and medicinal benefits from Rye. Rye is extensively used in India and Indonesian cuisines which may be one important reason for the increasing popularity of export of Rye. The rising global demand for Rye is a good opportunity for Rye exporter in India to expand its business and enter the international market.",
+              },
+            ],
+          },
+          {
+            type: contentConstsnts.SPECIFICATIONS,
+            data: [
+              {
+                title: "Product Name",
+                value: "Rye",
+              },
+              {
+                title: "Origin",
+                value: "Southwestern Asia",
+              },
+              {
+                title: "Family",
+                value: "Poaceae",
+              },
+              {
+                title: "Binomial name",
+                value: "Secale Cereale",
+              },
+            ],
+          },
+          {
+            type: contentConstsnts.INGREDIENTS,
+            data: [
+              {
+                title: "Nutrients",
+                values: [
+                  "259 Calories",
+                  "Total Carbohydrate - 48 g",
+                  "Dietary fibre - 6 g",
+                ],
+              },
+              {
+                title: "Minerals",
+                values: [
+                  "Copper",
+                  "Magnesium",
+                  "Phosphorous",
+                  "Thiamin",
+                  "Riboflavin",
+                  "Niacin",
+                  "Folate",
+                  "Pantothenic Acid",
+                ],
+              },
+              {
+                title: "Vitamin",
+                values: ["Vitamin B6"],
+              },
+              {
+                title: "Protein",
+                values: ["9 g"],
+              },
+              {
+                title: "Fats",
+                values: ["3.3g"],
+              },
+            ],
+          },
+        ],
+      },
+    ],
+  },
   // ========================================================
   //                         honey
   // ========================================================
