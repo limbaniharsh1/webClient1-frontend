@@ -60,9 +60,9 @@ export const productData = [
     title: productConstants.DISPOSABLE.TITLE,
     slug: productConstants.DISPOSABLE.SLUG,
     path: productConstants.DISPOSABLE.PATH,
-    subTitle: "Nature's Golden Sweetener",
+    subTitle: "Leading Exporter of Eco-Friendly Disposable Goods",
     description:
-      "Honey is a natural, golden liquid produced by honeybees from the nectar of flowers. Known for its rich sweetness, honey has been used for centuries not only as a food but also for medicinal and therapeutic purposes. It’s packed with antioxidants, vitamins, and minerals, making it much more than just a natural sweetener.",
+      "At Shree Varni Export, we specialize in exporting a range of high-quality disposable products tailored for the demands of diverse industries. Designed for convenience, hygiene, and environmental responsibility, our products include eco-friendly options to meet global standards.",
 
     subProducts: [
       {
@@ -70,324 +70,37 @@ export const productData = [
         title: productConstants.DISPOSABLE.SUB_PRODUCT.PLAIN_DISH.TITLE,
         path: productConstants.DISPOSABLE.SUB_PRODUCT.PLAIN_DISH.PATH,
         slug: productConstants.DISPOSABLE.SUB_PRODUCT.PLAIN_DISH.SLUG,
-        subTitle: "Savor the Sweetness",
+        subTitle: "Eco-Friendly Bagasse Plain Dishes",
         description:
-          "Honey is a natural, golden liquid produced by honeybees from the nectar of flowers. Known for its rich sweetness, honey has been used for centuries not only as a food but also for medicinal and therapeutic purposes. It’s packed with antioxidants, vitamins, and minerals, making it much more than just a natural sweetener.",
-
-        productContent: [
-          {
-            type: contentConstsnts.CONTENT,
-            data: [
-              {
-                title: "Global Market Demand",
-                description:
-                  "Rye import from India has been increasing over the years due to various health and medicinal benefits from Rye. Rye is extensively used in India and Indonesian cuisines which may be one important reason for the increasing popularity of export of Rye. The rising global demand for Rye is a good opportunity for Rye exporter in India to expand its business and enter the international market.",
-              },
-            ],
-          },
-          {
-            type: contentConstsnts.SPECIFICATIONS,
-            data: [
-              {
-                title: "Product Name",
-                value: "Rye",
-              },
-              {
-                title: "Origin",
-                value: "Southwestern Asia",
-              },
-              {
-                title: "Family",
-                value: "Poaceae",
-              },
-              {
-                title: "Binomial name",
-                value: "Secale Cereale",
-              },
-            ],
-          },
-          {
-            type: contentConstsnts.INGREDIENTS,
-            data: [
-              {
-                title: "Nutrients",
-                values: [
-                  "259 Calories",
-                  "Total Carbohydrate - 48 g",
-                  "Dietary fibre - 6 g",
-                ],
-              },
-              {
-                title: "Minerals",
-                values: [
-                  "Copper",
-                  "Magnesium",
-                  "Phosphorous",
-                  "Thiamin",
-                  "Riboflavin",
-                  "Niacin",
-                  "Folate",
-                  "Pantothenic Acid",
-                ],
-              },
-              {
-                title: "Vitamin",
-                values: ["Vitamin B6"],
-              },
-              {
-                title: "Protein",
-                values: ["9 g"],
-              },
-              {
-                title: "Fats",
-                values: ["3.3g"],
-              },
-            ],
-          },
-        ],
+          "Plain Dish is made from sustainable and biodegradable bagasse material. Perfect for serving any kind of dishes, it's a great choice for environmentally-conscious individuals or businesses. Plus, it's durable and versatile, making it a practical addition to any kitchen or dining setting.",
       },
       {
         img: "https://www.moldedpulpmachinery.com/photo/pl117093204-smart_disposable_paper_pulp_molding_food_tray_producing_machine_with_two_robot_arms.jpg",
         title: productConstants.DISPOSABLE.SUB_PRODUCT.COMPARTMENT_DISH_3.TITLE,
         path: productConstants.DISPOSABLE.SUB_PRODUCT.COMPARTMENT_DISH_3.PATH,
         slug: productConstants.DISPOSABLE.SUB_PRODUCT.COMPARTMENT_DISH_3.SLUG,
-        subTitle: "Savor the Sweetness",
+        subTitle: "Eco-Friendly 3-Compartment Bagasse Dish",
         description:
-          "Honey is a natural, golden liquid produced by honeybees from the nectar of flowers. Known for its rich sweetness, honey has been used for centuries not only as a food but also for medicinal and therapeutic purposes. It’s packed with antioxidants, vitamins, and minerals, making it much more than just a natural sweetener.",
-
-        productContent: [
-          {
-            type: contentConstsnts.CONTENT,
-            data: [
-              {
-                title: "Global Market Demand",
-                description:
-                  "Rye import from India has been increasing over the years due to various health and medicinal benefits from Rye. Rye is extensively used in India and Indonesian cuisines which may be one important reason for the increasing popularity of export of Rye. The rising global demand for Rye is a good opportunity for Rye exporter in India to expand its business and enter the international market.",
-              },
-            ],
-          },
-          {
-            type: contentConstsnts.SPECIFICATIONS,
-            data: [
-              {
-                title: "Product Name",
-                value: "Rye",
-              },
-              {
-                title: "Origin",
-                value: "Southwestern Asia",
-              },
-              {
-                title: "Family",
-                value: "Poaceae",
-              },
-              {
-                title: "Binomial name",
-                value: "Secale Cereale",
-              },
-            ],
-          },
-          {
-            type: contentConstsnts.INGREDIENTS,
-            data: [
-              {
-                title: "Nutrients",
-                values: [
-                  "259 Calories",
-                  "Total Carbohydrate - 48 g",
-                  "Dietary fibre - 6 g",
-                ],
-              },
-              {
-                title: "Minerals",
-                values: [
-                  "Copper",
-                  "Magnesium",
-                  "Phosphorous",
-                  "Thiamin",
-                  "Riboflavin",
-                  "Niacin",
-                  "Folate",
-                  "Pantothenic Acid",
-                ],
-              },
-              {
-                title: "Vitamin",
-                values: ["Vitamin B6"],
-              },
-              {
-                title: "Protein",
-                values: ["9 g"],
-              },
-              {
-                title: "Fats",
-                values: ["3.3g"],
-              },
-            ],
-          },
-        ],
+          "This 3 compartment dish is made from environmentally friendly Bagasse material. It is perfect for serving a variety of foods in a convenient and sustainable manner. With its three compartments, it allows for easy organization and portion control. Upgrade your dining experience with this eco-friendly option.",
       },
       {
         img: "https://i5.walmartimages.com/seo/Comfy-Package-Rectangular-Divided-Plates-Disposable-Heavy-Duty-Paper-Plates-Bulk-125-Pack_08020393-f121-4a12-bec5-2c546680cdf3.26e045f278a09195afd745056161c29a.jpeg",
         title: productConstants.DISPOSABLE.SUB_PRODUCT.COMPARTMENT_DISH_5.TITLE,
         path: productConstants.DISPOSABLE.SUB_PRODUCT.COMPARTMENT_DISH_5.PATH,
         slug: productConstants.DISPOSABLE.SUB_PRODUCT.COMPARTMENT_DISH_5.SLUG,
-        subTitle: "Savor the Sweetness",
+        subTitle: "Eco-Friendly 5-Compartment Bagasse Dish",
         description:
-          "Honey is a natural, golden liquid produced by honeybees from the nectar of flowers. Known for its rich sweetness, honey has been used for centuries not only as a food but also for medicinal and therapeutic purposes. It’s packed with antioxidants, vitamins, and minerals, making it much more than just a natural sweetener.",
-
-        productContent: [
-          {
-            type: contentConstsnts.CONTENT,
-            data: [
-              {
-                title: "Global Market Demand",
-                description:
-                  "Rye import from India has been increasing over the years due to various health and medicinal benefits from Rye. Rye is extensively used in India and Indonesian cuisines which may be one important reason for the increasing popularity of export of Rye. The rising global demand for Rye is a good opportunity for Rye exporter in India to expand its business and enter the international market.",
-              },
-            ],
-          },
-          {
-            type: contentConstsnts.SPECIFICATIONS,
-            data: [
-              {
-                title: "Product Name",
-                value: "Rye",
-              },
-              {
-                title: "Origin",
-                value: "Southwestern Asia",
-              },
-              {
-                title: "Family",
-                value: "Poaceae",
-              },
-              {
-                title: "Binomial name",
-                value: "Secale Cereale",
-              },
-            ],
-          },
-          {
-            type: contentConstsnts.INGREDIENTS,
-            data: [
-              {
-                title: "Nutrients",
-                values: [
-                  "259 Calories",
-                  "Total Carbohydrate - 48 g",
-                  "Dietary fibre - 6 g",
-                ],
-              },
-              {
-                title: "Minerals",
-                values: [
-                  "Copper",
-                  "Magnesium",
-                  "Phosphorous",
-                  "Thiamin",
-                  "Riboflavin",
-                  "Niacin",
-                  "Folate",
-                  "Pantothenic Acid",
-                ],
-              },
-              {
-                title: "Vitamin",
-                values: ["Vitamin B6"],
-              },
-              {
-                title: "Protein",
-                values: ["9 g"],
-              },
-              {
-                title: "Fats",
-                values: ["3.3g"],
-              },
-            ],
-          },
-        ],
+          "and eco-friendly option for serving food. Made from 100% bagasse, a natural plant-based material, it is biodegradable and compostable. With 5 separate compartments, it allows for easy portion control and a convenient serving option. Perfect for catering events, picnics, or everyday use.",
       },
       {
         img: "https://pt.craftecopack.com/uploadfile/202102/04/88cb0f33b50bac43a7ebb68ef75e2cb9_medium.jpg",
-        title: productConstants.DISPOSABLE.SUB_PRODUCT.BAGASSE_BOWLS.TITLE,
-        path: productConstants.DISPOSABLE.SUB_PRODUCT.BAGASSE_BOWLS.PATH,
-        slug: productConstants.DISPOSABLE.SUB_PRODUCT.BAGASSE_BOWLS.SLUG,
-        subTitle: "Savor the Sweetness",
+        title:
+          productConstants.DISPOSABLE.SUB_PRODUCT.BAGASSE_BOWLS_250ML.TITLE,
+        path: productConstants.DISPOSABLE.SUB_PRODUCT.BAGASSE_BOWLS_250ML.PATH,
+        slug: productConstants.DISPOSABLE.SUB_PRODUCT.BAGASSE_BOWLS_250ML.SLUG,
+        subTitle: "Eco-Friendly Bagasse Bowls",
         description:
-          "Honey is a natural, golden liquid produced by honeybees from the nectar of flowers. Known for its rich sweetness, honey has been used for centuries not only as a food but also for medicinal and therapeutic purposes. It’s packed with antioxidants, vitamins, and minerals, making it much more than just a natural sweetener.",
-
-        productContent: [
-          {
-            type: contentConstsnts.CONTENT,
-            data: [
-              {
-                title: "Global Market Demand",
-                description:
-                  "Rye import from India has been increasing over the years due to various health and medicinal benefits from Rye. Rye is extensively used in India and Indonesian cuisines which may be one important reason for the increasing popularity of export of Rye. The rising global demand for Rye is a good opportunity for Rye exporter in India to expand its business and enter the international market.",
-              },
-            ],
-          },
-          {
-            type: contentConstsnts.SPECIFICATIONS,
-            data: [
-              {
-                title: "Product Name",
-                value: "Rye",
-              },
-              {
-                title: "Origin",
-                value: "Southwestern Asia",
-              },
-              {
-                title: "Family",
-                value: "Poaceae",
-              },
-              {
-                title: "Binomial name",
-                value: "Secale Cereale",
-              },
-            ],
-          },
-          {
-            type: contentConstsnts.INGREDIENTS,
-            data: [
-              {
-                title: "Nutrients",
-                values: [
-                  "259 Calories",
-                  "Total Carbohydrate - 48 g",
-                  "Dietary fibre - 6 g",
-                ],
-              },
-              {
-                title: "Minerals",
-                values: [
-                  "Copper",
-                  "Magnesium",
-                  "Phosphorous",
-                  "Thiamin",
-                  "Riboflavin",
-                  "Niacin",
-                  "Folate",
-                  "Pantothenic Acid",
-                ],
-              },
-              {
-                title: "Vitamin",
-                values: ["Vitamin B6"],
-              },
-              {
-                title: "Protein",
-                values: ["9 g"],
-              },
-              {
-                title: "Fats",
-                values: ["3.3g"],
-              },
-            ],
-          },
-        ],
+          "Ecoplanet bowls add a touch of elegance to your dining experience. Embrace eco-conscious choices with our compostable bowls that not only enhance your table presentation but also contribute to a greener tomorrow.",
       },
       {
         img: "https://russian.pulpfoodcontainers.com/photo/pl32370937-degradable_compostable_16oz_sugarcane_bagasse_cups_for_restaurant.jpg",
@@ -398,80 +111,11 @@ export const productData = [
           .PATH,
         slug: productConstants.DISPOSABLE.SUB_PRODUCT.PRODO_BAGASSE_CUPS_120ML
           .SLUG,
-        subTitle: "Savor the Sweetness",
-        description:
-          "Honey is a natural, golden liquid produced by honeybees from the nectar of flowers. Known for its rich sweetness, honey has been used for centuries not only as a food but also for medicinal and therapeutic purposes. It’s packed with antioxidants, vitamins, and minerals, making it much more than just a natural sweetener.",
-
-        productContent: [
-          {
-            type: contentConstsnts.CONTENT,
-            data: [
-              {
-                title: "Global Market Demand",
-                description:
-                  "Rye import from India has been increasing over the years due to various health and medicinal benefits from Rye. Rye is extensively used in India and Indonesian cuisines which may be one important reason for the increasing popularity of export of Rye. The rising global demand for Rye is a good opportunity for Rye exporter in India to expand its business and enter the international market.",
-              },
-            ],
-          },
-          {
-            type: contentConstsnts.SPECIFICATIONS,
-            data: [
-              {
-                title: "Product Name",
-                value: "Rye",
-              },
-              {
-                title: "Origin",
-                value: "Southwestern Asia",
-              },
-              {
-                title: "Family",
-                value: "Poaceae",
-              },
-              {
-                title: "Binomial name",
-                value: "Secale Cereale",
-              },
-            ],
-          },
-          {
-            type: contentConstsnts.INGREDIENTS,
-            data: [
-              {
-                title: "Nutrients",
-                values: [
-                  "259 Calories",
-                  "Total Carbohydrate - 48 g",
-                  "Dietary fibre - 6 g",
-                ],
-              },
-              {
-                title: "Minerals",
-                values: [
-                  "Copper",
-                  "Magnesium",
-                  "Phosphorous",
-                  "Thiamin",
-                  "Riboflavin",
-                  "Niacin",
-                  "Folate",
-                  "Pantothenic Acid",
-                ],
-              },
-              {
-                title: "Vitamin",
-                values: ["Vitamin B6"],
-              },
-              {
-                title: "Protein",
-                values: ["9 g"],
-              },
-              {
-                title: "Fats",
-                values: ["3.3g"],
-              },
-            ],
-          },
+        subTitle: "Eco-Friendly Bagasse Cups",
+        descriptions: [
+          "Introducing Prodo's Premium Bagasse Disposable Cups, the quintessential choice for anyone seeking to reduce their environmental footprint without compromising on quality. These cups offer a perfect blend of sustainability and style, presenting an eco-friendly alternative to conventional plastic or paper cups.",
+          "Made entirely from bagasse, a by-product of sugarcane processing, these cups are not just biodegradable but also compostable. Sugarcane is a fast-growing crop, and using its by-products helps reduce waste and increase sustainability. As such, once you've finished using a Prodo's bagasse cup, you can place it into your compost bin, where it will decompose naturally and swiftly, turning into nutritious compost for your plants.",
+          "Although these cups are designed with sustainability in mind, there's no compromise on quality. They are sturdy and robust, capable of handling both hot and cold beverages without warping, leaking, or losing their shape. The insulated design ensures your hands remain cool even when sipping hot coffee or tea.",
         ],
       },
     ],
@@ -497,78 +141,6 @@ export const productData = [
         subTitle: "Savor the Sweetness",
         description:
           "Honey is a natural, golden liquid produced by honeybees from the nectar of flowers. Known for its rich sweetness, honey has been used for centuries not only as a food but also for medicinal and therapeutic purposes. It’s packed with antioxidants, vitamins, and minerals, making it much more than just a natural sweetener.",
-
-        productContent: [
-          {
-            type: contentConstsnts.CONTENT,
-            data: [
-              {
-                title: "Global Market Demand",
-                description:
-                  "Rye import from India has been increasing over the years due to various health and medicinal benefits from Rye. Rye is extensively used in India and Indonesian cuisines which may be one important reason for the increasing popularity of export of Rye. The rising global demand for Rye is a good opportunity for Rye exporter in India to expand its business and enter the international market.",
-              },
-            ],
-          },
-          {
-            type: contentConstsnts.SPECIFICATIONS,
-            data: [
-              {
-                title: "Product Name",
-                value: "Rye",
-              },
-              {
-                title: "Origin",
-                value: "Southwestern Asia",
-              },
-              {
-                title: "Family",
-                value: "Poaceae",
-              },
-              {
-                title: "Binomial name",
-                value: "Secale Cereale",
-              },
-            ],
-          },
-          {
-            type: contentConstsnts.INGREDIENTS,
-            data: [
-              {
-                title: "Nutrients",
-                values: [
-                  "259 Calories",
-                  "Total Carbohydrate - 48 g",
-                  "Dietary fibre - 6 g",
-                ],
-              },
-              {
-                title: "Minerals",
-                values: [
-                  "Copper",
-                  "Magnesium",
-                  "Phosphorous",
-                  "Thiamin",
-                  "Riboflavin",
-                  "Niacin",
-                  "Folate",
-                  "Pantothenic Acid",
-                ],
-              },
-              {
-                title: "Vitamin",
-                values: ["Vitamin B6"],
-              },
-              {
-                title: "Protein",
-                values: ["9 g"],
-              },
-              {
-                title: "Fats",
-                values: ["3.3g"],
-              },
-            ],
-          },
-        ],
       },
     ],
   },
@@ -580,9 +152,9 @@ export const productData = [
     title: productConstants.COTTON_BALES.TITLE,
     slug: productConstants.COTTON_BALES.SLUG,
     path: productConstants.COTTON_BALES.PATH,
-    subTitle: "Nature's Golden Sweetener",
+    subTitle: "Reliable Cotton Bales",
     description:
-      "Honey is a natural, golden liquid produced by honeybees from the nectar of flowers. Known for its rich sweetness, honey has been used for centuries not only as a food but also for medicinal and therapeutic purposes. It’s packed with antioxidants, vitamins, and minerals, making it much more than just a natural sweetener.",
+      "Our Cotton Bales offer premium quality, sourced from the finest cotton fields to ensure consistency and purity. Carefully processed and compressed, these cotton bales are ready for various industrial applications, including textile manufacturing, garment production, and other cotton-based products.",
 
     subProducts: [
       {
@@ -592,79 +164,7 @@ export const productData = [
         slug: productConstants.COTTON_BALES.SUB_PRODUCT.COTTON_BALES.SLUG,
         subTitle: "Savor the Sweetness",
         description:
-          "Honey is a natural, golden liquid produced by honeybees from the nectar of flowers. Known for its rich sweetness, honey has been used for centuries not only as a food but also for medicinal and therapeutic purposes. It’s packed with antioxidants, vitamins, and minerals, making it much more than just a natural sweetener.",
-
-        productContent: [
-          {
-            type: contentConstsnts.CONTENT,
-            data: [
-              {
-                title: "Global Market Demand",
-                description:
-                  "Rye import from India has been increasing over the years due to various health and medicinal benefits from Rye. Rye is extensively used in India and Indonesian cuisines which may be one important reason for the increasing popularity of export of Rye. The rising global demand for Rye is a good opportunity for Rye exporter in India to expand its business and enter the international market.",
-              },
-            ],
-          },
-          {
-            type: contentConstsnts.SPECIFICATIONS,
-            data: [
-              {
-                title: "Product Name",
-                value: "Rye",
-              },
-              {
-                title: "Origin",
-                value: "Southwestern Asia",
-              },
-              {
-                title: "Family",
-                value: "Poaceae",
-              },
-              {
-                title: "Binomial name",
-                value: "Secale Cereale",
-              },
-            ],
-          },
-          {
-            type: contentConstsnts.INGREDIENTS,
-            data: [
-              {
-                title: "Nutrients",
-                values: [
-                  "259 Calories",
-                  "Total Carbohydrate - 48 g",
-                  "Dietary fibre - 6 g",
-                ],
-              },
-              {
-                title: "Minerals",
-                values: [
-                  "Copper",
-                  "Magnesium",
-                  "Phosphorous",
-                  "Thiamin",
-                  "Riboflavin",
-                  "Niacin",
-                  "Folate",
-                  "Pantothenic Acid",
-                ],
-              },
-              {
-                title: "Vitamin",
-                values: ["Vitamin B6"],
-              },
-              {
-                title: "Protein",
-                values: ["9 g"],
-              },
-              {
-                title: "Fats",
-                values: ["3.3g"],
-              },
-            ],
-          },
-        ],
+          "Our Cotton Bales offer premium quality, sourced from the finest cotton fields to ensure consistency and purity. Carefully processed and compressed, these cotton bales are ready for various industrial applications, including textile manufacturing, garment production, and other cotton-based products.",
       },
     ],
   },
@@ -676,9 +176,9 @@ export const productData = [
     title: productConstants.PULSES.TITLE,
     slug: productConstants.PULSES.SLUG,
     path: productConstants.PULSES.PATH,
-    subTitle: "Nature's Golden Sweetener",
+    subTitle: "Pulses for Every Kitchen",
     description:
-      "Honey is a natural, golden liquid produced by honeybees from the nectar of flowers. Known for its rich sweetness, honey has been used for centuries not only as a food but also for medicinal and therapeutic purposes. It’s packed with antioxidants, vitamins, and minerals, making it much more than just a natural sweetener.",
+      "Our Pulses are sourced from the finest farms to deliver freshness, taste, and nutritional value. Rich in protein, fiber, and essential nutrients, our range of pulses—including lentils, chickpeas, beans, and peas—supports a balanced diet and offers a versatile ingredient for a variety of culinary uses.",
 
     subProducts: [
       {
@@ -686,77 +186,37 @@ export const productData = [
         title: productConstants.PULSES.SUB_PRODUCT.SOYABEAN.TITLE,
         path: productConstants.PULSES.SUB_PRODUCT.SOYABEAN.PATH,
         slug: productConstants.PULSES.SUB_PRODUCT.SOYABEAN.SLUG,
-        subTitle: "Savor the Sweetness",
+        subTitle: "Soya Bean Exporters",
         description:
-          "Honey is a natural, golden liquid produced by honeybees from the nectar of flowers. Known for its rich sweetness, honey has been used for centuries not only as a food but also for medicinal and therapeutic purposes. It’s packed with antioxidants, vitamins, and minerals, making it much more than just a natural sweetener.",
+          "Our Soybeans are a powerhouse of nutrition, offering an array of health benefits and culinary uses. Known for their high protein content and rich source of essential amino acids, soybeans are an excellent choice for both vegetarians and meat-eaters alike.",
 
         productContent: [
-          {
-            type: contentConstsnts.CONTENT,
-            data: [
-              {
-                title: "Global Market Demand",
-                description:
-                  "Rye import from India has been increasing over the years due to various health and medicinal benefits from Rye. Rye is extensively used in India and Indonesian cuisines which may be one important reason for the increasing popularity of export of Rye. The rising global demand for Rye is a good opportunity for Rye exporter in India to expand its business and enter the international market.",
-              },
-            ],
-          },
-          {
-            type: contentConstsnts.SPECIFICATIONS,
-            data: [
-              {
-                title: "Product Name",
-                value: "Rye",
-              },
-              {
-                title: "Origin",
-                value: "Southwestern Asia",
-              },
-              {
-                title: "Family",
-                value: "Poaceae",
-              },
-              {
-                title: "Binomial name",
-                value: "Secale Cereale",
-              },
-            ],
-          },
           {
             type: contentConstsnts.INGREDIENTS,
             data: [
               {
                 title: "Nutrients",
                 values: [
-                  "259 Calories",
-                  "Total Carbohydrate - 48 g",
-                  "Dietary fibre - 6 g",
+                  "Calories - 446g/100 grams",
+                  "Carbohydrates - 30g",
+                  "Fiber - 9g",
                 ],
-              },
-              {
-                title: "Minerals",
-                values: [
-                  "Copper",
-                  "Magnesium",
-                  "Phosphorous",
-                  "Thiamin",
-                  "Riboflavin",
-                  "Niacin",
-                  "Folate",
-                  "Pantothenic Acid",
-                ],
-              },
-              {
-                title: "Vitamin",
-                values: ["Vitamin B6"],
               },
               {
                 title: "Protein",
-                values: ["9 g"],
+                values: ["36 g"],
               },
               {
-                title: "Fats",
-                values: ["3.3g"],
+                title: "Fat",
+                values: ["20g"],
+              },
+              {
+                title: "Vitamin",
+                values: ["Vitamin K1"],
+              },
+              {
+                title: "Minerals",
+                values: ["Folate","Copper","Manganese","Phosphorus","Thiamine"],
               },
             ],
           },

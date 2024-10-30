@@ -7,6 +7,7 @@ const SubProductDetails = ({ product }) => {
   const title = product?.title;
   const subTitle = product?.subTitle;
   const description = product?.description;
+  const descriptions = product?.descriptions || [];
   const productContent = product?.productContent || [];
   return (
     <div className="responsive">
@@ -26,6 +27,14 @@ const SubProductDetails = ({ product }) => {
             {subTitle}
           </h3>
           <p className="fs-16 text-color-gray">{description}</p>
+          {descriptions?.length > 0 &&
+            descriptions?.map((item, index) => {
+              return (
+                <p key={index} className="fs-16 text-color-gray">
+                  {item}
+                </p>
+              );
+            })}
 
           {productContent?.length ? (
             <div>
