@@ -44,10 +44,15 @@ export const productConstants = {
         TITLE: "plain dish",
         SLUG: "plain-dish",
       },
-      COMPARTMENT_DISH: {
-        PATH: `${allPath.DISPOSABLE.PATH}/compartment-dish`,
-        TITLE: "compartment dish",
-        SLUG: "compartment-dish",
+      COMPARTMENT_DISH_3: {
+        PATH: `${allPath.DISPOSABLE.PATH}/3-compartment-dish`,
+        TITLE: "3 compartment dish",
+        SLUG: "3-compartment-dish",
+      },
+      COMPARTMENT_DISH_5: {
+        PATH: `${allPath.DISPOSABLE.PATH}/5-compartment-dish`,
+        TITLE: "5 compartment dish",
+        SLUG: "5-compartment-dish",
       },
       BAGASSE_BOWLS: {
         PATH: `${allPath.DISPOSABLE.PATH}/bagasse-bowls`,
@@ -56,7 +61,7 @@ export const productConstants = {
       },
       PRODO_BAGASSE_CUPS_120ML: {
         PATH: `${allPath.DISPOSABLE.PATH}/prodo-bagasse-cups-120ml`,
-        TITLE: "PRODO bagasse cups 120ml",
+        TITLE: "PRODO bagasse cups (120ml)",
         SLUG: "prodo-bagasse-cups-120ml",
       },
     },

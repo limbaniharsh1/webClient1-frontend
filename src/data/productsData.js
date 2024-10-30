@@ -66,7 +66,7 @@ export const productData = [
 
     subProducts: [
       {
-        img: "https://images.jdmagicbox.com/quickquotes/images_main/disposable-plate-384205556-xdnlt.jpg",
+        img: "http://cdn.globalso.com/fiber-product/IMG_59641.jpg",
         title: productConstants.DISPOSABLE.SUB_PRODUCT.PLAIN_DISH.TITLE,
         path: productConstants.DISPOSABLE.SUB_PRODUCT.PLAIN_DISH.PATH,
         slug: productConstants.DISPOSABLE.SUB_PRODUCT.PLAIN_DISH.SLUG,
@@ -147,10 +147,10 @@ export const productData = [
         ],
       },
       {
-        img: "https://mat-pac.com/wp-content/uploads/2017/02/plate-set.png",
-        title: productConstants.DISPOSABLE.SUB_PRODUCT.COMPARTMENT_DISH.TITLE,
-        path: productConstants.DISPOSABLE.SUB_PRODUCT.COMPARTMENT_DISH.PATH,
-        slug: productConstants.DISPOSABLE.SUB_PRODUCT.COMPARTMENT_DISH.SLUG,
+        img: "https://www.moldedpulpmachinery.com/photo/pl117093204-smart_disposable_paper_pulp_molding_food_tray_producing_machine_with_two_robot_arms.jpg",
+        title: productConstants.DISPOSABLE.SUB_PRODUCT.COMPARTMENT_DISH_3.TITLE,
+        path: productConstants.DISPOSABLE.SUB_PRODUCT.COMPARTMENT_DISH_3.PATH,
+        slug: productConstants.DISPOSABLE.SUB_PRODUCT.COMPARTMENT_DISH_3.SLUG,
         subTitle: "Savor the Sweetness",
         description:
           "Honey is a natural, golden liquid produced by honeybees from the nectar of flowers. Known for its rich sweetness, honey has been used for centuries not only as a food but also for medicinal and therapeutic purposes. It’s packed with antioxidants, vitamins, and minerals, making it much more than just a natural sweetener.",
@@ -228,7 +228,88 @@ export const productData = [
         ],
       },
       {
-        img: "https://i.pinimg.com/originals/12/88/19/128819df93ad9a6be10116b3c9322cec.jpg",
+        img: "https://i5.walmartimages.com/seo/Comfy-Package-Rectangular-Divided-Plates-Disposable-Heavy-Duty-Paper-Plates-Bulk-125-Pack_08020393-f121-4a12-bec5-2c546680cdf3.26e045f278a09195afd745056161c29a.jpeg",
+        title: productConstants.DISPOSABLE.SUB_PRODUCT.COMPARTMENT_DISH_5.TITLE,
+        path: productConstants.DISPOSABLE.SUB_PRODUCT.COMPARTMENT_DISH_5.PATH,
+        slug: productConstants.DISPOSABLE.SUB_PRODUCT.COMPARTMENT_DISH_5.SLUG,
+        subTitle: "Savor the Sweetness",
+        description:
+          "Honey is a natural, golden liquid produced by honeybees from the nectar of flowers. Known for its rich sweetness, honey has been used for centuries not only as a food but also for medicinal and therapeutic purposes. It’s packed with antioxidants, vitamins, and minerals, making it much more than just a natural sweetener.",
+
+        productContent: [
+          {
+            type: contentConstsnts.CONTENT,
+            data: [
+              {
+                title: "Global Market Demand",
+                description:
+                  "Rye import from India has been increasing over the years due to various health and medicinal benefits from Rye. Rye is extensively used in India and Indonesian cuisines which may be one important reason for the increasing popularity of export of Rye. The rising global demand for Rye is a good opportunity for Rye exporter in India to expand its business and enter the international market.",
+              },
+            ],
+          },
+          {
+            type: contentConstsnts.SPECIFICATIONS,
+            data: [
+              {
+                title: "Product Name",
+                value: "Rye",
+              },
+              {
+                title: "Origin",
+                value: "Southwestern Asia",
+              },
+              {
+                title: "Family",
+                value: "Poaceae",
+              },
+              {
+                title: "Binomial name",
+                value: "Secale Cereale",
+              },
+            ],
+          },
+          {
+            type: contentConstsnts.INGREDIENTS,
+            data: [
+              {
+                title: "Nutrients",
+                values: [
+                  "259 Calories",
+                  "Total Carbohydrate - 48 g",
+                  "Dietary fibre - 6 g",
+                ],
+              },
+              {
+                title: "Minerals",
+                values: [
+                  "Copper",
+                  "Magnesium",
+                  "Phosphorous",
+                  "Thiamin",
+                  "Riboflavin",
+                  "Niacin",
+                  "Folate",
+                  "Pantothenic Acid",
+                ],
+              },
+              {
+                title: "Vitamin",
+                values: ["Vitamin B6"],
+              },
+              {
+                title: "Protein",
+                values: ["9 g"],
+              },
+              {
+                title: "Fats",
+                values: ["3.3g"],
+              },
+            ],
+          },
+        ],
+      },
+      {
+        img: "https://pt.craftecopack.com/uploadfile/202102/04/88cb0f33b50bac43a7ebb68ef75e2cb9_medium.jpg",
         title: productConstants.DISPOSABLE.SUB_PRODUCT.BAGASSE_BOWLS.TITLE,
         path: productConstants.DISPOSABLE.SUB_PRODUCT.BAGASSE_BOWLS.PATH,
         slug: productConstants.DISPOSABLE.SUB_PRODUCT.BAGASSE_BOWLS.SLUG,
@@ -309,7 +390,7 @@ export const productData = [
         ],
       },
       {
-        img: "http://www.ritikaventures.com/wp-content/uploads/2018/02/polysterine-cup.jpg",
+        img: "https://russian.pulpfoodcontainers.com/photo/pl32370937-degradable_compostable_16oz_sugarcane_bagasse_cups_for_restaurant.jpg",
         title:
           productConstants.DISPOSABLE.SUB_PRODUCT.PRODO_BAGASSE_CUPS_120ML
             .TITLE,
