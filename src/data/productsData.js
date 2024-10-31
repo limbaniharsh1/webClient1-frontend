@@ -1513,9 +1513,9 @@ export const productData = [
         title: productConstants.SPICES.SUB_PRODUCT.PEPPERCORNS.TITLE,
         path: productConstants.SPICES.SUB_PRODUCT.PEPPERCORNS.PATH,
         slug: productConstants.SPICES.SUB_PRODUCT.PEPPERCORNS.SLUG,
-        subTitle: "Savor the Sweetness",
+        subTitle: "Peppercorns Exporters",
         description:
-          "Honey is a natural, golden liquid produced by honeybees from the nectar of flowers. Known for its rich sweetness, honey has been used for centuries not only as a food but also for medicinal and therapeutic purposes. It’s packed with antioxidants, vitamins, and minerals, making it much more than just a natural sweetener.",
+          "Peppercorns are basically dried berries from the vine Piper nigrum. These berries are ground into Black pepper. Black pepper is one of the most commonly used spices globally. The Peppercorns exporter in India exports tonnes of Peppercorns each year to many countries. Therefore, Peppercorn’s export from India has been increasing over time. This is a good opportunity for the Indian Peppercorns exporter to expand his business and enter the international market. The Peppercorns export from India includes the export of many varieties of this product.",
 
         productContent: [
           {
@@ -1524,7 +1524,7 @@ export const productData = [
               {
                 title: "Global Market Demand",
                 description:
-                  "Rye import from India has been increasing over the years due to various health and medicinal benefits from Rye. Rye is extensively used in India and Indonesian cuisines which may be one important reason for the increasing popularity of export of Rye. The rising global demand for Rye is a good opportunity for Rye exporter in India to expand its business and enter the international market.",
+                  "The Global market demand for Peppercorns has been increasing worldwide. This may be because of the several health benefits and diverse uses of this spice. Peppercorns add flavour and aroma to your food and are also healthy for your body. The Peppercorns exporter in India exports more and more quantities of this spice to various parts of the world. The Peppercorns import from India has been increasing due to its good reputation and the great quality of the products exported from India.",
               },
             ],
           },
@@ -1533,19 +1533,19 @@ export const productData = [
             data: [
               {
                 title: "Product Name",
-                value: "Rye",
+                value: "Peppercorns",
               },
               {
                 title: "Origin",
-                value: "Southwestern Asia",
+                value: "Indian subcontinent and in Southeast Asia",
               },
               {
                 title: "Family",
-                value: "Poaceae",
+                value: "Piperaceae",
               },
               {
                 title: "Binomial name",
-                value: "Secale Cereale",
+                value: "Piper nigrum",
               },
             ],
           },
@@ -1555,31 +1555,26 @@ export const productData = [
               {
                 title: "Nutrients",
                 values: [
-                  "259 Calories",
-                  "Total Carbohydrate - 48 g",
-                  "Dietary fibre - 6 g",
+                  "Calories 251 kcal",
+                  "Total Carbohydrates 64g",
+                  "Dietary Fiber 25g",
                 ],
               },
               {
                 title: "Minerals",
                 values: [
-                  "Copper",
+                  "Calcium",
                   "Magnesium",
-                  "Phosphorous",
-                  "Thiamin",
-                  "Riboflavin",
-                  "Niacin",
-                  "Folate",
-                  "Pantothenic Acid",
+                  "Iron"
                 ],
               },
               {
                 title: "Vitamin",
-                values: ["Vitamin B6"],
+                values: ["Vitamin B6","Vitamin C"],
               },
               {
                 title: "Protein",
-                values: ["9 g"],
+                values: ["11 g"],
               },
               {
                 title: "Fats",
@@ -1587,6 +1582,23 @@ export const productData = [
               },
             ],
           },
+          {
+            type: contentConstsnts.USES_AND_BENEFITS,
+            data:[
+              {
+                type: contentConstsnts.USES_AND_BENEFITS.USES,
+                data:["Peppercorn is rich in a potent antioxidant called piperine. This antioxidant may help prevent free radical damage to your cells.","Peppercorns contain an active compound that decreases inflammation in animals. But we still don’t have if it has the same effect on humans.","Peppercorn has also demonstrated cholesterol-lowering effects in rodent studies. It is believed to boost the absorption of potential cholesterol-lowering supplements."," Peppercorns extract has improved symptoms of degenerative brain diseases in animal studies, but more research on humans in this field has to be conducted."]
+              }
+            ]
+          },
+          {
+            type: contentConstsnts.CONTENT,
+            data:[
+              {
+                description:"Pisum Foods is one of the leading Peppercorn importers from India. We help our clients export various food products including fruits, vegetables, grains, pulses, oilseeds, so on and so forth. We assist our clients with every step on the way right from documentation until the final delivery of the products in the export of Peppercorns. If you are looking for Peppercorns export from India, Contact Pisum Foods now!"
+              }
+            ]
+          }
         ],
       },
       {
