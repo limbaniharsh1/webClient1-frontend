@@ -412,50 +412,60 @@ export const productData = [
           {
             type: contentConstsnts.VARIETIES,
             title: "Green Gram Varieties We Export",
-            description:"The Green Gram import from India includes various varieties of green grams including CO 1, ADT 1, JGG 1 so on, and so forth. The mung bean exporter in India exports premium quality products keeping health and safety regulations in mind. Here are the major varieties of Green Gram included in the export of green gram.",
-            data:[
+            description:
+              "The Green Gram import from India includes various varieties of green grams including CO 1, ADT 1, JGG 1 so on, and so forth. The mung bean exporter in India exports premium quality products keeping health and safety regulations in mind. Here are the major varieties of Green Gram included in the export of green gram.",
+            data: [
               {
-                title:"CO 1",
-                description:"Released in 1952, CO 1 is a variety of Green Gram exported from India. It is a pure-line selection from Coimbatore local. The duration required to mature is 135 days. The grain yield is around 750 kg/ha. This variety is suitable for rainfed."
+                title: "CO 1",
+                description:
+                  "Released in 1952, CO 1 is a variety of Green Gram exported from India. It is a pure-line selection from Coimbatore local. The duration required to mature is 135 days. The grain yield is around 750 kg/ha. This variety is suitable for rainfed.",
               },
               {
-                title:"ADT 1",
-                description:"The ADT is a variety of green gram released in 1966. It is a pure line selection from Aduthurai local. The time taken for this variety of green gram to mature is around 80 days. The rainfed grain yield of this variety is around 500 kg/ha. This variety is suitable for rice fallow."
+                title: "ADT 1",
+                description:
+                  "The ADT is a variety of green gram released in 1966. It is a pure line selection from Aduthurai local. The time taken for this variety of green gram to mature is around 80 days. The rainfed grain yield of this variety is around 500 kg/ha. This variety is suitable for rice fallow.",
               },
               {
-                title:"JGG 1 (Rajendran)",
-                description:"Released in 1972, this variety of green gram is a selection from Jayankondam local. The JGG 1 variety of green gram. The time required for this variety to mature is about 65 days. The grain yield of JGG 1 is around 625 kg/ha. This variety is said to be tolerant to drought."
+                title: "JGG 1 (Rajendran)",
+                description:
+                  "Released in 1972, this variety of green gram is a selection from Jayankondam local. The JGG 1 variety of green gram. The time required for this variety to mature is about 65 days. The grain yield of JGG 1 is around 625 kg/ha. This variety is said to be tolerant to drought.",
               },
               {
-                title:"KM 1",
-                description:"The KM 1 is a variety of green gram exported from India to many countries in the world. It was released in 1978. It is said to be produced from the cross of S.8 and PS 16. The time required for this variety to mature is about 65-70 days. The grain yield of this variety is around 708kg/ha."
+                title: "KM 1",
+                description:
+                  "The KM 1 is a variety of green gram exported from India to many countries in the world. It was released in 1978. It is said to be produced from the cross of S.8 and PS 16. The time required for this variety to mature is about 65-70 days. The grain yield of this variety is around 708kg/ha.",
               },
               {
-                title:"KM 2",
-                description:"The KM 2 is a variety of green gram released in the year 1978. The rainfed grain yield of this variety of green gram is about 767kg/ha. This variety of green gram is said to be tolerant to YMV and is a pod borer."
+                title: "KM 2",
+                description:
+                  "The KM 2 is a variety of green gram released in the year 1978. The rainfed grain yield of this variety of green gram is about 767kg/ha. This variety of green gram is said to be tolerant to YMV and is a pod borer.",
               },
               {
-                title:"Paiyur 1",
-                description:"Released in 1988, the Paiyur1 variety of green gram is a pure line selection form DPT 703. The time taken for this variety of green gram to mature is about 85-90 days. The grain yield of this variety is around 700kg/ha. There is a low incidence of YMV for this variety and it is well suited for rainfed tracts of Dharmapuri, Madurai, Ramnad, Tirunelveli and Periyar Districts."
+                title: "Paiyur 1",
+                description:
+                  "Released in 1988, the Paiyur1 variety of green gram is a pure line selection form DPT 703. The time taken for this variety of green gram to mature is about 85-90 days. The grain yield of this variety is around 700kg/ha. There is a low incidence of YMV for this variety and it is well suited for rainfed tracts of Dharmapuri, Madurai, Ramnad, Tirunelveli and Periyar Districts.",
               },
               {
-                title:"Vamban 1",
-                description:"The Vamban 1 variety of green gram is a Hybrid derivative of (S.8 x PIMS 3). This variety was released in 1989. The time required for this variety to mature in around 65-70 days. The grain yield of Vamban 1 is around 800 kg/ha. It is said to be tolerant of YMV."
+                title: "Vamban 1",
+                description:
+                  "The Vamban 1 variety of green gram is a Hybrid derivative of (S.8 x PIMS 3). This variety was released in 1989. The time required for this variety to mature in around 65-70 days. The grain yield of Vamban 1 is around 800 kg/ha. It is said to be tolerant of YMV.",
               },
               {
-                title:"VBN (Gg) 2",
-                description:"This variety is a cross between VGG 4 and MH 309. It was released in 2001. This variety of green gram matures after around 65-70 days. The rainfed grain yield for this variety is 750kg/ha. The grains are shiny while the leaves are lobed and resistant to YMV."
-              }
-            ]
+                title: "VBN (Gg) 2",
+                description:
+                  "This variety is a cross between VGG 4 and MH 309. It was released in 2001. This variety of green gram matures after around 65-70 days. The rainfed grain yield for this variety is 750kg/ha. The grains are shiny while the leaves are lobed and resistant to YMV.",
+              },
+            ],
           },
           {
             type: contentConstsnts.CONTENT,
-            data:[
+            data: [
               {
-              description:"Pisum foods is one of the leading Green Gram importers from India. We understand that export of green gram can be a complicated process. But no worries! Pisum is here to help you! Our highly trained executives will help you with every process involved in the export of green gram until your products are delivered to the destination. We have extensive experience in the food export industry and will support you in case of any issues. If you are looking for food export, contact Pisum now!"
-              }
-            ]
-          }
+                description:
+                  "Pisum foods is one of the leading Green Gram importers from India. We understand that export of green gram can be a complicated process. But no worries! Pisum is here to help you! Our highly trained executives will help you with every process involved in the export of green gram until your products are delivered to the destination. We have extensive experience in the food export industry and will support you in case of any issues. If you are looking for food export, contact Pisum now!",
+              },
+            ],
+          },
         ],
       },
       {
@@ -481,73 +491,80 @@ export const productData = [
               },
               {
                 title: "Minerals",
-                values: [
-                  "Calcium",
-                  "Magnesium",
-                  "Iron"
-                ],
+                values: ["Calcium", "Magnesium", "Iron"],
               },
               {
                 title: "Vitamin",
-                values: ["Vitamin A","Vitamin C","Vitamin B6"],
+                values: ["Vitamin A", "Vitamin C", "Vitamin B6"],
               },
               {
                 title: "Protein",
                 values: ["25.21 g"],
-              }
+              },
             ],
           },
           {
-            type:contentConstsnts.VARIETIES,
-            title:"Black Gram Varieties We Export",
-            description:"Black Gram import from India includes various varieties like ADT 1, CO 1, KM 1, TMV 1 so on and so forth. The Black Gram exporter in India has to export products that are of good quality and adhere to all the health and safety measures of the country. Here are the major varieties of Black Gram involved in the export of Black Gram.",
-            data:[
+            type: contentConstsnts.VARIETIES,
+            title: "Black Gram Varieties We Export",
+            description:
+              "Black Gram import from India includes various varieties like ADT 1, CO 1, KM 1, TMV 1 so on and so forth. The Black Gram exporter in India has to export products that are of good quality and adhere to all the health and safety measures of the country. Here are the major varieties of Black Gram involved in the export of Black Gram.",
+            data: [
               {
-                title:"ADT 1",
-                description:"The ADT 1 variety of Black gram is a Selection from Aduthurai local released in the year 1965. This variety takes around 80 days to mature from transplantation. The grain yield rainfed is around 450 kg/ha. This variety of black gram has a high protein content of 19.9%."
+                title: "ADT 1",
+                description:
+                  "The ADT 1 variety of Black gram is a Selection from Aduthurai local released in the year 1965. This variety takes around 80 days to mature from transplantation. The grain yield rainfed is around 450 kg/ha. This variety of black gram has a high protein content of 19.9%.",
               },
               {
-                title:"CO 1",
-                description:"The CO 1 variety of Black Gram is a pure line selection from Srivaikundam local released in 1968. This variety of black gram takes around 110 days to mature. The grain yield is around 600 kg/ha when rainfed and 750 kg/ha when irrigated. This variety was released for rainfed condition."
+                title: "CO 1",
+                description:
+                  "The CO 1 variety of Black Gram is a pure line selection from Srivaikundam local released in 1968. This variety of black gram takes around 110 days to mature. The grain yield is around 600 kg/ha when rainfed and 750 kg/ha when irrigated. This variety was released for rainfed condition.",
               },
               {
-                title:"KM 1",
-                description:"The KM 1 variety of Black Gram was released in 1977. This variety takes around 65-70 to mature from transplantation. The KM 1 has a grain yield of about 25 kg/ha when Rainfed. This variety is of dwarf type and is also known to be drought tolerant."
+                title: "KM 1",
+                description:
+                  "The KM 1 variety of Black Gram was released in 1977. This variety takes around 65-70 to mature from transplantation. The KM 1 has a grain yield of about 25 kg/ha when Rainfed. This variety is of dwarf type and is also known to be drought tolerant.",
               },
               {
-                title:"TMV 1",
-                description:"The TMV 1 variety of Black Gram was developed from the cross of Midhi Ulundu and KM 1. This variety was released in 1979. It takes around 65-70 days for this variety to mature. The grain yield of TMV 1 is around 800 kg/ha when irrigated. This variety is said to be resistant to YMV and tolerant to root rot."
+                title: "TMV 1",
+                description:
+                  "The TMV 1 variety of Black Gram was developed from the cross of Midhi Ulundu and KM 1. This variety was released in 1979. It takes around 65-70 days for this variety to mature. The grain yield of TMV 1 is around 800 kg/ha when irrigated. This variety is said to be resistant to YMV and tolerant to root rot.",
               },
               {
-                title:"Vamban 1",
-                description:"The Vamban 1 variety of Black Gram was released in the year 1987. It takes around 60-65 days for this variety to mature from transplantation. The grain yield of this variety is around 780 kg/ha when rainfed and 900 kg/ha when irrigated. The Vamban 1 is a high yielding variety and is also tolerant of YMV."
+                title: "Vamban 1",
+                description:
+                  "The Vamban 1 variety of Black Gram was released in the year 1987. It takes around 60-65 days for this variety to mature from transplantation. The grain yield of this variety is around 780 kg/ha when rainfed and 900 kg/ha when irrigated. The Vamban 1 is a high yielding variety and is also tolerant of YMV.",
               },
               {
-                title:"APK 1",
-                description:"The APK 1 variety of Black Gram was released in 1993. This variety takes around 75 days to mature after transplantation. The grain yield for this variety when irrigated is around 940 kg/ha. The APK 1 is well suited for rainfed conditions for intercropping with cotton."
+                title: "APK 1",
+                description:
+                  "The APK 1 variety of Black Gram was released in 1993. This variety takes around 75 days to mature after transplantation. The grain yield for this variety when irrigated is around 940 kg/ha. The APK 1 is well suited for rainfed conditions for intercropping with cotton.",
               },
               {
-                title:"VBN (Bg) 4",
-                description:"The VBN (Bg) 4 variety of Black Gram was released in 2003. This variety takes about 75-80 days to mature after transplanting. The grain yield for this variety is around 780 kg/ha when rainfed and 900 kg/ha when Irrigated. This variety is resistant to Yellow Mosaic Virus."
+                title: "VBN (Bg) 4",
+                description:
+                  "The VBN (Bg) 4 variety of Black Gram was released in 2003. This variety takes about 75-80 days to mature after transplanting. The grain yield for this variety is around 780 kg/ha when rainfed and 900 kg/ha when Irrigated. This variety is resistant to Yellow Mosaic Virus.",
               },
               {
-                title:"MDU 1",
-                description:"The MDU 1 variety of Black Gram was released in 2014. This variety matures around 70 - 75 days after transplanting. The grain yield for this variety is about 790 kg/ha when irrigated. The MDU 1 is a High yielding variety and is resistant to leaf crinkle virus."
+                title: "MDU 1",
+                description:
+                  "The MDU 1 variety of Black Gram was released in 2014. This variety matures around 70 - 75 days after transplanting. The grain yield for this variety is about 790 kg/ha when irrigated. The MDU 1 is a High yielding variety and is resistant to leaf crinkle virus.",
               },
               {
-                title:"KKM 1",
-                description:"The KKM 1 variety of Black Gram was released in 2017. This variety matures around 65 - 70 days after transplanting. The grain yield of this variety is around 607 kg/ha (rice fallow). The KKM 1 variety is a High yielding one and is moderately resistant to YMV and Powdery mildew. It is also suitable for rice fallow."
-              }
-            ]
+                title: "KKM 1",
+                description:
+                  "The KKM 1 variety of Black Gram was released in 2017. This variety matures around 65 - 70 days after transplanting. The grain yield of this variety is around 607 kg/ha (rice fallow). The KKM 1 variety is a High yielding one and is moderately resistant to YMV and Powdery mildew. It is also suitable for rice fallow.",
+              },
+            ],
           },
           {
             type: contentConstsnts.CONTENT,
-            data:[
+            data: [
               {
-                description:"Pisum Foods is the leading Black Gram importer from India. We at Pisum Foods understand that the export of food products from India may be a complicated process for some of you. Don’t worry, we are here to help you! With extensive experience in the food export industry, our executives at Pisum make sure that the export of Black Gram is carried out smoothly with any issues. We help our clients right from documentation until the final delivery of the products. If you are looking for food export from India, Contact Pisum now!"
-              }
-            ]
-          }
+                description:
+                  "Pisum Foods is the leading Black Gram importer from India. We at Pisum Foods understand that the export of food products from India may be a complicated process for some of you. Don’t worry, we are here to help you! With extensive experience in the food export industry, our executives at Pisum make sure that the export of Black Gram is carried out smoothly with any issues. We help our clients right from documentation until the final delivery of the products. If you are looking for food export from India, Contact Pisum now!",
+              },
+            ],
+          },
         ],
       },
       {
@@ -580,7 +597,7 @@ export const productData = [
               {
                 title: "Origin",
                 value: "India",
-              }
+              },
             ],
           },
           {
@@ -596,7 +613,7 @@ export const productData = [
               },
               {
                 title: "Vitamin",
-                values: ["Vitamin C","Vitamin B1"],
+                values: ["Vitamin C", "Vitamin B1"],
               },
               {
                 title: "Protein",
@@ -609,27 +626,28 @@ export const productData = [
             ],
           },
           {
-            type:contentConstsnts.USES_AND_BENEFITS,
-            data:[
+            type: contentConstsnts.USES_AND_BENEFITS,
+            data: [
               {
                 type: contentConstsnts.USES_AND_BENEFITS.USES,
-                data:[
+                data: [
                   "Beaten Rice can be consumed in different ways like soaking raw in water, fried, with curd or milk or after cooking the soaked one. Beaten Rice can be cooked on short notice and is thus a convenient food item.",
                   "Beaten Rice is also used in making snacks and mixtures. It is a famous food item especially in roadside eateries, in dhabas, Hostels and such other places.",
                   "Beaten Rice is good for diabetics. As it is rich in fiber, it promotes a slow and steady release of sugar into the bloodstream.",
-                  "Beaten Rice consists of 76.9% of carbohydrates and about 23% of fats. The healthy carbs are good for the body and provide the energy to the body to carry out its functions."
-                ]
-              }
-            ]
+                  "Beaten Rice consists of 76.9% of carbohydrates and about 23% of fats. The healthy carbs are good for the body and provide the energy to the body to carry out its functions.",
+                ],
+              },
+            ],
           },
           {
             type: contentConstsnts.CONTENT,
-            data:[
+            data: [
               {
-                description:"Pisum Foods is one of the leading Beaten Rice importers from India. We at Pisum Foods provide hassle-free food export services for our clients. The export of Beaten Rice can sometimes be a complicated process. But no worries! The executives at Pisum will help you with each and every step until your products reach the destination safe and fresh. If you are looking for Beaten Rice export from India, Contact Pisum now!"
-              }
-            ]
-          }
+                description:
+                  "Pisum Foods is one of the leading Beaten Rice importers from India. We at Pisum Foods provide hassle-free food export services for our clients. The export of Beaten Rice can sometimes be a complicated process. But no worries! The executives at Pisum will help you with each and every step until your products reach the destination safe and fresh. If you are looking for Beaten Rice export from India, Contact Pisum now!",
+              },
+            ],
+          },
         ],
       },
     ],
@@ -670,12 +688,7 @@ export const productData = [
               },
               {
                 title: "Minerals",
-                values: [
-                  "Molybdenum",
-                  "Folate",
-                  "Copper",
-                  "Manganese"
-                ],
+                values: ["Molybdenum", "Folate", "Copper", "Manganese"],
               },
               {
                 title: "Vitamin",
@@ -689,51 +702,61 @@ export const productData = [
           },
           {
             type: contentConstsnts.VARIETIES,
-            title:"Soybean Varieties We Export",
-            description:"Soybean import from India includes various varieties od Soybean like JS 95-60, Pratap Soya 1, TAMS 98-21 so on and so forth. Soybean exporter in India export high-quality soybean oilseeds to many countries in the world. The export of Soybean from India includes the following varieties.",
-            data:[
+            title: "Soybean Varieties We Export",
+            description:
+              "Soybean import from India includes various varieties od Soybean like JS 95-60, Pratap Soya 1, TAMS 98-21 so on and so forth. Soybean exporter in India export high-quality soybean oilseeds to many countries in the world. The export of Soybean from India includes the following varieties.",
+            data: [
               {
-                title:"JS 95-60",
-                description:"The JS 95-60 variety of Soybean oilseed has an average yield potential of 1800-2000 kg/ha. The oil content in these seeds is around 16.6%. The recommended areas for this variety is Madhya Pradesh. The characteristics of this variety are determinate, extra earliness, high seed germinability and longevity so on and so forth."
+                title: "JS 95-60",
+                description:
+                  "The JS 95-60 variety of Soybean oilseed has an average yield potential of 1800-2000 kg/ha. The oil content in these seeds is around 16.6%. The recommended areas for this variety is Madhya Pradesh. The characteristics of this variety are determinate, extra earliness, high seed germinability and longevity so on and so forth.",
               },
               {
-                title:"Pratap Soya 1 (RAUS 5)",
-                description:"This variety of Soybean Oilseed called Pratap Soya 1 has an average yield potential of 3000-3500kg/ha. The oil content in this variety is 17.98%. The time required to maturity for this variety is 96-104 days. RAUS 5 is said to be resistant to girdle beetle and to stem fly and defoliators."
+                title: "Pratap Soya 1 (RAUS 5)",
+                description:
+                  "This variety of Soybean Oilseed called Pratap Soya 1 has an average yield potential of 3000-3500kg/ha. The oil content in this variety is 17.98%. The time required to maturity for this variety is 96-104 days. RAUS 5 is said to be resistant to girdle beetle and to stem fly and defoliators.",
               },
               {
-                title:"TAMS 98-21",
-                description:"TAMS 98-21 is a variety having average yield potential of 2200-2600kg/ha. The oil content is around 18.08%. This variety has been recommended to be grown in Maharashtra. TAMS 98-21 takes around 95-100 days to mature from when it’s transplanted."
+                title: "TAMS 98-21",
+                description:
+                  "TAMS 98-21 is a variety having average yield potential of 2200-2600kg/ha. The oil content is around 18.08%. This variety has been recommended to be grown in Maharashtra. TAMS 98-21 takes around 95-100 days to mature from when it’s transplanted.",
               },
               {
-                title:"PS 1347",
-                description:"PS 1347 is a variety which has a yield potential of 3100kg/ha. This variety has oil content of around 15.54%. This variety of Soybean Oilseed is Determinate and a compact plant type. The maturity period for this variety is around 123 days. PS 1347 is said to be resistant to YMV, Rhizoctonia aerial blight, and so on."
+                title: "PS 1347",
+                description:
+                  "PS 1347 is a variety which has a yield potential of 3100kg/ha. This variety has oil content of around 15.54%. This variety of Soybean Oilseed is Determinate and a compact plant type. The maturity period for this variety is around 123 days. PS 1347 is said to be resistant to YMV, Rhizoctonia aerial blight, and so on.",
               },
               {
-                title:"JS 97-52",
-                description:"JS 97-52 is a variety of Soybean Oilseed with a yield potential of 2500-3000kg/ha. The oil content of this variety is around 17.48%. The recommended areas for this variety are Central Zone and North Eastern Zone. The time take for maturity for this variety is 100 days."
+                title: "JS 97-52",
+                description:
+                  "JS 97-52 is a variety of Soybean Oilseed with a yield potential of 2500-3000kg/ha. The oil content of this variety is around 17.48%. The recommended areas for this variety are Central Zone and North Eastern Zone. The time take for maturity for this variety is 100 days.",
               },
               {
-                title:"Pusa 97-12",
-                description:"Pusa 97-12 is a variety of Soybean Oilseed released in the year 2009. This variety which is exported from India was released by the IARI. Pusa 97-12 has been recommended to be cultivated in the Northern Zone. This variety is said to be resistant to YMV and Charcoal rot."
+                title: "Pusa 97-12",
+                description:
+                  "Pusa 97-12 is a variety of Soybean Oilseed released in the year 2009. This variety which is exported from India was released by the IARI. Pusa 97-12 has been recommended to be cultivated in the Northern Zone. This variety is said to be resistant to YMV and Charcoal rot.",
               },
               {
-                title:"Birsa Safed Soybean-2",
-                description:"Released in 2009 at Ranchi, Birsa Safed Soyabean is another variety of Soybean Oilseed whose yield potential is around 2500kg/ha. Recommended to be grown in Jharkhand, this variety is resistant to bacterial pastules, Cercospora leaf spot, blue beetle and Bihar hairy caterpillar, so on and so forth."
+                title: "Birsa Safed Soybean-2",
+                description:
+                  "Released in 2009 at Ranchi, Birsa Safed Soyabean is another variety of Soybean Oilseed whose yield potential is around 2500kg/ha. Recommended to be grown in Jharkhand, this variety is resistant to bacterial pastules, Cercospora leaf spot, blue beetle and Bihar hairy caterpillar, so on and so forth.",
               },
               {
-                title:"MACS-1188",
-                description:"The MACS-1188 variety of Soybean Oilseed was released in 2013. This variety has been recommended to be grown in the Southern zone (Karnataka, Tamil Nadu, A.P., South Maharashtra). This variety has High Oil content, early maturity and is known to be resistant to pod shattering and Rhizoctonia aerial blight and so on."
+                title: "MACS-1188",
+                description:
+                  "The MACS-1188 variety of Soybean Oilseed was released in 2013. This variety has been recommended to be grown in the Southern zone (Karnataka, Tamil Nadu, A.P., South Maharashtra). This variety has High Oil content, early maturity and is known to be resistant to pod shattering and Rhizoctonia aerial blight and so on.",
               },
-            ]
+            ],
           },
           {
             type: contentConstsnts.CONTENT,
-            data:[
+            data: [
               {
-                description:"Pisum Foods is one of the leading Soybean importer from India. We export Soybean and such other food products to different countries in the world. Due to its popularity, the export of Soybean has been on the rise globally. Pisum Foods exports premium quality Soybean and makes sure that your products reach the destination fresh and safe. If you are looking for Soybean export from India, Pisum Foods is a great option!"
-              }
-            ]
-          }
+                description:
+                  "Pisum Foods is one of the leading Soybean importer from India. We export Soybean and such other food products to different countries in the world. Due to its popularity, the export of Soybean has been on the rise globally. Pisum Foods exports premium quality Soybean and makes sure that your products reach the destination fresh and safe. If you are looking for Soybean export from India, Pisum Foods is a great option!",
+              },
+            ],
+          },
         ],
       },
       {
@@ -759,74 +782,80 @@ export const productData = [
               },
               {
                 title: "Minerals",
-                values: [
-                  "Zinc",
-                  "Selenium",
-                  "Copper",
-                  "Iron"
-                ],
+                values: ["Zinc", "Selenium", "Copper", "Iron"],
               },
               {
                 title: "Vitamin",
-                values: ["Vitamin B6","Vitamin E"],
+                values: ["Vitamin B6", "Vitamin E"],
               },
               {
                 title: "Protein",
                 values: ["18 g"],
-              }
+              },
             ],
           },
           {
             type: contentConstsnts.VARIETIES,
-            title:"Sesame Varieties We Export",
-            description:"Sesame import from India includes several varieties of sesame including TKG-306, SWB-32-10-1 so on and so forth. Sesame exporter in India exports premium quality sesame to many parts of the world. The export of sesame from India includes the following varieties.",
-            data:[
+            title: "Sesame Varieties We Export",
+            description:
+              "Sesame import from India includes several varieties of sesame including TKG-306, SWB-32-10-1 so on and so forth. Sesame exporter in India exports premium quality sesame to many parts of the world. The export of sesame from India includes the following varieties.",
+            data: [
               {
-                title:"TKG-306",
-                description:"Released in 2007, TKG-306 takes around 86-90 days to mature. The seed is white in colour and weighs around 2.8 g. This variety of sesame is resistant to Phytophthora blight and moderately resistant to Macrophomina, Cercospora, powdery mildew, and Alternaria leaf spot."
+                title: "TKG-306",
+                description:
+                  "Released in 2007, TKG-306 takes around 86-90 days to mature. The seed is white in colour and weighs around 2.8 g. This variety of sesame is resistant to Phytophthora blight and moderately resistant to Macrophomina, Cercospora, powdery mildew, and Alternaria leaf spot.",
               },
               {
-                title:"SWB-32-10-1 (Savitri)",
-                description:"In the SWB-32-10-1 variety of sesame, the oil content present is around 48-52%. The average yield of this variety is around 1200-1500 kg/ha in the summer. This variety has been recommended in West Bengal. The time is taken for this variety to mature in around 84-88 days."
+                title: "SWB-32-10-1 (Savitri)",
+                description:
+                  "In the SWB-32-10-1 variety of sesame, the oil content present is around 48-52%. The average yield of this variety is around 1200-1500 kg/ha in the summer. This variety has been recommended in West Bengal. The time is taken for this variety to mature in around 84-88 days.",
               },
               {
-                title:"Jawahar Til –12 (PKDS-12)",
-                description:"The oil content present in this variety of sesame is around 48-52%. The average yield of the Jawahar Til-12 variety is around 700-750 kg/ha. This variety has been recommended to be grown in Summer in the state of Madhya Pradesh. This variety is said to be moderately resistant to Macrophomina stem/root rot."
+                title: "Jawahar Til –12 (PKDS-12)",
+                description:
+                  "The oil content present in this variety of sesame is around 48-52%. The average yield of the Jawahar Til-12 variety is around 700-750 kg/ha. This variety has been recommended to be grown in Summer in the state of Madhya Pradesh. This variety is said to be moderately resistant to Macrophomina stem/root rot.",
               },
               {
-                title:"Gujarat Til-3",
-                description:"The average oil content in the Gujarat Til-3 is around 48-52%. The average yield of this variety of sesame is about 750-800 kg/ha. This crop has been recommended to be grown in the Kharif season in the Saurashtra region of Gujarat. The time taken for these seeds to mature in around 84-88 days."
+                title: "Gujarat Til-3",
+                description:
+                  "The average oil content in the Gujarat Til-3 is around 48-52%. The average yield of this variety of sesame is about 750-800 kg/ha. This crop has been recommended to be grown in the Kharif season in the Saurashtra region of Gujarat. The time taken for these seeds to mature in around 84-88 days.",
               },
               {
-                title:"RT-346",
-                description:"The oil content present in the RT-346 is around 49-51%. The average yield of this variety of sesame is 750-850 kg/ha. This variety is recommended to be grown in the Kharif season in the states of Rajasthan, Haryana, Panjab, Himachal Pradesh, Gujarat, Utter Pradesh, Maharashtra so on and so forth. The variety requires 82-86 days to reach maturation."
+                title: "RT-346",
+                description:
+                  "The oil content present in the RT-346 is around 49-51%. The average yield of this variety of sesame is 750-850 kg/ha. This variety is recommended to be grown in the Kharif season in the states of Rajasthan, Haryana, Panjab, Himachal Pradesh, Gujarat, Utter Pradesh, Maharashtra so on and so forth. The variety requires 82-86 days to reach maturation.",
               },
               {
-                title:"JLT-408",
-                description:"The oil content in JLT-408 is around 51-53%. The average yield of this variety of sesame is 700-800 kg/ha. This variety of sesame is recommended to be grown in an assured rainfall zone of Khandesh and adjoining areas of Vidharba, Marathwada region rainfall zone of Khandesh and adjoining areas. This variety of sesame requires 80-85 days to mature."
+                title: "JLT-408",
+                description:
+                  "The oil content in JLT-408 is around 51-53%. The average yield of this variety of sesame is 700-800 kg/ha. This variety of sesame is recommended to be grown in an assured rainfall zone of Khandesh and adjoining areas of Vidharba, Marathwada region rainfall zone of Khandesh and adjoining areas. This variety of sesame requires 80-85 days to mature.",
               },
               {
-                title:"TKG-308",
-                description:"The oil content present in TKG-308 is about 48-50%. The average yield of 700-750 kg/ha. This variety is moderately resistant to Macrophomia, Cercospora, Bacteria leaf spot, Leaf curl, Tolerant to capsule borer."
+                title: "TKG-308",
+                description:
+                  "The oil content present in TKG-308 is about 48-50%. The average yield of 700-750 kg/ha. This variety is moderately resistant to Macrophomia, Cercospora, Bacteria leaf spot, Leaf curl, Tolerant to capsule borer.",
               },
               {
-                title:"Shubra",
-                description:"Shubhra variety of sesame has an oil content of around 48-52%. The average yield of this variety is around 800-900 kg/ha. The seeds are Golden yellow in colour. It has been recommended to grown in Orisha in the Kharif and summer season."
+                title: "Shubra",
+                description:
+                  "Shubhra variety of sesame has an oil content of around 48-52%. The average yield of this variety is around 800-900 kg/ha. The seeds are Golden yellow in colour. It has been recommended to grown in Orisha in the Kharif and summer season.",
               },
               {
-                title:"RT-351",
-                description:"RT-351 has oil content around 48-50%. The average yield of this variety is 700-800 kg/ha. This variety is resistant to Macrophomia, Leaf curl, Phillody, Moderately resistant to Cercospora & capsule bore. RT-351 has been recommended to be grown in Rajasthan, Gujarat, UP, Maharashtra, Haryana, Punjab, J&K and such other states."
+                title: "RT-351",
+                description:
+                  "RT-351 has oil content around 48-50%. The average yield of this variety is 700-800 kg/ha. This variety is resistant to Macrophomia, Leaf curl, Phillody, Moderately resistant to Cercospora & capsule bore. RT-351 has been recommended to be grown in Rajasthan, Gujarat, UP, Maharashtra, Haryana, Punjab, J&K and such other states.",
               },
-            ]
+            ],
           },
           {
             type: contentConstsnts.CONTENT,
-            data:[
+            data: [
               {
-                description:"Pisum Foods is one of the best Sesame importer from India and export premium quality sesame. We at Pisum foods help our clients find the right buyers for their products, conduct a detailed market analysis of the international market and assist them in every other way so that their products reach the country fresh and safe. Export of sesame has been growing exponentially and the vendors and farmers have a great opportunity to export their products abroad. Looking for sesame export from India? Pisum Foods is the best place for you!"
-              }
-            ]
-          }
+                description:
+                  "Pisum Foods is one of the best Sesame importer from India and export premium quality sesame. We at Pisum foods help our clients find the right buyers for their products, conduct a detailed market analysis of the international market and assist them in every other way so that their products reach the country fresh and safe. Export of sesame has been growing exponentially and the vendors and farmers have a great opportunity to export their products abroad. Looking for sesame export from India? Pisum Foods is the best place for you!",
+              },
+            ],
+          },
         ],
       },
       {
@@ -852,11 +881,7 @@ export const productData = [
               },
               {
                 title: "Minerals",
-                values: [
-                  "Calcium",
-                  "Magnesium",
-                  "Iron"
-                ],
+                values: ["Calcium", "Magnesium", "Iron"],
               },
               {
                 title: "Vitamin",
@@ -865,60 +890,71 @@ export const productData = [
               {
                 title: "Protein",
                 values: ["25.8 g"],
-              }
+              },
             ],
           },
           {
             type: contentConstsnts.VARIETIES,
-            title:"Peanut Varieties We Export",
-            description:"The Peanut import from India includes many varieties of Peanuts including TLG 45, Narayani, Vasundhara so on, and so forth. The Peanut exporter in India exports the best quality Peanut to different countries in the world. The export of Peanut includes the following major varieties.",
-            data:[
+            title: "Peanut Varieties We Export",
+            description:
+              "The Peanut import from India includes many varieties of Peanuts including TLG 45, Narayani, Vasundhara so on, and so forth. The Peanut exporter in India exports the best quality Peanut to different countries in the world. The export of Peanut includes the following major varieties.",
+            data: [
               {
-                title:"TLG 45",
-                description:"The TLG 45 variety was released in the year 2007 at the releasing centre at MAU, Latur. The yield potential of this variety is around 1506kg/ha. The oil content in this seed is around 51%. The recommended state for this variety is Maharashtra. It is a large-seeded variety."
+                title: "TLG 45",
+                description:
+                  "The TLG 45 variety was released in the year 2007 at the releasing centre at MAU, Latur. The yield potential of this variety is around 1506kg/ha. The oil content in this seed is around 51%. The recommended state for this variety is Maharashtra. It is a large-seeded variety.",
               },
               {
-                title:"Narayani (TCGS 29)",
-                description:"Released in 2007, the Narayani variety was released in the releasing centre at ANGRAU, Tirupati. The yield potential of this variety is around 3764kg/ha. The oil content of this variety is around 48%. It is tolerant of mid-season moisture stress conditions."
+                title: "Narayani (TCGS 29)",
+                description:
+                  "Released in 2007, the Narayani variety was released in the releasing centre at ANGRAU, Tirupati. The yield potential of this variety is around 3764kg/ha. The oil content of this variety is around 48%. It is tolerant of mid-season moisture stress conditions.",
               },
               {
-                title:"Vasundhara (Dh 101)",
-                description:"The Vasundhara variety of Peanuts was released in 2007. The yield potential of this variety is about 2877kg/ha. The oil content in the variety is around 50%. It has been recommended to be grown in West Bengal, Orissa, Jharkhand and Assam. This variety is tolerant to stem rot and PBND."
+                title: "Vasundhara (Dh 101)",
+                description:
+                  "The Vasundhara variety of Peanuts was released in 2007. The yield potential of this variety is about 2877kg/ha. The oil content in the variety is around 50%. It has been recommended to be grown in West Bengal, Orissa, Jharkhand and Assam. This variety is tolerant to stem rot and PBND.",
               },
               {
-                title:"VL- Moongphali-1",
-                description:"The VL- Moongphali-1 variety of Peanuts was released in the year 2008 at the releasing centre is VPKAS, Almora. The yield potential of this variety is around 1943kg/ha. This variety has been recommended to be grown in Uttarakhand and is resistant to late leaf spot and root rot."
+                title: "VL- Moongphali-1",
+                description:
+                  "The VL- Moongphali-1 variety of Peanuts was released in the year 2008 at the releasing centre is VPKAS, Almora. The yield potential of this variety is around 1943kg/ha. This variety has been recommended to be grown in Uttarakhand and is resistant to late leaf spot and root rot.",
               },
               {
-                title:"Utkarsh (CSMG 9510)",
-                description:"Released in 2009 at CSAUAT, Mainpuri, the oil content of this variety is around 49%. This variety has been recommended to be grown in Uttar Pradesh, Punjab, Northern Rajasthan. It is resistant to rust and possesses a fresh seed dormancy of up to 40-45 days. It has been recommended for the Kharif season."
+                title: "Utkarsh (CSMG 9510)",
+                description:
+                  "Released in 2009 at CSAUAT, Mainpuri, the oil content of this variety is around 49%. This variety has been recommended to be grown in Uttar Pradesh, Punjab, Northern Rajasthan. It is resistant to rust and possesses a fresh seed dormancy of up to 40-45 days. It has been recommended for the Kharif season.",
               },
               {
-                title:"Jawahar Peanut 23 (JGN 23)",
-                description:"The Jawahar Peanut 23 was released in the year 2009 in JNKVV, Khargone. The yield potential of this variety is around 1631kg/ha. The oil content in this variety is around 49%. This variety is tolerant to ELS and LLS. It is also drought tolerant and has been recommended for the Kharif season."
+                title: "Jawahar Peanut 23 (JGN 23)",
+                description:
+                  "The Jawahar Peanut 23 was released in the year 2009 in JNKVV, Khargone. The yield potential of this variety is around 1631kg/ha. The oil content in this variety is around 49%. This variety is tolerant to ELS and LLS. It is also drought tolerant and has been recommended for the Kharif season.",
               },
               {
-                title:"Greeshma",
-                description:"Released in the year 2009 at ANGRAU, Tirupati, this variety of Greeshma has a yield potential of about 2000-2500kg/ha. The oil content in this variety is around 49%. This variety has been recommended to be grown in Andhra Pradesh. It is tolerant to LLS, drought, high temperature and aflatoxin."
+                title: "Greeshma",
+                description:
+                  "Released in the year 2009 at ANGRAU, Tirupati, this variety of Greeshma has a yield potential of about 2000-2500kg/ha. The oil content in this variety is around 49%. This variety has been recommended to be grown in Andhra Pradesh. It is tolerant to LLS, drought, high temperature and aflatoxin.",
               },
               {
-                title:"Kadiri 8",
-                description:"The Kadiri 8 variety of Peanut was released in 2009 at ANGRAU, Kadiri. The yield potential is around 1523kg/ha. The oil content in this seed is about 47%. Recommended to be grown in the state of Andhra Pradesh, this variety is tolerant of sucking pests and leaf spots."
+                title: "Kadiri 8",
+                description:
+                  "The Kadiri 8 variety of Peanut was released in 2009 at ANGRAU, Kadiri. The yield potential is around 1523kg/ha. The oil content in this seed is about 47%. Recommended to be grown in the state of Andhra Pradesh, this variety is tolerant of sucking pests and leaf spots.",
               },
               {
-                title:"Mallika",
-                description:"Released in 2009 at RAU, Hanumangarh, the Mallika variety of Peanuts has a yield potential of 2579kg/ha. The oil content in this variety is about 48%. This variety is resistant to collar rot and PBND and is bold seeded. It has been recommended for the Kharif season."
+                title: "Mallika",
+                description:
+                  "Released in 2009 at RAU, Hanumangarh, the Mallika variety of Peanuts has a yield potential of 2579kg/ha. The oil content in this variety is about 48%. This variety is resistant to collar rot and PBND and is bold seeded. It has been recommended for the Kharif season.",
               },
-            ]
+            ],
           },
           {
             type: contentConstsnts.CONTENT,
-            data:[
+            data: [
               {
-                description:"Pisum Foods is one of the leading Peanut importers from India. We at Pisum Foods provide hassle-free food export services for our clients. The export of Peanut can sometimes be a complicated process. But no worries! Our executives at Pisum will help you with each and every step until your products reach the destination safe and fresh. If you are looking for Peanut export, Contact Pisum now!"
-              }
-            ]
-          }
+                description:
+                  "Pisum Foods is one of the leading Peanut importers from India. We at Pisum Foods provide hassle-free food export services for our clients. The export of Peanut can sometimes be a complicated process. But no worries! Our executives at Pisum will help you with each and every step until your products reach the destination safe and fresh. If you are looking for Peanut export, Contact Pisum now!",
+              },
+            ],
+          },
         ],
       },
       // {
@@ -1071,15 +1107,11 @@ export const productData = [
               },
               {
                 title: "Minerals",
-                values: [
-                  "Calcium",
-                  "Iron",
-                  "Magnesium"
-                ],
+                values: ["Calcium", "Iron", "Magnesium"],
               },
               {
                 title: "Vitamin",
-                values: ["Vitamin A","Vitamin C","Vitamin B6"],
+                values: ["Vitamin A", "Vitamin C", "Vitamin B6"],
               },
               {
                 title: "Protein",
@@ -1093,21 +1125,26 @@ export const productData = [
           },
           {
             type: contentConstsnts.USES_AND_BENEFITS,
-            data:[
+            data: [
               {
                 type: contentConstsnts.USES_AND_BENEFITS.USES,
-                data:[" Chilli Peppers are sometimes prepared and eaten like a vegetable. The pods can also be dried and then crushed or ground into chilli powder that is used as a spice or seasoning for recipes.","Capsaicin is a chemical in chilli peppers that gives them the flavour and makes them hot. This chemical is used as an analgesic in topical ointments, nasal sprays, and dermal patches to relieve pain.","Chillies are used in several cuisines across the world be it the Indian cuisine, the Chinese cuisine or the Italian cuisine"]
-              }
-            ]
+                data: [
+                  " Chilli Peppers are sometimes prepared and eaten like a vegetable. The pods can also be dried and then crushed or ground into chilli powder that is used as a spice or seasoning for recipes.",
+                  "Capsaicin is a chemical in chilli peppers that gives them the flavour and makes them hot. This chemical is used as an analgesic in topical ointments, nasal sprays, and dermal patches to relieve pain.",
+                  "Chillies are used in several cuisines across the world be it the Indian cuisine, the Chinese cuisine or the Italian cuisine",
+                ],
+              },
+            ],
           },
           {
             type: contentConstsnts.CONTENT,
-            data:[
+            data: [
               {
-                description:"Pisum Foods is the best Chilli Pepper importer from India. Having extensive experience in the food export industry, we make sure that the process of export of Chilli Pepper is hassle-free for our clients. We support our clients in every way possible, right from finding buyers for their products until the final delivery of the order. If you are looking for Chilli Pepper export from India, contact Pisum Foods now!"
-              }
-            ]
-          }
+                description:
+                  "Pisum Foods is the best Chilli Pepper importer from India. Having extensive experience in the food export industry, we make sure that the process of export of Chilli Pepper is hassle-free for our clients. We support our clients in every way possible, right from finding buyers for their products until the final delivery of the order. If you are looking for Chilli Pepper export from India, contact Pisum Foods now!",
+              },
+            ],
+          },
         ],
       },
       {
@@ -1154,16 +1191,18 @@ export const productData = [
           {
             type: contentConstsnts.TABLE,
             title: "Features & Characteristics",
-            data:[
+            data: [
               {
-                title:"Color",
-                values:["Brownish-yellow (other variants are also available)"]
+                title: "Color",
+                values: ["Brownish-yellow (other variants are also available)"],
               },
               {
-                title:"Taste and Smell  ",
-                values:["Earthy, nutty, spicy taste with a strong, warm aroma"]
-              }
-            ]
+                title: "Taste and Smell  ",
+                values: [
+                  "Earthy, nutty, spicy taste with a strong, warm aroma",
+                ],
+              },
+            ],
           },
           {
             type: contentConstsnts.INGREDIENTS,
@@ -1191,7 +1230,7 @@ export const productData = [
               },
               {
                 title: "Vitamin",
-                values: ["Vitamin E","Vitamin C","Vitamin B"],
+                values: ["Vitamin E", "Vitamin C", "Vitamin B"],
               },
               {
                 title: "Protein",
@@ -1204,18 +1243,28 @@ export const productData = [
             ],
           },
           {
-            type:contentConstsnts.USES_AND_BENEFITS,
-            data:[
+            type: contentConstsnts.USES_AND_BENEFITS,
+            data: [
               {
                 type: contentConstsnts.USES_AND_BENEFITS.USES,
-                data:["Cumin seeds or in the powdered form is used as a spice in a number of dishes across the planet.","Due to its aroma and pungent smell, cumin is also used as essential oils and perfumes."," It is mixed with other products such as honey in skincare including exfoliation.","Cumin is used in traditional medicine to make kashaya, arishta, etc. It is also used in several Indian households as jira water."]
+                data: [
+                  "Cumin seeds or in the powdered form is used as a spice in a number of dishes across the planet.",
+                  "Due to its aroma and pungent smell, cumin is also used as essential oils and perfumes.",
+                  " It is mixed with other products such as honey in skincare including exfoliation.",
+                  "Cumin is used in traditional medicine to make kashaya, arishta, etc. It is also used in several Indian households as jira water.",
+                ],
               },
               {
                 type: contentConstsnts.USES_AND_BENEFITS.BENEFITS,
-                data:["Skincare","Detoxification","Weight loss","Digestion"]
-              }
-            ]
-          }
+                data: [
+                  "Skincare",
+                  "Detoxification",
+                  "Weight loss",
+                  "Digestion",
+                ],
+              },
+            ],
+          },
         ],
       },
       {
@@ -1241,12 +1290,7 @@ export const productData = [
               },
               {
                 title: "Minerals",
-                values: [
-                  "Calcium",
-                  "Magnesium",
-                  "Iron",
-                  "Potassium"
-                ],
+                values: ["Calcium", "Magnesium", "Iron", "Potassium"],
               },
               {
                 title: "Vitamin",
@@ -1255,7 +1299,7 @@ export const productData = [
               {
                 title: "Protein",
                 values: ["0.18 g"],
-              }
+              },
             ],
           },
         ],
@@ -1303,18 +1347,18 @@ export const productData = [
           },
           {
             type: contentConstsnts.USES_AND_BENEFITS,
-            data:[
+            data: [
               {
-                type:contentConstsnts.USES_AND_BENEFITS.BENEFITS,
-                data:[
+                type: contentConstsnts.USES_AND_BENEFITS.BENEFITS,
+                data: [
                   " Known to soothe the digestive tract, fennel seeds are often used to alleviate bloating, gas, and indigestion.",
                   "Packed with antioxidants, fennel seeds protect the body from oxidative stress and support cellular health.",
                   "The fiber content in fennel seeds supports healthy cholesterol levels, which benefits cardiovascular health.",
-                  "Fennel seeds have properties that may help relieve respiratory issues, soothing sore throats and clearing congestion."
-                ]
-              }
-            ]
-          }
+                  "Fennel seeds have properties that may help relieve respiratory issues, soothing sore throats and clearing congestion.",
+                ],
+              },
+            ],
+          },
         ],
       },
       {
@@ -1332,21 +1376,15 @@ export const productData = [
             data: [
               {
                 title: "Nutrients",
-                values: [
-                  "Calories - 305 kcal",
-                  "Carbohydrate 43 g"
-                ],
+                values: ["Calories - 305 kcal", "Carbohydrate 43 g"],
               },
               {
                 title: "Minerals",
-                values: [
-                  "Calcium",
-                  "Iron"
-                ],
+                values: ["Calcium", "Iron"],
               },
               {
                 title: "Vitamin",
-                values: ["Vitamin A","Vitamin C"],
+                values: ["Vitamin A", "Vitamin C"],
               },
               {
                 title: "Protein",
@@ -1356,63 +1394,76 @@ export const productData = [
           },
           {
             type: contentConstsnts.VARIETIES,
-            title:"Carom Seeds Varieties We Export",
-            description:"Carom Seeds import from India includes various varieties including Annie Hall Thyme, Lavender Thyme Pink Chintz Thyme, so on and so forth. The Thyme exporter in India exports premium quality thyme to different parts of the world. The export of Thyme from India includes the following key varieties.",
-            data:[
+            title: "Carom Seeds Varieties We Export",
+            description:
+              "Carom Seeds import from India includes various varieties including Annie Hall Thyme, Lavender Thyme Pink Chintz Thyme, so on and so forth. The Thyme exporter in India exports premium quality thyme to different parts of the world. The export of Thyme from India includes the following key varieties.",
+            data: [
               {
-                title:"Annie Hall Thyme",
-                description:"Annie Hall Thyme is a variety of Carom Seeds that are dark green in colour with small-leaved ground cover thyme. This variety is suitable for paving stones or small lawn areas. The flowers of this variety of plants are light pink in colour and the height is around 1/4 inch."
+                title: "Annie Hall Thyme",
+                description:
+                  "Annie Hall Thyme is a variety of Carom Seeds that are dark green in colour with small-leaved ground cover thyme. This variety is suitable for paving stones or small lawn areas. The flowers of this variety of plants are light pink in colour and the height is around 1/4 inch.",
               },
               {
-                title:"Lavender Thyme",
-                description:"Lavender Thyme is a variety of low growing thyme. It is said to have sturdy little leaves and stems. The scent is nice strong thyme with a hint of lavender thrown in. This variety is often available in plug trays. The trays hold 128 of all the same plant."
+                title: "Lavender Thyme",
+                description:
+                  "Lavender Thyme is a variety of low growing thyme. It is said to have sturdy little leaves and stems. The scent is nice strong thyme with a hint of lavender thrown in. This variety is often available in plug trays. The trays hold 128 of all the same plant.",
               },
               {
-                title:"Pink Chintz Thyme",
-                description:"Pink Chintz Thyme is a delicate looking creeper that has small fuzzy grey-green leaves appearing close together on the stem. This characteristic makes it suitable for smaller spaces like those between stepping stones or flagstones. The Pink Chintz variety generally blooms very early in spring."
+                title: "Pink Chintz Thyme",
+                description:
+                  "Pink Chintz Thyme is a delicate looking creeper that has small fuzzy grey-green leaves appearing close together on the stem. This characteristic makes it suitable for smaller spaces like those between stepping stones or flagstones. The Pink Chintz variety generally blooms very early in spring.",
               },
               {
-                title:"Lime Thyme",
-                description:"Lime Thyme is said to make a great ground cover. The leaves of this plant are bright green lime-coloured and scented. These plants help brighten up darker corners of the garden. This variety generally blooms in the summer which is later than most other thymes."
+                title: "Lime Thyme",
+                description:
+                  "Lime Thyme is said to make a great ground cover. The leaves of this plant are bright green lime-coloured and scented. These plants help brighten up darker corners of the garden. This variety generally blooms in the summer which is later than most other thymes.",
               },
               {
-                title:"Woolly Thyme",
-                description:"Woolly Thyme is soft and silvery and tightly knit. This variety makes a great filler for in between pavers or along borders. This variety rarely flowers which makes it a good choice for those allergic to bees. The Woolly Thyme is the greyest of all the thymes and should not be confused with the prolific bloomer and greener Hall's Woolly Thyme."
+                title: "Woolly Thyme",
+                description:
+                  "Woolly Thyme is soft and silvery and tightly knit. This variety makes a great filler for in between pavers or along borders. This variety rarely flowers which makes it a good choice for those allergic to bees. The Woolly Thyme is the greyest of all the thymes and should not be confused with the prolific bloomer and greener Hall's Woolly Thyme.",
               },
               {
-                title:"Mint Thyme",
-                description:"Mint Thyme is one of the thymes widely recommended for planting between flagstones. Thymes usually have fairly shallow root systems so watering well during summer months is essential to maintain a nice green cover. The mint Thymen does not have a fragrance and there is no evidence why it was given this name."
+                title: "Mint Thyme",
+                description:
+                  "Mint Thyme is one of the thymes widely recommended for planting between flagstones. Thymes usually have fairly shallow root systems so watering well during summer months is essential to maintain a nice green cover. The mint Thymen does not have a fragrance and there is no evidence why it was given this name.",
               },
               {
-                title:"Heretus Thyme",
-                description:"The Heretus Thyme is one of the most unusual ground cover thymes. It has long, narrow, grey-green leaves that give it a somewhat lacy appearance. This variety is one of the tough ones and is a good choice for any garden."
+                title: "Heretus Thyme",
+                description:
+                  "The Heretus Thyme is one of the most unusual ground cover thymes. It has long, narrow, grey-green leaves that give it a somewhat lacy appearance. This variety is one of the tough ones and is a good choice for any garden.",
               },
               {
-                title:"Coconut Thyme",
-                description:"Coconut Thyme does not have a specific smell or taste like coconuts, but it blooms well and grows fast. It can be nicely planted in swaths in front of the Caraway Thyme because both are heavy bloomers blooming at different times."
+                title: "Coconut Thyme",
+                description:
+                  "Coconut Thyme does not have a specific smell or taste like coconuts, but it blooms well and grows fast. It can be nicely planted in swaths in front of the Caraway Thyme because both are heavy bloomers blooming at different times.",
               },
               {
-                title:"Lemon Frost Thyme",
-                description:"Lemon Frost Thyme really is known to be a rapid grower with a wonderful lemon scent. It is perfect for covering large segments of the ground. This variety is a great cost-effective way to fill a lot of space. Each cell of this variety is 3/4 of inch by an inch."
+                title: "Lemon Frost Thyme",
+                description:
+                  "Lemon Frost Thyme really is known to be a rapid grower with a wonderful lemon scent. It is perfect for covering large segments of the ground. This variety is a great cost-effective way to fill a lot of space. Each cell of this variety is 3/4 of inch by an inch.",
               },
               {
-                title:"Silver Needle Thyme",
-                description:"The Silver Needle Thyme is one of the most unusual ground cover thymes. This variety looks like a stiff little juniper twig but it is soft to walk on. Silver Needle Thyme also has a soft silvery green hue. This variety blooms in early spring and is covered in dark lilac flowers."
+                title: "Silver Needle Thyme",
+                description:
+                  "The Silver Needle Thyme is one of the most unusual ground cover thymes. This variety looks like a stiff little juniper twig but it is soft to walk on. Silver Needle Thyme also has a soft silvery green hue. This variety blooms in early spring and is covered in dark lilac flowers.",
               },
               {
-                title:"Pink Lemonade Thyme",
-                description:"The Pink Lemonade Thyme is a non-variegated lemon-scented ground cover thyme with profuse pink flowers. Generally, lemon-scented varieties either have white flowers like Lemon Frost Thyme or bloom very little. Pink Lemonade Thyme has dark green, closely spaced leaves which make it a dense and fast-growing ground cover."
+                title: "Pink Lemonade Thyme",
+                description:
+                  "The Pink Lemonade Thyme is a non-variegated lemon-scented ground cover thyme with profuse pink flowers. Generally, lemon-scented varieties either have white flowers like Lemon Frost Thyme or bloom very little. Pink Lemonade Thyme has dark green, closely spaced leaves which make it a dense and fast-growing ground cover.",
               },
-            ]
+            ],
           },
           {
             type: contentConstsnts.CONTENT,
-            data:[
+            data: [
               {
-                description:"Pisum is one of the leading Thyme importer from India. We at Pisum Foods aim to spread the Indian culture, food, flowers, and such other products to the global market. Our executives will help you with every step of the export process until the final delivery of the products. This is a good opportunity for the local vendors and farmers to earn some extra revenue too. If you are looking for an exporter of Thyme, Contact Pisum now!"
-              }
-            ]
-          }
+                description:
+                  "Pisum is one of the leading Thyme importer from India. We at Pisum Foods aim to spread the Indian culture, food, flowers, and such other products to the global market. Our executives will help you with every step of the export process until the final delivery of the products. This is a good opportunity for the local vendors and farmers to earn some extra revenue too. If you are looking for an exporter of Thyme, Contact Pisum now!",
+              },
+            ],
+          },
         ],
       },
       {
@@ -1469,15 +1520,11 @@ export const productData = [
               },
               {
                 title: "Minerals",
-                values: [
-                  "Calcium",
-                  "Magnesium",
-                  "Iron"
-                ],
+                values: ["Calcium", "Magnesium", "Iron"],
               },
               {
                 title: "Vitamin",
-                values: ["Vitamin B6","Vitamin C"],
+                values: ["Vitamin B6", "Vitamin C"],
               },
               {
                 title: "Protein",
@@ -1491,21 +1538,27 @@ export const productData = [
           },
           {
             type: contentConstsnts.USES_AND_BENEFITS,
-            data:[
+            data: [
               {
-                type:contentConstsnts.USES_AND_BENEFITS.USES,
-                data:["Cardamom is said to help lower blood pressure levels. This is most probably due to its antioxidant and diuretic properties.","Cardamom also has some antioxidant compounds that may help protect cells from damage and slow down and prevent inflammation in your body.","Cardamom is also used to treat bad breath and is a common component of some chewing gums. This may be because Cardamom kills common mouth bacteria and prevents cavities.","The essential oils and extracts of cardamom are said to be effective against a variety of bacterial strains that contribute to fungal infections, food poisoning and stomach issues. But more research in this field is required."]
-              }
-            ]
+                type: contentConstsnts.USES_AND_BENEFITS.USES,
+                data: [
+                  "Cardamom is said to help lower blood pressure levels. This is most probably due to its antioxidant and diuretic properties.",
+                  "Cardamom also has some antioxidant compounds that may help protect cells from damage and slow down and prevent inflammation in your body.",
+                  "Cardamom is also used to treat bad breath and is a common component of some chewing gums. This may be because Cardamom kills common mouth bacteria and prevents cavities.",
+                  "The essential oils and extracts of cardamom are said to be effective against a variety of bacterial strains that contribute to fungal infections, food poisoning and stomach issues. But more research in this field is required.",
+                ],
+              },
+            ],
           },
           {
             type: contentConstsnts.CONTENT,
-            data:[
+            data: [
               {
-                description:"Pisum Foods is the leading Green Cardamom importer from India. We at Pisum Foods understand that the process of export of Green Cardamom from India can be complicated at times. We are here to make it easy for you! Our trained executives will help you at every step of the process until the final delivery of the products. Being one of the most reliable exporters from India, we make sure that all the health and safety regulations are maintained. Looking for Green Cardamom export from India? Contact Pisum Foods now!"
-              }
-            ]
-          }
+                description:
+                  "Pisum Foods is the leading Green Cardamom importer from India. We at Pisum Foods understand that the process of export of Green Cardamom from India can be complicated at times. We are here to make it easy for you! Our trained executives will help you at every step of the process until the final delivery of the products. Being one of the most reliable exporters from India, we make sure that all the health and safety regulations are maintained. Looking for Green Cardamom export from India? Contact Pisum Foods now!",
+              },
+            ],
+          },
         ],
       },
       {
@@ -1562,15 +1615,11 @@ export const productData = [
               },
               {
                 title: "Minerals",
-                values: [
-                  "Calcium",
-                  "Magnesium",
-                  "Iron"
-                ],
+                values: ["Calcium", "Magnesium", "Iron"],
               },
               {
                 title: "Vitamin",
-                values: ["Vitamin B6","Vitamin C"],
+                values: ["Vitamin B6", "Vitamin C"],
               },
               {
                 title: "Protein",
@@ -1584,21 +1633,27 @@ export const productData = [
           },
           {
             type: contentConstsnts.USES_AND_BENEFITS,
-            data:[
+            data: [
               {
                 type: contentConstsnts.USES_AND_BENEFITS.USES,
-                data:["Peppercorn is rich in a potent antioxidant called piperine. This antioxidant may help prevent free radical damage to your cells.","Peppercorns contain an active compound that decreases inflammation in animals. But we still don’t have if it has the same effect on humans.","Peppercorn has also demonstrated cholesterol-lowering effects in rodent studies. It is believed to boost the absorption of potential cholesterol-lowering supplements."," Peppercorns extract has improved symptoms of degenerative brain diseases in animal studies, but more research on humans in this field has to be conducted."]
-              }
-            ]
+                data: [
+                  "Peppercorn is rich in a potent antioxidant called piperine. This antioxidant may help prevent free radical damage to your cells.",
+                  "Peppercorns contain an active compound that decreases inflammation in animals. But we still don’t have if it has the same effect on humans.",
+                  "Peppercorn has also demonstrated cholesterol-lowering effects in rodent studies. It is believed to boost the absorption of potential cholesterol-lowering supplements.",
+                  " Peppercorns extract has improved symptoms of degenerative brain diseases in animal studies, but more research on humans in this field has to be conducted.",
+                ],
+              },
+            ],
           },
           {
             type: contentConstsnts.CONTENT,
-            data:[
+            data: [
               {
-                description:"Pisum Foods is one of the leading Peppercorn importers from India. We help our clients export various food products including fruits, vegetables, grains, pulses, oilseeds, so on and so forth. We assist our clients with every step on the way right from documentation until the final delivery of the products in the export of Peppercorns. If you are looking for Peppercorns export from India, Contact Pisum Foods now!"
-              }
-            ]
-          }
+                description:
+                  "Pisum Foods is one of the leading Peppercorn importers from India. We help our clients export various food products including fruits, vegetables, grains, pulses, oilseeds, so on and so forth. We assist our clients with every step on the way right from documentation until the final delivery of the products in the export of Peppercorns. If you are looking for Peppercorns export from India, Contact Pisum Foods now!",
+              },
+            ],
+          },
         ],
       },
       {
@@ -1660,7 +1715,7 @@ export const productData = [
                   "Magnesium",
                   "Iron",
                   "Selenium",
-                  "Mangnesium"
+                  "Mangnesium",
                 ],
               },
               {
@@ -1679,23 +1734,27 @@ export const productData = [
           },
           {
             type: contentConstsnts.USES_AND_BENEFITS,
-            data:[
+            data: [
               {
                 type: contentConstsnts.USES_AND_BENEFITS.USES,
-                data:[
-                  "Cloves are said to help fight tooth plague. Some research shows that using toothpaste or mouth wash which contains clove is beneficial for your teeth.","Cloves may also help reduce excessive sweating. Research states that applying clove oil to the palms for around 2 weeks may help reduce excessive sweating of the palms.","Clove oil is also said to be a Mosquito repellent. Applying clove oil or clove oil gel directly to the skin is said to repel mosquitos for up to 5 hours.","Applying a solution containing clove oil gel on the skin may also help with severe itching."
-                ]
-              }
-            ]
+                data: [
+                  "Cloves are said to help fight tooth plague. Some research shows that using toothpaste or mouth wash which contains clove is beneficial for your teeth.",
+                  "Cloves may also help reduce excessive sweating. Research states that applying clove oil to the palms for around 2 weeks may help reduce excessive sweating of the palms.",
+                  "Clove oil is also said to be a Mosquito repellent. Applying clove oil or clove oil gel directly to the skin is said to repel mosquitos for up to 5 hours.",
+                  "Applying a solution containing clove oil gel on the skin may also help with severe itching.",
+                ],
+              },
+            ],
           },
           {
             type: contentConstsnts.CONTENT,
-            data:[
+            data: [
               {
-                description:"Pisum Foods is one of the leading Clove importers from India. We at Pisum Foods hold extensive experience in the field of food export and know the ins and outs of the industry. Our global connections and in-depth knowledge of the industry have proved to be useful to many of our past clients. We will help you in the export of clove process right from finding buyers to quality checks and until your products have been successfully delivered to the destination. If you are looking for Clove export from India, Contact Pisum now!"
-              }
-            ]
-          }
+                description:
+                  "Pisum Foods is one of the leading Clove importers from India. We at Pisum Foods hold extensive experience in the field of food export and know the ins and outs of the industry. Our global connections and in-depth knowledge of the industry have proved to be useful to many of our past clients. We will help you in the export of clove process right from finding buyers to quality checks and until your products have been successfully delivered to the destination. If you are looking for Clove export from India, Contact Pisum now!",
+              },
+            ],
+          },
         ],
       },
       {
@@ -1752,16 +1811,11 @@ export const productData = [
               },
               {
                 title: "Minerals",
-                values: [
-                  "Calcium",
-                  "Magnesium",
-                  "Iron",
-                  "Cobalamin"
-                ],
+                values: ["Calcium", "Magnesium", "Iron", "Cobalamin"],
               },
               {
                 title: "Vitamin",
-                values: ["Vitamin A","Vitamin C","Vitamin D","Vitamin B6"],
+                values: ["Vitamin A", "Vitamin C", "Vitamin D", "Vitamin B6"],
               },
               {
                 title: "Protein",
@@ -1775,21 +1829,27 @@ export const productData = [
           },
           {
             type: contentConstsnts.USES_AND_BENEFITS,
-            data:[
+            data: [
               {
                 type: contentConstsnts.USES_AND_BENEFITS.USES,
-                data:["The bay leaf is said to be useful for diabetes. Research shows that taking ground bay leaf twice a day along with medicine for diabetes may lower pre-meal blood sugar levels.","The bay leaf is also said to be useful for reducing joint and muscle pain. The bay leaves may be ground and applied to the skin.","The bay leaves are said to be a cure for dandruff when applied to the skin.","Bay Leaf tea is also said to be useful for migraines and is a rich source of Vitamin C, Vitamin A, and such other minerals."]
-              }
-            ]
+                data: [
+                  "The bay leaf is said to be useful for diabetes. Research shows that taking ground bay leaf twice a day along with medicine for diabetes may lower pre-meal blood sugar levels.",
+                  "The bay leaf is also said to be useful for reducing joint and muscle pain. The bay leaves may be ground and applied to the skin.",
+                  "The bay leaves are said to be a cure for dandruff when applied to the skin.",
+                  "Bay Leaf tea is also said to be useful for migraines and is a rich source of Vitamin C, Vitamin A, and such other minerals.",
+                ],
+              },
+            ],
           },
           {
             type: contentConstsnts.CONTENT,
-            data:[
+            data: [
               {
-                description:"Pisum Foods is one of the leading Bay Leaf importers from India. We understand that the export of Bay Leaf may be a complex procedure at times. But don’t worry now! We at Pisum Foods are here to help you! Our executives are trained to assist you with every step of the process right from finding buyers for your products until the final delivery. If you are looking for Bay Leaf export from India, Contact Pisum now!"
-              }
-            ]
-          }
+                description:
+                  "Pisum Foods is one of the leading Bay Leaf importers from India. We understand that the export of Bay Leaf may be a complex procedure at times. But don’t worry now! We at Pisum Foods are here to help you! Our executives are trained to assist you with every step of the process right from finding buyers for your products until the final delivery. If you are looking for Bay Leaf export from India, Contact Pisum now!",
+              },
+            ],
+          },
         ],
       },
       {
@@ -1825,12 +1885,13 @@ export const productData = [
           },
           {
             type: contentConstsnts.CONTENT,
-            data:[
+            data: [
               {
-                description:"Shree Varni Export, we pride ourselves on sourcing the finest sugar cane and producing high-quality jaggery that meets the demands of consumers around the world. Our sugar cane is carefully cultivated to ensure optimal sweetness and nutritional value, while our jaggery retains the natural goodness and minerals of the cane, making it a healthy alternative to refined sugars."
-              }
-            ]
-          }
+                description:
+                  "Shree Varni Export, we pride ourselves on sourcing the finest sugar cane and producing high-quality jaggery that meets the demands of consumers around the world. Our sugar cane is carefully cultivated to ensure optimal sweetness and nutritional value, while our jaggery retains the natural goodness and minerals of the cane, making it a healthy alternative to refined sugars.",
+              },
+            ],
+          },
         ],
       },
     ],
@@ -1902,15 +1963,11 @@ export const productData = [
               },
               {
                 title: "Minerals",
-                values: [
-                  "Calcium",
-                  "Magnesium",
-                  "Iron"
-                ],
+                values: ["Calcium", "Magnesium", "Iron"],
               },
               {
                 title: "Vitamin",
-                values: ["Vitamin C","Vitamin B6"],
+                values: ["Vitamin C", "Vitamin B6"],
               },
               {
                 title: "Protein",
@@ -1924,21 +1981,27 @@ export const productData = [
           },
           {
             type: contentConstsnts.USES_AND_BENEFITS,
-            data:[
+            data: [
               {
                 type: contentConstsnts.USES_AND_BENEFITS.USES,
-                data:["Raisins are said to be good for digestion. They contain fibres that swell in the presence of water. This gives a laxative effect to the stomach and helps in relieving constipation.","Raisins are rich in potassium and magnesium. This helps to reduce acidity levels and remove the toxins from the system, preventing diseases like arthritis, gout, kidney stones and so on.","Raisins contain iron and other B-Complex vitamins which help treat anaemia. The copper in the raisins helps in the production of red blood cells.","Raisins contain polyphenolic phytonutrients also known as anti-inflammatory antioxidants. They exhibit antibacterial properties that help lower the risk of fever and kill the bacteria."]
-              }
-            ]
+                data: [
+                  "Raisins are said to be good for digestion. They contain fibres that swell in the presence of water. This gives a laxative effect to the stomach and helps in relieving constipation.",
+                  "Raisins are rich in potassium and magnesium. This helps to reduce acidity levels and remove the toxins from the system, preventing diseases like arthritis, gout, kidney stones and so on.",
+                  "Raisins contain iron and other B-Complex vitamins which help treat anaemia. The copper in the raisins helps in the production of red blood cells.",
+                  "Raisins contain polyphenolic phytonutrients also known as anti-inflammatory antioxidants. They exhibit antibacterial properties that help lower the risk of fever and kill the bacteria.",
+                ],
+              },
+            ],
           },
           {
             type: contentConstsnts.CONTENT,
-            data:[
+            data: [
               {
-                description:"Pisum Foods is one of the leading Raisins importer from India. We help our clients export various food products including fruits, vegetables, grains, pulses, oilseeds, so on and so forth. The exporter of Raisins has a great business opportunity to enter the international market and earn good revenues. If you are looking for Raisin export from India, Contact Pisum Foods now!"
-              }
-            ]
-          }
+                description:
+                  "Pisum Foods is one of the leading Raisins importer from India. We help our clients export various food products including fruits, vegetables, grains, pulses, oilseeds, so on and so forth. The exporter of Raisins has a great business opportunity to enter the international market and earn good revenues. If you are looking for Raisin export from India, Contact Pisum Foods now!",
+              },
+            ],
+          },
         ],
       },
       {
@@ -1974,27 +2037,34 @@ export const productData = [
           },
           {
             type: contentConstsnts.USES_AND_BENEFITS,
-            data:[
+            data: [
               {
                 type: contentConstsnts.USES_AND_BENEFITS.USES,
-                data:[
-                  "Black raisins can be enjoyed on their own as a healthy snack, added to trail mixes, or incorporated into a variety of dishes, including salads, oatmeal, and baked goods.","Their natural sweetness enhances both sweet and savory recipes, making them a great addition to curries, rice dishes, and desserts.","Use black raisins as a natural sweetener in smoothies, energy bars, or yogurt for a nutritious twist."
-                ]
+                data: [
+                  "Black raisins can be enjoyed on their own as a healthy snack, added to trail mixes, or incorporated into a variety of dishes, including salads, oatmeal, and baked goods.",
+                  "Their natural sweetness enhances both sweet and savory recipes, making them a great addition to curries, rice dishes, and desserts.",
+                  "Use black raisins as a natural sweetener in smoothies, energy bars, or yogurt for a nutritious twist.",
+                ],
               },
               {
                 type: contentConstsnts.USES_AND_BENEFITS.BENEFITS,
-                data:["Black raisins contain essential minerals like calcium and boron, which contribute to bone density and strength."," The antioxidants in black raisins help reduce inflammation and support overall health.","Despite their sweetness, black raisins have a low glycemic index, making them a smart choice for maintaining stable blood sugar levels."]
-              }
-            ]
+                data: [
+                  "Black raisins contain essential minerals like calcium and boron, which contribute to bone density and strength.",
+                  " The antioxidants in black raisins help reduce inflammation and support overall health.",
+                  "Despite their sweetness, black raisins have a low glycemic index, making them a smart choice for maintaining stable blood sugar levels.",
+                ],
+              },
+            ],
           },
           {
             type: contentConstsnts.CONTENT,
-            data:[
+            data: [
               {
-                description:"Pisum Foods is one of the leading Black Raisins importer from India. We help our clients export various food products including fruits, vegetables, grains, pulses, oilseeds, so on and so forth. The exporter of Black Raisins has a great business opportunity to enter the international market and earn good revenues. If you are looking for Raisin export from India, Contact Pisum Foods now!"
-              }
-            ]
-          }
+                description:
+                  "Pisum Foods is one of the leading Black Raisins importer from India. We help our clients export various food products including fruits, vegetables, grains, pulses, oilseeds, so on and so forth. The exporter of Black Raisins has a great business opportunity to enter the international market and earn good revenues. If you are looking for Raisin export from India, Contact Pisum Foods now!",
+              },
+            ],
+          },
         ],
       },
       {
@@ -2020,11 +2090,7 @@ export const productData = [
               },
               {
                 title: "Minerals",
-                values: [
-                  "Calcium",
-                  "Magnesium",
-                  "Iron"
-                ],
+                values: ["Calcium", "Magnesium", "Iron"],
               },
               {
                 title: "Vitamin",
@@ -2033,72 +2099,86 @@ export const productData = [
               {
                 title: "Protein",
                 values: ["18 g"],
-              }
+              },
             ],
           },
           {
-            type:contentConstsnts.VARIETIES,
-            title:"Cashew Nuts Varieties We Export",
-            description:"The Cashew Nuts import from India includes several varieties of the nuts including BPP-1, BPP-8, VRI-1 so on and so forth. The Cashew Nuts exporter in India exports premium quality of the nuts to various corners of the world. The export of Cashew includes the following major varieties.",
-            data:[
+            type: contentConstsnts.VARIETIES,
+            title: "Cashew Nuts Varieties We Export",
+            description:
+              "The Cashew Nuts import from India includes several varieties of the nuts including BPP-1, BPP-8, VRI-1 so on and so forth. The Cashew Nuts exporter in India exports premium quality of the nuts to various corners of the world. The export of Cashew includes the following major varieties.",
+            data: [
               {
-                title:"BPP-1",
-                description:"This variety is a hybrid developed from the cross between Tree No.1 as the female parent and Tree No.273 as the male parent. The BPP-1 variety was released in 1980. The average yield of this variety is around 10 kg/tree. The Nuts are medium in size with a nut weight of about 5g and the shelling percentage of about 27.5."
+                title: "BPP-1",
+                description:
+                  "This variety is a hybrid developed from the cross between Tree No.1 as the female parent and Tree No.273 as the male parent. The BPP-1 variety was released in 1980. The average yield of this variety is around 10 kg/tree. The Nuts are medium in size with a nut weight of about 5g and the shelling percentage of about 27.5.",
               },
               {
-                title:"BPP-8",
-                description:"The BPP-8 variety It is a hybrid variety from the cross of Tree No.1 x Tree No.39. This variety was released in 1993 for general cultivation in Andhra Pradesh. The BPP-8 variety has been performing well in Orissa and West Bengal. This variety is said to be superior to the other six varieties developed from Bapatla."
+                title: "BPP-8",
+                description:
+                  "The BPP-8 variety It is a hybrid variety from the cross of Tree No.1 x Tree No.39. This variety was released in 1993 for general cultivation in Andhra Pradesh. The BPP-8 variety has been performing well in Orissa and West Bengal. This variety is said to be superior to the other six varieties developed from Bapatla.",
               },
               {
-                title:"VRI-1",
-                description:"The VRI-1 variety is a selection from germplasm collected from Vazhi Sothanai Palayam in the South Arcot District of Tamil Nadu. This variety has a medium-sized tree which has a setting of 5 to 7 fruits per panicle. Released in 1981, the mean yield of VRI-1 is around 7.2 kg/tree under Vridhachalam conditions. The nut size of this variety is small with 5g nut weight and shelling percentage of about 28%."
+                title: "VRI-1",
+                description:
+                  "The VRI-1 variety is a selection from germplasm collected from Vazhi Sothanai Palayam in the South Arcot District of Tamil Nadu. This variety has a medium-sized tree which has a setting of 5 to 7 fruits per panicle. Released in 1981, the mean yield of VRI-1 is around 7.2 kg/tree under Vridhachalam conditions. The nut size of this variety is small with 5g nut weight and shelling percentage of about 28%.",
               },
               {
-                title:"VRI-3",
-                description:"Released in 1991, the VRI-3 is a selection from the seedling progeny of a high yielding tree collected from a village Edayanchavadi in the South Arcot District of Tamil Nadu. The average yield of VRI-3 is around 10 kg/tree. The nut size of this variety is medium with 7.2g nut weight and shelling percentage of about 29.1%."
+                title: "VRI-3",
+                description:
+                  "Released in 1991, the VRI-3 is a selection from the seedling progeny of a high yielding tree collected from a village Edayanchavadi in the South Arcot District of Tamil Nadu. The average yield of VRI-3 is around 10 kg/tree. The nut size of this variety is medium with 7.2g nut weight and shelling percentage of about 29.1%.",
               },
               {
-                title:"Bhuvaneshwar",
-                description:"The Bhuvaneshwar is a selection from the seedling progeny of WBDC V (Vengurla 36/3), a collection from Regional Fruit Research Station, Vengurla. Released in 1989, the flowering season for this variety is from January to March with a medium duration of 70 days. This variety has a cluster bearing habit with about 12 fruits per bunch"
+                title: "Bhuvaneshwar",
+                description:
+                  "The Bhuvaneshwar is a selection from the seedling progeny of WBDC V (Vengurla 36/3), a collection from Regional Fruit Research Station, Vengurla. Released in 1989, the flowering season for this variety is from January to March with a medium duration of 70 days. This variety has a cluster bearing habit with about 12 fruits per bunch",
               },
               {
-                title:"Balabhadra",
-                description:"The Balabhadra is an Early flowering (Dec-Feb) variety that has bold nuts with around 7.4 g nut weight. This variety gives an average nut yield of about 2.0 t/ha (10.0 kg/tree). This variety also possesses a high shelling percentage of about 30.0 %."
+                title: "Balabhadra",
+                description:
+                  "The Balabhadra is an Early flowering (Dec-Feb) variety that has bold nuts with around 7.4 g nut weight. This variety gives an average nut yield of about 2.0 t/ha (10.0 kg/tree). This variety also possesses a high shelling percentage of about 30.0 %.",
               },
               {
-                title:"Jhargram-1",
-                description:"The Jhargram-1 is a selection from T.No.16 originally collected from Bapatla. Released in the year 1989, it has a medium compact canopy and intensive branching habit. It has on an average, 6 fruits per bunch and yields around 8.5 kg/tree with small nut size. The shelling percentage of this variety is around 30%."
+                title: "Jhargram-1",
+                description:
+                  "The Jhargram-1 is a selection from T.No.16 originally collected from Bapatla. Released in the year 1989, it has a medium compact canopy and intensive branching habit. It has on an average, 6 fruits per bunch and yields around 8.5 kg/tree with small nut size. The shelling percentage of this variety is around 30%.",
               },
               {
-                title:"Jhargram-2",
-                description:"The Jhargram-2 is a selection made from the seedling plantation of H-2/15 of Regional Research Station in West Bengal. This variety has a midseason flowering habit with 3-4 fruits per panicle. The average nut weight of this variety is about 9.2g with a kernel weight of 2.85g and shelling percentage of about 32%."
+                title: "Jhargram-2",
+                description:
+                  "The Jhargram-2 is a selection made from the seedling plantation of H-2/15 of Regional Research Station in West Bengal. This variety has a midseason flowering habit with 3-4 fruits per panicle. The average nut weight of this variety is about 9.2g with a kernel weight of 2.85g and shelling percentage of about 32%.",
               },
               {
-                title:"Vengurla-1",
-                description:"The Vengurla-1 is a selection from the germplasm collected from Ansur village in the Vengurla Tehsil of Maharashtra. Released in 1974, the average percentage of perfect flowers of this variety is about 8%. The average yield of Vengurla-1 is around 19 kg/tree. The nut weight of this variety is around 6.2g with a shelling percentage of 31."
+                title: "Vengurla-1",
+                description:
+                  "The Vengurla-1 is a selection from the germplasm collected from Ansur village in the Vengurla Tehsil of Maharashtra. Released in 1974, the average percentage of perfect flowers of this variety is about 8%. The average yield of Vengurla-1 is around 19 kg/tree. The nut weight of this variety is around 6.2g with a shelling percentage of 31.",
               },
               {
-                title:"Vengurla-8",
-                description:"The Vengurla-8 is a hybrid variety of Cashew Nuts released in 2001. This variety yields about 15-20 kg /tree. The Vengurla-8 has bold nuts with around 86 nuts/kg. The variety is a red apple variety and the juice recovery is 85%."
+                title: "Vengurla-8",
+                description:
+                  "The Vengurla-8 is a hybrid variety of Cashew Nuts released in 2001. This variety yields about 15-20 kg /tree. The Vengurla-8 has bold nuts with around 86 nuts/kg. The variety is a red apple variety and the juice recovery is 85%.",
               },
               {
-                title:"Balli-2",
-                description:"The Balli-2 is a variety developed and released in 1999 from the ICAR Research Complex in Goa. This is the first cashew variety released from Goa. The average yield of Balli-2 is 7.0 kg/tree with a nut weight of about 7.6 g and the shelling percentage of 30.0%."
+                title: "Balli-2",
+                description:
+                  "The Balli-2 is a variety developed and released in 1999 from the ICAR Research Complex in Goa. This is the first cashew variety released from Goa. The average yield of Balli-2 is 7.0 kg/tree with a nut weight of about 7.6 g and the shelling percentage of 30.0%.",
               },
               {
-                title:"Tiswadi-3",
-                description:"The Tiswadi-3 variety was developed and released from the ICAR Research Complex, Goa in 2007. This variety is a selection from Ela village of Tiswadi taluk of North Goa District. The average yield of this variety is 5.5 kg/tree with a nut weight of around 9.4 g and the shelling percentage of around 29.25."
+                title: "Tiswadi-3",
+                description:
+                  "The Tiswadi-3 variety was developed and released from the ICAR Research Complex, Goa in 2007. This variety is a selection from Ela village of Tiswadi taluk of North Goa District. The average yield of this variety is 5.5 kg/tree with a nut weight of around 9.4 g and the shelling percentage of around 29.25.",
               },
-            ]
+            ],
           },
           {
             type: contentConstsnts.CONTENT,
-            data:[
+            data: [
               {
-                description:"Pisum Foods is the leading Cashew Nuts importer from India. We at Pisum Foods understand that the export process may be a complicated process at times. Our executives will help you with each and every step involved in the process of export, right from documentation to the final delivery of the products. If you are looking for an exporter of Cashew Nuts, Contact Pisum now!"
-              }
-            ]
-          }
+                description:
+                  "Pisum Foods is the leading Cashew Nuts importer from India. We at Pisum Foods understand that the export process may be a complicated process at times. Our executives will help you with each and every step involved in the process of export, right from documentation to the final delivery of the products. If you are looking for an exporter of Cashew Nuts, Contact Pisum now!",
+              },
+            ],
+          },
         ],
       },
       {
@@ -2111,27 +2191,36 @@ export const productData = [
           "Poppy seeds are small, oil-rich seeds derived from the poppy plant (Papaver somniferum). Renowned for their unique flavor and crunchy texture, these tiny seeds are not only a popular ingredient in various cuisines but also packed with numerous health benefits.",
 
         productContent: [
-         {
-          type: contentConstsnts.USES_AND_BENEFITS,
-          data:[
-            {
-              type:contentConstsnts.USES_AND_BENEFITS.USES,
-              data:["Poppy seeds are used in a variety of dishes across different cuisines. They can be sprinkled on breads, muffins, and pastries, or used to add crunch to salads and grain dishes.","Their nutty flavor enhances both sweet and savory recipes, making them a popular choice for Indian curries, Middle Eastern dishes, and baked goods.","In many cultures, poppy seeds are used in traditional dishes, such as poppy seed rolls, desserts, and sauces, showcasing their versatility and rich culinary heritage."]
-            },
-            {
-              type: contentConstsnts.USES_AND_BENEFITS.BENEFITS,
-              data:["Poppy seeds contain trace amounts of opium alkaloids, which can have a calming effect on the body and mind when consumed in moderation.","The calcium content in poppy seeds helps strengthen bones and teeth, reducing the risk of osteoporosis.","Rich in antioxidants, poppy seeds can contribute to healthy skin by protecting against oxidative stress and inflammation."]
-            }
-          ]
-         },
-         {
-          type: contentConstsnts.CONTENT,
-          data:[
-            {
-              description:"Shree Varni Export, we are dedicated to sourcing the finest poppy seeds that add a unique flavor and nutritional boost to your culinary creations. Our high-quality poppy seeds are carefully harvested and processed to ensure they retain their natural oils and rich taste, making them a valuable addition to both sweet and savory dishes."
-            }
-          ]
-         }
+          {
+            type: contentConstsnts.USES_AND_BENEFITS,
+            data: [
+              {
+                type: contentConstsnts.USES_AND_BENEFITS.USES,
+                data: [
+                  "Poppy seeds are used in a variety of dishes across different cuisines. They can be sprinkled on breads, muffins, and pastries, or used to add crunch to salads and grain dishes.",
+                  "Their nutty flavor enhances both sweet and savory recipes, making them a popular choice for Indian curries, Middle Eastern dishes, and baked goods.",
+                  "In many cultures, poppy seeds are used in traditional dishes, such as poppy seed rolls, desserts, and sauces, showcasing their versatility and rich culinary heritage.",
+                ],
+              },
+              {
+                type: contentConstsnts.USES_AND_BENEFITS.BENEFITS,
+                data: [
+                  "Poppy seeds contain trace amounts of opium alkaloids, which can have a calming effect on the body and mind when consumed in moderation.",
+                  "The calcium content in poppy seeds helps strengthen bones and teeth, reducing the risk of osteoporosis.",
+                  "Rich in antioxidants, poppy seeds can contribute to healthy skin by protecting against oxidative stress and inflammation.",
+                ],
+              },
+            ],
+          },
+          {
+            type: contentConstsnts.CONTENT,
+            data: [
+              {
+                description:
+                  "Shree Varni Export, we are dedicated to sourcing the finest poppy seeds that add a unique flavor and nutritional boost to your culinary creations. Our high-quality poppy seeds are carefully harvested and processed to ensure they retain their natural oils and rich taste, making them a valuable addition to both sweet and savory dishes.",
+              },
+            ],
+          },
         ],
       },
     ],
@@ -2144,86 +2233,123 @@ export const productData = [
     title: productConstants.GRAINS.TITLE,
     slug: productConstants.GRAINS.SLUG,
     path: productConstants.GRAINS.PATH,
-    subTitle: "Nature's Golden Sweetener",
+    subTitle: "The Foundation of Healthy Eating",
     description:
-      "Honey is a natural, golden liquid produced by honeybees from the nectar of flowers. Known for its rich sweetness, honey has been used for centuries not only as a food but also for medicinal and therapeutic purposes. It’s packed with antioxidants, vitamins, and minerals, making it much more than just a natural sweetener.",
+      "Grains are an essential component of a balanced diet, providing a rich source of carbohydrates, fiber, vitamins, and minerals. As staple foods across cultures, grains serve as the foundation for countless meals, contributing not only to flavor and texture but also to overall health and wellness.",
     subProducts: [
       {
         img: "https://avatars.mds.yandex.net/i?id=06a04bb3f16650101916b074b87ae0247191b3c8-4055677-images-thumbs&n=13",
         title: productConstants.GRAINS.SUB_PRODUCT.MILLET.TITLE,
         path: productConstants.GRAINS.SUB_PRODUCT.MILLET.PATH,
         slug: productConstants.GRAINS.SUB_PRODUCT.MILLET.SLUG,
-        subTitle: "Savor the Sweetness",
+        subTitle: "Pearl Millet Exporters",
         description:
-          "Honey is a natural, golden liquid produced by honeybees from the nectar of flowers. Known for its rich sweetness, honey has been used for centuries not only as a food but also for medicinal and therapeutic purposes. It’s packed with antioxidants, vitamins, and minerals, making it much more than just a natural sweetener.",
+          "Pearl millet is a millet, an annual grass, erect and reaching up to around 3 m high with a profuse root system. The global demand for pearl millet has been increasing and thus the Pearl Millet exporter in India exports tonnes of millet each year. Pearl millet is also known to have several other uses and benefits including some health and medicinal benefits. Therefore, the Pearl millet export from India is predicted to grow rapidly in the coming years. The Indian pearl millet exporter earns goof revenues from the export of their products to several countries in the world. It can be said that the pearl millet export is now a good business opportunity for food exporters.",
 
         productContent: [
-          {
-            type: contentConstsnts.CONTENT,
-            data: [
-              {
-                title: "Global Market Demand",
-                description:
-                  "Rye import from India has been increasing over the years due to various health and medicinal benefits from Rye. Rye is extensively used in India and Indonesian cuisines which may be one important reason for the increasing popularity of export of Rye. The rising global demand for Rye is a good opportunity for Rye exporter in India to expand its business and enter the international market.",
-              },
-            ],
-          },
-          {
-            type: contentConstsnts.SPECIFICATIONS,
-            data: [
-              {
-                title: "Product Name",
-                value: "Rye",
-              },
-              {
-                title: "Origin",
-                value: "Southwestern Asia",
-              },
-              {
-                title: "Family",
-                value: "Poaceae",
-              },
-              {
-                title: "Binomial name",
-                value: "Secale Cereale",
-              },
-            ],
-          },
           {
             type: contentConstsnts.INGREDIENTS,
             data: [
               {
                 title: "Nutrients",
                 values: [
-                  "259 Calories",
-                  "Total Carbohydrate - 48 g",
-                  "Dietary fibre - 6 g",
+                  "Calories - 378 calories",
+                  "Carbohydrates - 73g",
+                  "Dietary Fiber - 17g/200 grams",
                 ],
               },
               {
                 title: "Minerals",
                 values: [
-                  "Copper",
+                  "Calcium",
                   "Magnesium",
-                  "Phosphorous",
-                  "Thiamin",
-                  "Riboflavin",
-                  "Niacin",
-                  "Folate",
-                  "Pantothenic Acid",
+                  "Iron",
+                  "Phosphorus",
+                  "Potassium",
+                  "Sodium",
                 ],
               },
               {
                 title: "Vitamin",
-                values: ["Vitamin B6"],
+                values: [
+                  "Vitamin E",
+                  "Vitamin K",
+                  "Folate",
+                  "Vitamin B6",
+                  "Niacin",
+                  "Riboflavin",
+                  "Thiamin",
+                ],
               },
               {
                 title: "Protein",
-                values: ["9 g"],
+                values: ["11 g"],
               },
               {
                 title: "Fats",
-                values: ["3.3g"],
+                values: ["8.4 g"],
+              },
+            ],
+          },
+          {
+            type: contentConstsnts.VARIETIES,
+            title: "Pearl Millet Varieties We Export",
+            description:
+              "Pearl Millet import from India includes the import of different varieties of Pearl Millet including Giant Bajra, Raj Bajra Chari-2, APFB-2 so on, and so forth. The Pearl Millet exporter in Indi exports premium quality millets to many countries in the world. The export of Pearl Millet from India includes these key varieties.",
+            data: [
+              {
+                title: "Giant Bajra",
+                description:
+                  "This variety of Pearl Millet has been recommended for cultivation in the entire Bajra growing area. The plants of this variety are leafy with profuse tillering and have 9-10% protein at boot stage. This variety is known to be moderately resistant to downy mildew and ergot diseases.",
+              },
+              {
+                title: "Raj Bajra Chari-2",
+                description:
+                  "This variety of Peral Millet has been notified for cultivation for the entire Bajra growing area. The green fodder yield is around 30–45 t/ha. Raj Bajra Chari-2 is resistant to foliar diseases and insect-pests. At the ear emergence stage, internodes are completely enclosed in the leaf sheath and the leaves are shiny and broad.",
+              },
+              {
+                title: "APFB-2",
+                description:
+                  "The APFB-2 variety of Pear Millets is recommended for cultivation in Andhra Pradesh. This variety belongs to the early maturity group, non-lodging, fertilizer responsive, best suited to summer and early Kharif sowings. The plant height is 160–180 cm providing green fodder yield around 25 t/ha.",
+              },
+              {
+                title: "PCB-164",
+                description:
+                  "The PCB-164 variety of Pearl Millets has been developed by PAU, Ludhiana from five late maturing lines. This variety of Pearl Millet was released and notified for cultivation in the north-west part of India.",
+              },
+              {
+                title: "Avika Bajra Chari (AVKB-19)",
+                description:
+                  "The Avika Bajra Chari variety has been recommended for cultivation in the state of western Uttar Pradesh, Rajasthan, Haryana, Punjab and Tarai region of Uttarakhand. This variety also known as AVKB-19, is said to have a dual purpose with a green fodder yield potential of 36.7 t/ha, dry fodder 8.8 t/ha and 10.2 q/ha seed yield.",
+              },
+              {
+                title: "Narendra Chara Bajra-2 (NDFB- 2)",
+                description:
+                  "The Narendra Chara Bajra variety has been developed by NDUA&T, Faizabad. This variety of Pearl Millets has been recommended for cultivation in pearl millet growing areas in the north-east zone under salt-affected soils.",
+              },
+              {
+                title: "FBC-16",
+                description:
+                  "The FBC-16 variety of Pearl millets has been notified for cultivation in entire north-west India. This variety is said to be a multi-cut variety and is resistant to major diseases. The variety also has a low concentration of oxalates and high voluntary dry matter intake by the animals. The green fodder yield potential of this variety is 70–80 t/ha.",
+              },
+              {
+                title: "TNSC-1",
+                description:
+                  "This variety of Pearl millets was bred by TNAU, Coimbatore and was recommended for cultivation in the entire Bajra growing area of the country in the year 1995. TNSC-1 variety provides around 27–40 t/ha green fodder and is said to be resistant to foliar diseases and insect-pests.",
+              },
+              {
+                title: "OL-125",
+                description:
+                  "The OL-125 variety of oats was developed by intervarietal hybridization using Appler and IPC-163 followed by pedigree breeding and selection. The variety was released in 1995 for cultivation in the north-west and central zone of the country. This variety is suitable for single cut/multi-cut and yields 58 t/ha green fodder.",
+              },
+            ],
+          },
+          {
+            type: contentConstsnts.CONTENT,
+            data: [
+              {
+                description:
+                  "If you are looking for a Pearl Millet importer from India, Pisum Foods is the best choice for you! Pisum Foods is one of the most trustworthy exporters of food products including pulses, grains, veggies, fruits, and such other products from India. Export of Pearl millet is a good opportunity for Indian vendors and exporters to enter the international market and export Indian food products.",
               },
             ],
           },
@@ -2234,77 +2360,78 @@ export const productData = [
         title: productConstants.GRAINS.SUB_PRODUCT.RICE.TITLE,
         path: productConstants.GRAINS.SUB_PRODUCT.RICE.PATH,
         slug: productConstants.GRAINS.SUB_PRODUCT.RICE.SLUG,
-        subTitle: "Savor the Sweetness",
+        subTitle: "Rice Exporters",
         description:
-          "Honey is a natural, golden liquid produced by honeybees from the nectar of flowers. Known for its rich sweetness, honey has been used for centuries not only as a food but also for medicinal and therapeutic purposes. It’s packed with antioxidants, vitamins, and minerals, making it much more than just a natural sweetener.",
+          "Rice is one of the most popular and widely consumed staple foods. It is consumed extensively in Asia and Africa and is the agricultural commodity with third-highest production in the world. It is generally grown as an annual plant but in areas like the tropics, it can survive as a perennial crop.",
 
         productContent: [
+          {
+            type: contentConstsnts.VARIETIES,
+            title: "Basmati Rice",
+            description:
+              "Basmati rice is one of the varieties of rice generally found in India. It is known for its long, slender looking grain and has a great aroma. Basmati rice is popular across the globe for its unique flavour. It is best used in dishes like biryani, fried rice, pilaf and such other popular dishes.India is one of the major basmati rice exporter.",
+            data: [
+              {
+                title: "1121 Basmati Rice -white",
+                description:
+                  "Pusa Basmati 1121 is a variety having Basmati rice quality traits from the traditional Basmati varieties such as Basmati 370 and Type 3. This type is basically derived from the process of hybridization. Commercial cultivation for 1121 Basmati Rice started in 2003. It’s characteristics include extra-long slender milled grains, a pleasant aroma, volume expansion more than four times, appealing taste, good mouthfeel, and easy digestibility.",
+              },
+              {
+                title: "Traditional Basmati Rice",
+                description:
+                  "There are various types of basmati rice. Traditional types include basmati 370, basmati 385, and basmati Ranbirsinghpura. Traditional Basmati Rice is available in Parboiled and Raw form. It is used in Continental Cuisine, Indian Cuisine, Mughlai Cuisine & Chinese Cuisine.",
+              },
+              {
+                title: "Golden Sella basmati rice",
+                description:
+                  "Parboiling rice retains more of the vitamins and minerals from the original grain. The procedure guarantees a firm grain upon cooking. Parboiled rice is both cholesterol and gluten free. It is also low in sodium and saturated fat. Rice provides complex carbohydrates used by the body for energy.",
+              },
+              {
+                title: "Sugandha Basmati Rice",
+                description:
+                  "Sugandha Basmati Rice is one of the low-cost long grain basmati rice in India. It is generally cultivated in Punjab, Haryana, and Uttar Pradesh and such other states of India. Sugandha Basmati Rice has a great fragrance and is non-sticky rice. It is usually slightly shorter than 1509 Basmati and 1121 Basmati rice. It may extend up to twice its length if cooked well.",
+              },
+              {
+                title: "Sharbati Basmati Rice",
+                description:
+                  "Sharbati Basmati Rice is made from the hybrid of Traditional Basmati Rice and has no specific aroma. The cooking of Sharbati Basmati Rice is similar to Basmati Rice. It is about 14-15MM long. Its rice grain is around 7.1-7.2MM in length.",
+              },
+            ],
+          },
+          {
+            type: contentConstsnts.VARIETIES,
+            title: "Non-Basmati Rice",
+            description:
+              "All other varieties of rice, except basmati is calle non- basmati rice. Non-basmati rice includes rice of different varieties, sizes, and shapes. Some types of rice are long and slender, while some are short and thick. Non- Basmati Rice is used in homes for daily use and also is used and exported for commercial use.",
+            data: [
+              {
+                title: "Parboiled Rice",
+                description:
+                  "Parboiled rice is rice that has been partially boiled in the husk. It is basically like easy to cook rice. The process of parboiling includes soaking, steaming and drying.These processes make the rice easier to process by hand. Parboiling also boosts its nutritional profile, changing its texture, and making it more resistant to weevils.",
+              },
+              {
+                title: "Broken Rice",
+                description:
+                  "First of all, even though this type is called broken rice, nothing is actually wrong with it. It is as nutritious as any other rice. It is basically just fragments of rice grains, broken in the field, during drying, transport, or by milling. Mechanical separators are used to separate the broken grains from the whole grains and sort them by size.",
+              },
+              {
+                title: "Swarna Rice",
+                description:
+                  "Swarna is one of the most healthy rice choices. It has a very low risk of diabetes as it has a low glycemic index. Swara rice is grown extensively in India.",
+              },
+              {
+                title: "Sona Masoori Rice",
+                description:
+                  "Sona masuri variety of rice is a medium-grain rice grown largely in the states of Andhra Pradesh, Telangana, and Karnataka in India. Sona Masuri literally translates to Golden Ivy. It is lightweight and aromatic. This premium variety of rice is mainly exported to the USA, Canada, Europe, Malaysia, and Middle East countries such as Saudi Arabia and Qatar.",
+              },
+            ],
+          },
           {
             type: contentConstsnts.CONTENT,
             data: [
               {
-                title: "Global Market Demand",
                 description:
-                  "Rye import from India has been increasing over the years due to various health and medicinal benefits from Rye. Rye is extensively used in India and Indonesian cuisines which may be one important reason for the increasing popularity of export of Rye. The rising global demand for Rye is a good opportunity for Rye exporter in India to expand its business and enter the international market.",
-              },
-            ],
-          },
-          {
-            type: contentConstsnts.SPECIFICATIONS,
-            data: [
-              {
-                title: "Product Name",
-                value: "Rye",
-              },
-              {
-                title: "Origin",
-                value: "Southwestern Asia",
-              },
-              {
-                title: "Family",
-                value: "Poaceae",
-              },
-              {
-                title: "Binomial name",
-                value: "Secale Cereale",
-              },
-            ],
-          },
-          {
-            type: contentConstsnts.INGREDIENTS,
-            data: [
-              {
-                title: "Nutrients",
-                values: [
-                  "259 Calories",
-                  "Total Carbohydrate - 48 g",
-                  "Dietary fibre - 6 g",
-                ],
-              },
-              {
-                title: "Minerals",
-                values: [
-                  "Copper",
-                  "Magnesium",
-                  "Phosphorous",
-                  "Thiamin",
-                  "Riboflavin",
-                  "Niacin",
-                  "Folate",
-                  "Pantothenic Acid",
-                ],
-              },
-              {
-                title: "Vitamin",
-                values: ["Vitamin B6"],
-              },
-              {
-                title: "Protein",
-                values: ["9 g"],
-              },
-              {
-                title: "Fats",
-                values: ["3.3g"],
+                  "Shree Varni Export, we specialize in sourcing and providing the highest quality rice to meet the diverse needs of our customers worldwide. Our rice is carefully cultivated and harvested, ensuring that each grain reflects our commitment to quality, sustainability, and authenticity.",
               },
             ],
           },
@@ -2315,64 +2442,34 @@ export const productData = [
         title: productConstants.GRAINS.SUB_PRODUCT.WHEAT.TITLE,
         path: productConstants.GRAINS.SUB_PRODUCT.WHEAT.PATH,
         slug: productConstants.GRAINS.SUB_PRODUCT.WHEAT.SLUG,
-        subTitle: "Savor the Sweetness",
+        subTitle: "Wheat Exporters",
         description:
-          "Honey is a natural, golden liquid produced by honeybees from the nectar of flowers. Known for its rich sweetness, honey has been used for centuries not only as a food but also for medicinal and therapeutic purposes. It’s packed with antioxidants, vitamins, and minerals, making it much more than just a natural sweetener.",
+          "Wheat is a cereal grain mostly eaten in the form of bread in different parts of the world. Wheat exporter in India exports tonnes of wheat abroad each year. Wheat is also known to have a higher protein content than other major cereals such as maize or rice. Thus the global demand for wheat export is on the rise. The Indian wheat exporter, therefore, exports increasing amount of wheat and wheat products each year. This is a good opportunity for wheat export from India to rise and earn good revenues for the vendors and farmers.",
 
         productContent: [
-          {
-            type: contentConstsnts.CONTENT,
-            data: [
-              {
-                title: "Global Market Demand",
-                description:
-                  "Rye import from India has been increasing over the years due to various health and medicinal benefits from Rye. Rye is extensively used in India and Indonesian cuisines which may be one important reason for the increasing popularity of export of Rye. The rising global demand for Rye is a good opportunity for Rye exporter in India to expand its business and enter the international market.",
-              },
-            ],
-          },
-          {
-            type: contentConstsnts.SPECIFICATIONS,
-            data: [
-              {
-                title: "Product Name",
-                value: "Rye",
-              },
-              {
-                title: "Origin",
-                value: "Southwestern Asia",
-              },
-              {
-                title: "Family",
-                value: "Poaceae",
-              },
-              {
-                title: "Binomial name",
-                value: "Secale Cereale",
-              },
-            ],
-          },
           {
             type: contentConstsnts.INGREDIENTS,
             data: [
               {
                 title: "Nutrients",
                 values: [
-                  "259 Calories",
-                  "Total Carbohydrate - 48 g",
-                  "Dietary fibre - 6 g",
+                  "Calories - 364 calories",
+                  "Dietary Fiber - 2.7 g",
+                  "Total Carbohydrate 76 g",
                 ],
               },
               {
                 title: "Minerals",
                 values: [
-                  "Copper",
-                  "Magnesium",
-                  "Phosphorous",
+                  "Iron",
                   "Thiamin",
-                  "Riboflavin",
                   "Niacin",
+                  "Calcium",
+                  "Selenium",
+                  "Manganese",
+                  "Phosphorous",
+                  "Copper",
                   "Folate",
-                  "Pantothenic Acid",
                 ],
               },
               {
@@ -2381,11 +2478,59 @@ export const productData = [
               },
               {
                 title: "Protein",
-                values: ["9 g"],
+                values: ["10 g"],
+              },
+            ],
+          },
+          {
+            type: contentConstsnts.VARIETIES,
+            title: "Wheat Varieties We Export",
+            description:
+              "Wheat import from India includes import of various varieties of wheat like VL- 832, VL-804, HS-365 so on and so forth. The wheat exporter in India export premium quality products to various continents in the world. The export of wheat from India includes the following key varieties.",
+            data: [
+              {
+                title: "VL-832",
+                description:
+                  "The VL-832 variety of wheat is exported from India to many countries in the world. The days required for the maturity of this variety is around 155-160 days. The average yield of this variety of wheat is 25-30q/ha. This variety of wheat is said to be resistant to brown and yellow rusts and lose smut.",
               },
               {
-                title: "Fats",
-                values: ["3.3g"],
+                title: "VL-804",
+                description:
+                  "For the variety VL-804, the time required for the plant to mature after transplanting is around 164-178 days. This variety of wheat is known to be tolerant of snowfall. It is also resistant to brown and yellow rusts.",
+              },
+              {
+                title: "HS-365",
+                description:
+                  "The HS-365 variety of Wheat is majorly grown in the state of Tamil Nadu. In Tamil Nadu, this variety is said to be grown in the Nilgiri and Palni hills regions. This variety of wheat grows well at a high altitude in all situations.",
+              },
+              {
+                title: "HS-240",
+                description:
+                  "This variety of wheat grows well in the hills of Uttarakhand, Himachal Pradesh, J&K, Sikkim and other far eastern states. HS-249 grows well on a medium-altitude and is irrigated timely sown or rainfed timely sown.",
+              },
+              {
+                title: "HD 2687",
+                description:
+                  "The HD 2687 variety of wheat is generally grown in the regions of Punjab, Haryana, Delhi, Western Uttar Pradesh, Rajasthan, foothills of Himachal Pradesh, Jammu& Kashmir and Uttarakhand. The cultural conditions required for this variety are Irrigated Timely sown.",
+              },
+              {
+                title: "PBW-343",
+                description:
+                  "The PBW-343 is a variety of wheat which is grown in states like Punjab, Haryana, Delhi, Western Uttar Pradesh, Rajasthan, foothills of Himachal Pradesh, Jammu& Kashmir, Uttarakhand and such other states. The cultural conditions required for this variety include irrigated Timely sown.",
+              },
+              {
+                title: "Shresth (HD 2687)",
+                description:
+                  "Shreshth, also known as HD 2687, is a variety of wheat exported from India. The states where this variety is grown are Punjab, Haryana, Delhi, Western Uttar Pradesh, Rajasthan, foothills of Himachal Pradesh, Jammu& Kashmir, Uttarakhand and such other states.",
+              },
+            ],
+          },
+          {
+            type: contentConstsnts.CONTENT,
+            data: [
+              {
+                description:
+                  "Pisum Foods is one of the most recommended wheat importer from India. Wheat is eaten in various forms across the world thus export of wheat from India has a good opportunity to expand. Pisum food has a strong experience in wheat export from India. We make sure that all the health and safety standards are maintained and high-quality wheat is exported from India. Want to export wheat? Pisum Foods is the best choice for you!",
               },
             ],
           },
@@ -2396,90 +2541,29 @@ export const productData = [
         title: productConstants.GRAINS.SUB_PRODUCT.BLACK_WHEAT.TITLE,
         path: productConstants.GRAINS.SUB_PRODUCT.BLACK_WHEAT.PATH,
         slug: productConstants.GRAINS.SUB_PRODUCT.BLACK_WHEAT.SLUG,
-        subTitle: "Savor the Sweetness",
+        subTitle: "Black Wheat Exporters",
         description:
-          "Honey is a natural, golden liquid produced by honeybees from the nectar of flowers. Known for its rich sweetness, honey has been used for centuries not only as a food but also for medicinal and therapeutic purposes. It’s packed with antioxidants, vitamins, and minerals, making it much more than just a natural sweetener.",
+          "Black wheat is an ancient grain that has gained popularity for its unique color, flavor, and exceptional nutritional profile. This lesser-known variety of wheat is characterized by its dark outer bran layer, which is packed with antioxidants, making it a powerful addition to a healthy diet.",
 
-        productContent: [
+        productContent: [{ type: contentConstsnts.USES_AND_BENEFITS, data:[
           {
-            type: contentConstsnts.CONTENT,
-            data: [
-              {
-                title: "Global Market Demand",
-                description:
-                  "Rye import from India has been increasing over the years due to various health and medicinal benefits from Rye. Rye is extensively used in India and Indonesian cuisines which may be one important reason for the increasing popularity of export of Rye. The rising global demand for Rye is a good opportunity for Rye exporter in India to expand its business and enter the international market.",
-              },
-            ],
+            type:contentConstsnts.USES_AND_BENEFITS.USES,
+            data:["Black wheat can be used in a variety of culinary applications, from making bread and pasta to incorporating it into salads, soups, and side dishes. Its unique flavor adds depth and character to any meal.","Black wheat is typically consumed as a whole grain, retaining its bran and germ, which enhances its nutritional value and provides a nutty flavor and chewy texture.","Use black wheat flour as a substitute for regular wheat flour in baking recipes for a more nutritious twist on traditional baked goods, such as muffins, pancakes, and bread."]
           },
           {
-            type: contentConstsnts.SPECIFICATIONS,
-            data: [
-              {
-                title: "Product Name",
-                value: "Rye",
-              },
-              {
-                title: "Origin",
-                value: "Southwestern Asia",
-              },
-              {
-                title: "Family",
-                value: "Poaceae",
-              },
-              {
-                title: "Binomial name",
-                value: "Secale Cereale",
-              },
-            ],
-          },
-          {
-            type: contentConstsnts.INGREDIENTS,
-            data: [
-              {
-                title: "Nutrients",
-                values: [
-                  "259 Calories",
-                  "Total Carbohydrate - 48 g",
-                  "Dietary fibre - 6 g",
-                ],
-              },
-              {
-                title: "Minerals",
-                values: [
-                  "Copper",
-                  "Magnesium",
-                  "Phosphorous",
-                  "Thiamin",
-                  "Riboflavin",
-                  "Niacin",
-                  "Folate",
-                  "Pantothenic Acid",
-                ],
-              },
-              {
-                title: "Vitamin",
-                values: ["Vitamin B6"],
-              },
-              {
-                title: "Protein",
-                values: ["9 g"],
-              },
-              {
-                title: "Fats",
-                values: ["3.3g"],
-              },
-            ],
-          },
-        ],
+            type: contentConstsnts.USES_AND_BENEFITS.BENEFITS,
+            data:["The antioxidants and fiber in black wheat contribute to cardiovascular health by lowering cholesterol levels and improving circulation.","High fiber content helps promote satiety, making black wheat a great choice for those looking to manage their weight.","While black wheat does contain gluten, some individuals with mild gluten sensitivities may find it easier to digest than other wheat varieties. Always consult with a healthcare provider if you have concerns about gluten."]
+          }
+        ] },{type:contentConstsnts.CONTENT,data:[{description:"Shree Varni Export, we take pride in sourcing the finest black wheat for our customers seeking nutritious and flavorful grains. This ancient grain, known for its unique dark color and rich nutrient profile, is a remarkable addition to any healthy diet."}]}],
       },
       {
         img: "https://avatars.mds.yandex.net/i?id=d7d46847eb501ae68900eeaa940c3ee61f6ae521-9866669-images-thumbs&n=13",
         title: productConstants.GRAINS.SUB_PRODUCT.SORGHUM.TITLE,
         path: productConstants.GRAINS.SUB_PRODUCT.SORGHUM.PATH,
         slug: productConstants.GRAINS.SUB_PRODUCT.SORGHUM.SLUG,
-        subTitle: "Savor the Sweetness",
+        subTitle: "Sorghum Exporter",
         description:
-          "Honey is a natural, golden liquid produced by honeybees from the nectar of flowers. Known for its rich sweetness, honey has been used for centuries not only as a food but also for medicinal and therapeutic purposes. It’s packed with antioxidants, vitamins, and minerals, making it much more than just a natural sweetener.",
+          "Sorghum is primarily a strong grass and has edible starchy seeds. Sorghum is a diverse crop and has many uses in different industries. In India sorghum is popularly known as Jowar, Cholam, or Jonna. The Sorghum exporter in India exports a huge quantity of the crop each year. Due to the growing popularity of Sorghum, Sorghum export from India has also been on a rise. This is, therefore, a great opportunity for the Indian Sorghum exporter to expand his business and enter the international marketplace. The jawari export includes various varieties and qualities of the product.",
 
         productContent: [
           {
@@ -2488,7 +2572,7 @@ export const productData = [
               {
                 title: "Global Market Demand",
                 description:
-                  "Rye import from India has been increasing over the years due to various health and medicinal benefits from Rye. Rye is extensively used in India and Indonesian cuisines which may be one important reason for the increasing popularity of export of Rye. The rising global demand for Rye is a good opportunity for Rye exporter in India to expand its business and enter the international market.",
+                  "Sorghum is a major food crop in Africa and has many other uses as well. It is used as a food product, as hay and also as fodder. Sorghum is valued in hot and arid regions largely for its resistance to drought and heat. The Sorghum exporter in India exports good quality Sorghum to various parts of the world. The Sorghum import from India has thus seen a steady increase over the past few years.",
               },
             ],
           },
@@ -2497,11 +2581,11 @@ export const productData = [
             data: [
               {
                 title: "Product Name",
-                value: "Rye",
+                value: "Sorghum",
               },
               {
                 title: "Origin",
-                value: "Southwestern Asia",
+                value: "Northeastern Africa",
               },
               {
                 title: "Family",
@@ -2509,7 +2593,7 @@ export const productData = [
               },
               {
                 title: "Binomial name",
-                value: "Secale Cereale",
+                value: "Sorghum bicolor",
               },
             ],
           },
@@ -2519,38 +2603,49 @@ export const productData = [
               {
                 title: "Nutrients",
                 values: [
-                  "259 Calories",
-                  "Total Carbohydrate - 48 g",
+                  "Calories 316",
+                  "Carbohydrate - 69g",
                   "Dietary fibre - 6 g",
                 ],
               },
               {
                 title: "Minerals",
                 values: [
-                  "Copper",
+                  "Iron",
                   "Magnesium",
+                  "Copper",
                   "Phosphorous",
-                  "Thiamin",
-                  "Riboflavin",
-                  "Niacin",
-                  "Folate",
-                  "Pantothenic Acid",
+                  "Zinc",
+                  "Potassium"
                 ],
               },
               {
                 title: "Vitamin",
-                values: ["Vitamin B6"],
+                values: ["Vitamin B1","Vitamin B2","Vitamin B5","Vitamin B6"],
               },
               {
                 title: "Protein",
-                values: ["9 g"],
+                values: ["10 g"],
               },
               {
                 title: "Fats",
-                values: ["3.3g"],
+                values: ["3 g"],
               },
             ],
           },
+          {
+            type:contentConstsnts.USES_AND_BENEFITS,
+            data:[
+              {
+                type: contentConstsnts.USES_AND_BENEFITS.USES,
+                data:["Sorghum is used as a food product. It is also used to make edible oil, starch, dextrose, and certain alcoholic beverages.","Sorghum is also used as hay and fodder. The stalks of the crop are used as fodder and building materials.","Sorghum is used to make brooms and brushes."," Sweet Sorghum is also used for syrup manufacture and in the production of ethyl alcohol for biofuel."]
+              }
+            ]
+          },
+          {
+            type:contentConstsnts.CONTENT,
+            data:[{description:"Pisum Foods is a leading Sorghum importer from India. We at Pisum Foods help our clients with each and every step while exporting products from India. Our team has extensive experience in the field of export of Sorghum. We will make sure that the process is carried out smoothly with the least confusion and hassle. We strictly adhere to all the health and safety restrictions of the government and make sure that your products are delivered safely. If you are looking for Sorghum export from India, Contact Pisum now!"}]
+          }
         ],
       },
     ],
@@ -2563,89 +2658,45 @@ export const productData = [
     title: productConstants.COSMATIC.TITLE,
     slug: productConstants.COSMATIC.SLUG,
     path: productConstants.COSMATIC.PATH,
-    subTitle: "Nature's Golden Sweetener",
+    subTitle: "Enhance Your Natural Beauty",
     description:
-      "Honey is a natural, golden liquid produced by honeybees from the nectar of flowers. Known for its rich sweetness, honey has been used for centuries not only as a food but also for medicinal and therapeutic purposes. It’s packed with antioxidants, vitamins, and minerals, making it much more than just a natural sweetener.",
+      "Cosmetics are products designed to enhance or alter the appearance of the face, body, and hair. From makeup to skincare, cosmetics play a significant role in personal grooming and self-expression, allowing individuals to showcase their unique beauty.",
     subProducts: [
       {
         img: "https://avatars.mds.yandex.net/i?id=78e19f80ccc1f124af44554331fde09fc3916144-8182659-images-thumbs&n=13",
         title: productConstants.COSMATIC.SUB_PRODUCT.BANANA_POWDER.TITLE,
         path: productConstants.COSMATIC.SUB_PRODUCT.BANANA_POWDER.PATH,
         slug: productConstants.COSMATIC.SUB_PRODUCT.BANANA_POWDER.SLUG,
-        subTitle: "Savor the Sweetness",
+        subTitle: "Banana Powder Exporter",
         description:
-          "Honey is a natural, golden liquid produced by honeybees from the nectar of flowers. Known for its rich sweetness, honey has been used for centuries not only as a food but also for medicinal and therapeutic purposes. It’s packed with antioxidants, vitamins, and minerals, making it much more than just a natural sweetener.",
+          "Banana powder is a natural cosmetic ingredient derived from dried bananas, celebrated for its numerous skin and beauty benefits. Packed with vitamins, minerals, and antioxidants, banana powder has become a favorite in the world of cosmetics for its ability to enhance beauty routines.",
 
         productContent: [
           {
+            type: contentConstsnts.USES_AND_BENEFITS,
+            data:[
+              {
+                type: contentConstsnts.USES_AND_BENEFITS.USES,
+                data:[
+                  "Dust banana powder over foundation to set makeup and control shine for a flawless finish. It works particularly well for oily skin types.",
+                  "Combine banana powder with other natural ingredients, such as honey or yogurt, to create a nourishing face mask that brightens and revitalizes the skin.",
+                  "Mix banana powder with exfoliating agents like sugar or salt to create a natural body scrub that exfoliates and nourishes the skin."
+                ]
+              },
+              {
+                type: contentConstsnts.USES_AND_BENEFITS.BENEFITS,
+                data:["Banana powder contains vitamin C and other nutrients that help brighten the skin, giving it a radiant and youthful glow. It can even out skin tone and reduce the appearance of dark spots and blemishes.","Ideal for oily and combination skin types, banana powder effectively absorbs excess oil, helping to control shine throughout the day. It provides a matte finish, making it a perfect setting powder for makeup.","The fine texture of banana powder gently exfoliates the skin, removing dead skin cells and promoting a smoother, softer complexion. This can lead to improved skin texture and appearance over time.","Rich in potassium and other minerals, banana powder has soothing properties that can calm irritated skin. It is often used in masks and treatments designed for sensitive or inflamed skin.","Banana powder can be used in various cosmetic applications, including as a setting powder, in face masks, or mixed with other skincare products. It can also be incorporated into homemade beauty treatments for a natural skincare routine."]
+              }
+            ]
+          },
+          {
             type: contentConstsnts.CONTENT,
-            data: [
+            data:[
               {
-                title: "Global Market Demand",
-                description:
-                  "Rye import from India has been increasing over the years due to various health and medicinal benefits from Rye. Rye is extensively used in India and Indonesian cuisines which may be one important reason for the increasing popularity of export of Rye. The rising global demand for Rye is a good opportunity for Rye exporter in India to expand its business and enter the international market.",
-              },
-            ],
-          },
-          {
-            type: contentConstsnts.SPECIFICATIONS,
-            data: [
-              {
-                title: "Product Name",
-                value: "Rye",
-              },
-              {
-                title: "Origin",
-                value: "Southwestern Asia",
-              },
-              {
-                title: "Family",
-                value: "Poaceae",
-              },
-              {
-                title: "Binomial name",
-                value: "Secale Cereale",
-              },
-            ],
-          },
-          {
-            type: contentConstsnts.INGREDIENTS,
-            data: [
-              {
-                title: "Nutrients",
-                values: [
-                  "259 Calories",
-                  "Total Carbohydrate - 48 g",
-                  "Dietary fibre - 6 g",
-                ],
-              },
-              {
-                title: "Minerals",
-                values: [
-                  "Copper",
-                  "Magnesium",
-                  "Phosphorous",
-                  "Thiamin",
-                  "Riboflavin",
-                  "Niacin",
-                  "Folate",
-                  "Pantothenic Acid",
-                ],
-              },
-              {
-                title: "Vitamin",
-                values: ["Vitamin B6"],
-              },
-              {
-                title: "Protein",
-                values: ["9 g"],
-              },
-              {
-                title: "Fats",
-                values: ["3.3g"],
-              },
-            ],
-          },
+                description:"Discover the versatility and effectiveness of banana powder in your beauty routine. Whether you're looking to achieve a radiant complexion, control oil, or create natural skincare treatments, Shree Varni Export offers premium banana powder to help you enhance your natural beauty. Elevate your cosmetics with the nourishing properties of banana powder today!"
+              }
+            ]
+          }
         ],
       },
     ],
