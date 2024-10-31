@@ -24,7 +24,7 @@ const SubProductDetails = ({ product }) => {
       <section className="paddingY ">
         <div className="">
           <div className="container">
-            <h3 className="fs-34 fw-bold  ff-primary mb-3 mb-md-4 text-center">
+            <h3 className="fs-34 fw-bold  ff-primary mb-3 mb-md-4 text-center text-capitalize">
               {subTitle}
             </h3>
             <p className="fs-16 text-color-gray">{description}</p>

@@ -1606,9 +1606,9 @@ export const productData = [
         title: productConstants.SPICES.SUB_PRODUCT.CLOVE.TITLE,
         path: productConstants.SPICES.SUB_PRODUCT.CLOVE.PATH,
         slug: productConstants.SPICES.SUB_PRODUCT.CLOVE.SLUG,
-        subTitle: "Savor the Sweetness",
+        subTitle: "Clove Exporter",
         description:
-          "Honey is a natural, golden liquid produced by honeybees from the nectar of flowers. Known for its rich sweetness, honey has been used for centuries not only as a food but also for medicinal and therapeutic purposes. It’s packed with antioxidants, vitamins, and minerals, making it much more than just a natural sweetener.",
+          "Cloves are primarily the aromatic flower buds of a tree in the family Myrtaceae. The Clove exporter in India exports cloves to around 149 countries in the world. The Clove export from India has been growing over the years due to the popularity of spice all over the world. This is a good business opportunity for the Indian Clove exporter to expand his business and export cloves worldwide. The clove export from India involves exporting various varieties of the spice.",
 
         productContent: [
           {
@@ -1617,7 +1617,7 @@ export const productData = [
               {
                 title: "Global Market Demand",
                 description:
-                  "Rye import from India has been increasing over the years due to various health and medicinal benefits from Rye. Rye is extensively used in India and Indonesian cuisines which may be one important reason for the increasing popularity of export of Rye. The rising global demand for Rye is a good opportunity for Rye exporter in India to expand its business and enter the international market.",
+                  "In the year 2019-2020, the Clove exporter in India exported Cloves worth around 91.62 USD million. The total volume of the cloves exported in 2019-2020 was around 5498639 MT. Clove import from India includes Kuwait, Singapore, Saudi Arabia, Panama Republic and the United Arab Emirates. The total export value of Clove in these top 5 countries was about 45.76 USD million.",
               },
             ],
           },
@@ -1626,19 +1626,19 @@ export const productData = [
             data: [
               {
                 title: "Product Name",
-                value: "Rye",
+                value: "Cloves",
               },
               {
                 title: "Origin",
-                value: "Southwestern Asia",
+                value: "Maluku Islands (or Moluccas) in Indonesia",
               },
               {
                 title: "Family",
-                value: "Poaceae",
+                value: "Myrtaceae",
               },
               {
                 title: "Binomial name",
-                value: "Secale Cereale",
+                value: "Syzygium aromaticum",
               },
             ],
           },
@@ -1648,38 +1648,54 @@ export const productData = [
               {
                 title: "Nutrients",
                 values: [
-                  "259 Calories",
-                  "Total Carbohydrate - 48 g",
-                  "Dietary fibre - 6 g",
+                  "Calories 6 kcal",
+                  "Carbohydrates - 1.38 g",
+                  "Fiber 0.7 grams",
                 ],
               },
               {
                 title: "Minerals",
                 values: [
-                  "Copper",
+                  "Potassium",
                   "Magnesium",
-                  "Phosphorous",
-                  "Thiamin",
-                  "Riboflavin",
-                  "Niacin",
-                  "Folate",
-                  "Pantothenic Acid",
+                  "Iron",
+                  "Selenium",
+                  "Mangnesium"
                 ],
               },
               {
                 title: "Vitamin",
-                values: ["Vitamin B6"],
+                values: ["Vitamin K"],
               },
               {
                 title: "Protein",
-                values: ["9 g"],
+                values: ["0.13 g"],
               },
               {
                 title: "Fats",
-                values: ["3.3g"],
+                values: ["0.27g"],
               },
             ],
           },
+          {
+            type: contentConstsnts.USES_AND_BENEFITS,
+            data:[
+              {
+                type: contentConstsnts.USES_AND_BENEFITS.USES,
+                data:[
+                  "Cloves are said to help fight tooth plague. Some research shows that using toothpaste or mouth wash which contains clove is beneficial for your teeth.","Cloves may also help reduce excessive sweating. Research states that applying clove oil to the palms for around 2 weeks may help reduce excessive sweating of the palms.","Clove oil is also said to be a Mosquito repellent. Applying clove oil or clove oil gel directly to the skin is said to repel mosquitos for up to 5 hours.","Applying a solution containing clove oil gel on the skin may also help with severe itching."
+                ]
+              }
+            ]
+          },
+          {
+            type: contentConstsnts.CONTENT,
+            data:[
+              {
+                description:"Pisum Foods is one of the leading Clove importers from India. We at Pisum Foods hold extensive experience in the field of food export and know the ins and outs of the industry. Our global connections and in-depth knowledge of the industry have proved to be useful to many of our past clients. We will help you in the export of clove process right from finding buyers to quality checks and until your products have been successfully delivered to the destination. If you are looking for Clove export from India, Contact Pisum now!"
+              }
+            ]
+          }
         ],
       },
       {
@@ -1687,9 +1703,9 @@ export const productData = [
         title: productConstants.SPICES.SUB_PRODUCT.BAY_LEAF.TITLE,
         path: productConstants.SPICES.SUB_PRODUCT.BAY_LEAF.PATH,
         slug: productConstants.SPICES.SUB_PRODUCT.BAY_LEAF.SLUG,
-        subTitle: "Savor the Sweetness",
+        subTitle: "Bay Leaf Exporters",
         description:
-          "Honey is a natural, golden liquid produced by honeybees from the nectar of flowers. Known for its rich sweetness, honey has been used for centuries not only as a food but also for medicinal and therapeutic purposes. It’s packed with antioxidants, vitamins, and minerals, making it much more than just a natural sweetener.",
+          "The Bay leaf is aromatic and has several culinary uses. The Bay Leaf exporter in India exports tonnes of Bay leaves abroad each year. Due to its various uses and benefits, the Bay Leaf export from India has been on a rise over the last few years. This is a good opportunity for the Indian Bay Leaf exporter to expand his business and enter the international marketplace. The Bay Leaf export from India includes the export of various varieties of the product.",
 
         productContent: [
           {
@@ -1698,7 +1714,7 @@ export const productData = [
               {
                 title: "Global Market Demand",
                 description:
-                  "Rye import from India has been increasing over the years due to various health and medicinal benefits from Rye. Rye is extensively used in India and Indonesian cuisines which may be one important reason for the increasing popularity of export of Rye. The rising global demand for Rye is a good opportunity for Rye exporter in India to expand its business and enter the international market.",
+                  "The Global Market Demand for Bay Leaf has been increasing for many years now. This growing popularity of Bay leaves may be due to the various nutritional characteristics of the leaves and its diverse uses. The Bay Leaf exporter in India exports the leaves to various parts of the world. The Bay Leaf import from India has been rising because of the premium quality and varieties of the leaf exported from India.",
               },
             ],
           },
@@ -1707,19 +1723,19 @@ export const productData = [
             data: [
               {
                 title: "Product Name",
-                value: "Rye",
+                value: "Bay Leaf",
               },
               {
                 title: "Origin",
-                value: "Southwestern Asia",
+                value: "Mediterranean",
               },
               {
                 title: "Family",
-                value: "Poaceae",
+                value: "Lauraceae",
               },
               {
                 title: "Binomial name",
-                value: "Secale Cereale",
+                value: "Laurus nobilis",
               },
             ],
           },
@@ -1729,38 +1745,51 @@ export const productData = [
               {
                 title: "Nutrients",
                 values: [
-                  "259 Calories",
-                  "Total Carbohydrate - 48 g",
-                  "Dietary fibre - 6 g",
+                  "Calories 314 kcal",
+                  "Dietary Fiber - 26 g",
+                  "Total Carbohydrates - 75 g",
                 ],
               },
               {
                 title: "Minerals",
                 values: [
-                  "Copper",
+                  "Calcium",
                   "Magnesium",
-                  "Phosphorous",
-                  "Thiamin",
-                  "Riboflavin",
-                  "Niacin",
-                  "Folate",
-                  "Pantothenic Acid",
+                  "Iron",
+                  "Cobalamin"
                 ],
               },
               {
                 title: "Vitamin",
-                values: ["Vitamin B6"],
+                values: ["Vitamin A","Vitamin C","Vitamin D","Vitamin B6"],
               },
               {
                 title: "Protein",
-                values: ["9 g"],
+                values: ["8 g"],
               },
               {
                 title: "Fats",
-                values: ["3.3g"],
+                values: ["8 g"],
               },
             ],
           },
+          {
+            type: contentConstsnts.USES_AND_BENEFITS,
+            data:[
+              {
+                type: contentConstsnts.USES_AND_BENEFITS.USES,
+                data:["The bay leaf is said to be useful for diabetes. Research shows that taking ground bay leaf twice a day along with medicine for diabetes may lower pre-meal blood sugar levels.","The bay leaf is also said to be useful for reducing joint and muscle pain. The bay leaves may be ground and applied to the skin.","The bay leaves are said to be a cure for dandruff when applied to the skin.","Bay Leaf tea is also said to be useful for migraines and is a rich source of Vitamin C, Vitamin A, and such other minerals."]
+              }
+            ]
+          },
+          {
+            type: contentConstsnts.CONTENT,
+            data:[
+              {
+                description:"Pisum Foods is one of the leading Bay Leaf importers from India. We understand that the export of Bay Leaf may be a complex procedure at times. But don’t worry now! We at Pisum Foods are here to help you! Our executives are trained to assist you with every step of the process right from finding buyers for your products until the final delivery. If you are looking for Bay Leaf export from India, Contact Pisum now!"
+              }
+            ]
+          }
         ],
       },
       {
@@ -1768,31 +1797,21 @@ export const productData = [
         title: productConstants.SPICES.SUB_PRODUCT.SUGAR_CANE.TITLE,
         path: productConstants.SPICES.SUB_PRODUCT.SUGAR_CANE.PATH,
         slug: productConstants.SPICES.SUB_PRODUCT.SUGAR_CANE.SLUG,
-        subTitle: "Savor the Sweetness",
+        subTitle: "Sugar cane/jaggery exporters",
         description:
-          "Honey is a natural, golden liquid produced by honeybees from the nectar of flowers. Known for its rich sweetness, honey has been used for centuries not only as a food but also for medicinal and therapeutic purposes. It’s packed with antioxidants, vitamins, and minerals, making it much more than just a natural sweetener.",
+          "Sugar Cane is a natural source of sweetness, widely cultivated for its ability to produce a variety of products, including jaggery—an unrefined, nutrient-rich sweetener. Unlike refined sugar, jaggery retains essential minerals and vitamins, making it a popular choice for those seeking a healthier alternative.",
 
         productContent: [
-          {
-            type: contentConstsnts.CONTENT,
-            data: [
-              {
-                title: "Global Market Demand",
-                description:
-                  "Rye import from India has been increasing over the years due to various health and medicinal benefits from Rye. Rye is extensively used in India and Indonesian cuisines which may be one important reason for the increasing popularity of export of Rye. The rising global demand for Rye is a good opportunity for Rye exporter in India to expand its business and enter the international market.",
-              },
-            ],
-          },
           {
             type: contentConstsnts.SPECIFICATIONS,
             data: [
               {
                 title: "Product Name",
-                value: "Rye",
+                value: " Sugar Cane / Jaggery",
               },
               {
                 title: "Origin",
-                value: "Southwestern Asia",
+                value: "India",
               },
               {
                 title: "Family",
@@ -1800,48 +1819,18 @@ export const productData = [
               },
               {
                 title: "Binomial name",
-                value: "Secale Cereale",
+                value: "Saccharum officinarum",
               },
             ],
           },
           {
-            type: contentConstsnts.INGREDIENTS,
-            data: [
+            type: contentConstsnts.CONTENT,
+            data:[
               {
-                title: "Nutrients",
-                values: [
-                  "259 Calories",
-                  "Total Carbohydrate - 48 g",
-                  "Dietary fibre - 6 g",
-                ],
-              },
-              {
-                title: "Minerals",
-                values: [
-                  "Copper",
-                  "Magnesium",
-                  "Phosphorous",
-                  "Thiamin",
-                  "Riboflavin",
-                  "Niacin",
-                  "Folate",
-                  "Pantothenic Acid",
-                ],
-              },
-              {
-                title: "Vitamin",
-                values: ["Vitamin B6"],
-              },
-              {
-                title: "Protein",
-                values: ["9 g"],
-              },
-              {
-                title: "Fats",
-                values: ["3.3g"],
-              },
-            ],
-          },
+                description:"Shree Varni Export, we pride ourselves on sourcing the finest sugar cane and producing high-quality jaggery that meets the demands of consumers around the world. Our sugar cane is carefully cultivated to ensure optimal sweetness and nutritional value, while our jaggery retains the natural goodness and minerals of the cane, making it a healthy alternative to refined sugars."
+              }
+            ]
+          }
         ],
       },
     ],
@@ -1854,9 +1843,9 @@ export const productData = [
     title: productConstants.DRY_FRUITS.TITLE,
     slug: productConstants.DRY_FRUITS.SLUG,
     path: productConstants.DRY_FRUITS.PATH,
-    subTitle: "Nature's Golden Sweetener",
+    subTitle: "Nourish Your Body with Nature’s Delight",
     description:
-      "Honey is a natural, golden liquid produced by honeybees from the nectar of flowers. Known for its rich sweetness, honey has been used for centuries not only as a food but also for medicinal and therapeutic purposes. It’s packed with antioxidants, vitamins, and minerals, making it much more than just a natural sweetener.",
+      "Dry fruits are nature’s ultimate snack, offering a burst of flavor, nutrients, and health benefits in every bite. These dehydrated fruits are not only delicious but also packed with essential vitamins, minerals, and antioxidants, making them a perfect addition to any diet.",
 
     subProducts: [
       {
@@ -1864,9 +1853,9 @@ export const productData = [
         title: productConstants.DRY_FRUITS.SUB_PRODUCT.RAISINS.TITLE,
         path: productConstants.DRY_FRUITS.SUB_PRODUCT.RAISINS.PATH,
         slug: productConstants.DRY_FRUITS.SUB_PRODUCT.RAISINS.SLUG,
-        subTitle: "Savor the Sweetness",
+        subTitle: "Raisins Exporters",
         description:
-          "Honey is a natural, golden liquid produced by honeybees from the nectar of flowers. Known for its rich sweetness, honey has been used for centuries not only as a food but also for medicinal and therapeutic purposes. It’s packed with antioxidants, vitamins, and minerals, making it much more than just a natural sweetener.",
+          "Raisins are basically dried grapes. They are shrivelled, bite-sized morsels of sweetness. They are a great and healthy snack option. The Raisins exporter in India exports tonnes of the product each year to many countries. The Raisins export from India has been increasing over time due to the growing popularity and the uses of the product. This is a good opportunity for the Indian Raisins exporter to expand his business and enter the international market. The Raisins export from India includes the export of many varieties of this product.",
 
         productContent: [
           {
@@ -1875,7 +1864,7 @@ export const productData = [
               {
                 title: "Global Market Demand",
                 description:
-                  "Rye import from India has been increasing over the years due to various health and medicinal benefits from Rye. Rye is extensively used in India and Indonesian cuisines which may be one important reason for the increasing popularity of export of Rye. The rising global demand for Rye is a good opportunity for Rye exporter in India to expand its business and enter the international market.",
+                  "Raisins are rich in minerals and nutrients and therefore have many health and medicinal benefits. The Global Market Demand for Raisins has been on a rise in the world. The Raisins exporter in India exports to many countries including Morocco, Saudi Arabia, Russia, Sri Lanka and so on. The Raisin import from India has been increasing due to the great reputation and quality of the raisins exported from India.",
               },
             ],
           },
@@ -1884,19 +1873,19 @@ export const productData = [
             data: [
               {
                 title: "Product Name",
-                value: "Rye",
+                value: "Raisins",
               },
               {
                 title: "Origin",
-                value: "Southwestern Asia",
+                value: "Corinth, Greece",
               },
               {
                 title: "Family",
-                value: "Poaceae",
+                value: "Rhamnaceae",
               },
               {
                 title: "Binomial name",
-                value: "Secale Cereale",
+                value: "Vitis vinifera L.",
               },
             ],
           },
@@ -1906,38 +1895,50 @@ export const productData = [
               {
                 title: "Nutrients",
                 values: [
-                  "259 Calories",
-                  "Total Carbohydrate - 48 g",
-                  "Dietary fibre - 6 g",
+                  "Calories 299 kcal",
+                  "Dietary Fiber 3.7g",
+                  "Total Carbohydrates 79g",
                 ],
               },
               {
                 title: "Minerals",
                 values: [
-                  "Copper",
+                  "Calcium",
                   "Magnesium",
-                  "Phosphorous",
-                  "Thiamin",
-                  "Riboflavin",
-                  "Niacin",
-                  "Folate",
-                  "Pantothenic Acid",
+                  "Iron"
                 ],
               },
               {
                 title: "Vitamin",
-                values: ["Vitamin B6"],
+                values: ["Vitamin C","Vitamin B6"],
               },
               {
                 title: "Protein",
-                values: ["9 g"],
+                values: ["3.1 g"],
               },
               {
                 title: "Fats",
-                values: ["3.3g"],
+                values: ["0.5 g"],
               },
             ],
           },
+          {
+            type: contentConstsnts.USES_AND_BENEFITS,
+            data:[
+              {
+                type: contentConstsnts.USES_AND_BENEFITS.USES,
+                data:["Raisins are said to be good for digestion. They contain fibres that swell in the presence of water. This gives a laxative effect to the stomach and helps in relieving constipation.","Raisins are rich in potassium and magnesium. This helps to reduce acidity levels and remove the toxins from the system, preventing diseases like arthritis, gout, kidney stones and so on.","Raisins contain iron and other B-Complex vitamins which help treat anaemia. The copper in the raisins helps in the production of red blood cells.","Raisins contain polyphenolic phytonutrients also known as anti-inflammatory antioxidants. They exhibit antibacterial properties that help lower the risk of fever and kill the bacteria."]
+              }
+            ]
+          },
+          {
+            type: contentConstsnts.CONTENT,
+            data:[
+              {
+                description:"Pisum Foods is one of the leading Raisins importer from India. We help our clients export various food products including fruits, vegetables, grains, pulses, oilseeds, so on and so forth. The exporter of Raisins has a great business opportunity to enter the international market and earn good revenues. If you are looking for Raisin export from India, Contact Pisum Foods now!"
+              }
+            ]
+          }
         ],
       },
       {
@@ -1945,80 +1946,55 @@ export const productData = [
         title: productConstants.DRY_FRUITS.SUB_PRODUCT.BLACK_RAISINS.TITLE,
         path: productConstants.DRY_FRUITS.SUB_PRODUCT.BLACK_RAISINS.PATH,
         slug: productConstants.DRY_FRUITS.SUB_PRODUCT.BLACK_RAISINS.SLUG,
-        subTitle: "Savor the Sweetness",
+        subTitle: "Black Raisins Exporters",
         description:
-          "Honey is a natural, golden liquid produced by honeybees from the nectar of flowers. Known for its rich sweetness, honey has been used for centuries not only as a food but also for medicinal and therapeutic purposes. It’s packed with antioxidants, vitamins, and minerals, making it much more than just a natural sweetener.",
+          "Black raisins are dried grapes that offer a delightful combination of sweetness, flavor, and health benefits. These naturally sweet treats are not only delicious but also packed with essential nutrients, making them a popular choice among health-conscious individuals and food enthusiasts alike.",
 
         productContent: [
-          {
-            type: contentConstsnts.CONTENT,
-            data: [
-              {
-                title: "Global Market Demand",
-                description:
-                  "Rye import from India has been increasing over the years due to various health and medicinal benefits from Rye. Rye is extensively used in India and Indonesian cuisines which may be one important reason for the increasing popularity of export of Rye. The rising global demand for Rye is a good opportunity for Rye exporter in India to expand its business and enter the international market.",
-              },
-            ],
-          },
           {
             type: contentConstsnts.SPECIFICATIONS,
             data: [
               {
                 title: "Product Name",
-                value: "Rye",
+                value: "Black Raisins",
               },
               {
                 title: "Origin",
-                value: "Southwestern Asia",
+                value: "Corinth, Greece",
               },
               {
                 title: "Family",
-                value: "Poaceae",
+                value: "Rhamnaceae",
               },
               {
                 title: "Binomial name",
-                value: "Secale Cereale",
+                value: "Vitis vinifera L.",
               },
             ],
           },
           {
-            type: contentConstsnts.INGREDIENTS,
-            data: [
+            type: contentConstsnts.USES_AND_BENEFITS,
+            data:[
               {
-                title: "Nutrients",
-                values: [
-                  "259 Calories",
-                  "Total Carbohydrate - 48 g",
-                  "Dietary fibre - 6 g",
-                ],
+                type: contentConstsnts.USES_AND_BENEFITS.USES,
+                data:[
+                  "Black raisins can be enjoyed on their own as a healthy snack, added to trail mixes, or incorporated into a variety of dishes, including salads, oatmeal, and baked goods.","Their natural sweetness enhances both sweet and savory recipes, making them a great addition to curries, rice dishes, and desserts.","Use black raisins as a natural sweetener in smoothies, energy bars, or yogurt for a nutritious twist."
+                ]
               },
               {
-                title: "Minerals",
-                values: [
-                  "Copper",
-                  "Magnesium",
-                  "Phosphorous",
-                  "Thiamin",
-                  "Riboflavin",
-                  "Niacin",
-                  "Folate",
-                  "Pantothenic Acid",
-                ],
-              },
-              {
-                title: "Vitamin",
-                values: ["Vitamin B6"],
-              },
-              {
-                title: "Protein",
-                values: ["9 g"],
-              },
-              {
-                title: "Fats",
-                values: ["3.3g"],
-              },
-            ],
+                type: contentConstsnts.USES_AND_BENEFITS.BENEFITS,
+                data:["Black raisins contain essential minerals like calcium and boron, which contribute to bone density and strength."," The antioxidants in black raisins help reduce inflammation and support overall health.","Despite their sweetness, black raisins have a low glycemic index, making them a smart choice for maintaining stable blood sugar levels."]
+              }
+            ]
           },
+          {
+            type: contentConstsnts.CONTENT,
+            data:[
+              {
+                description:"Pisum Foods is one of the leading Black Raisins importer from India. We help our clients export various food products including fruits, vegetables, grains, pulses, oilseeds, so on and so forth. The exporter of Black Raisins has a great business opportunity to enter the international market and earn good revenues. If you are looking for Raisin export from India, Contact Pisum Foods now!"
+              }
+            ]
+          }
         ],
       },
       {
@@ -2026,64 +2002,28 @@ export const productData = [
         title: productConstants.DRY_FRUITS.SUB_PRODUCT.CASHEW.TITLE,
         path: productConstants.DRY_FRUITS.SUB_PRODUCT.CASHEW.PATH,
         slug: productConstants.DRY_FRUITS.SUB_PRODUCT.CASHEW.SLUG,
-        subTitle: "Savor the Sweetness",
+        subTitle: "Cashew Nuts Exporters",
         description:
-          "Honey is a natural, golden liquid produced by honeybees from the nectar of flowers. Known for its rich sweetness, honey has been used for centuries not only as a food but also for medicinal and therapeutic purposes. It’s packed with antioxidants, vitamins, and minerals, making it much more than just a natural sweetener.",
+          "Cashew is an average-sized tropical evergreen tree from the Anacardiaceae family. This tree is generally cultivated for its curved edible seeds. The Cashew Nuts exporter in India exports cashews to around 61 countries in the world. The combined value of the total Cashew Nuts export from India is around 41.64 USD million. The top five trading partners for the Indian Cashew Nuts exporter include Vietnam, USA, Malaysia, UAE and Norway. The Cashew Nuts export from India includes the export of many varieties of the product.",
 
         productContent: [
-          {
-            type: contentConstsnts.CONTENT,
-            data: [
-              {
-                title: "Global Market Demand",
-                description:
-                  "Rye import from India has been increasing over the years due to various health and medicinal benefits from Rye. Rye is extensively used in India and Indonesian cuisines which may be one important reason for the increasing popularity of export of Rye. The rising global demand for Rye is a good opportunity for Rye exporter in India to expand its business and enter the international market.",
-              },
-            ],
-          },
-          {
-            type: contentConstsnts.SPECIFICATIONS,
-            data: [
-              {
-                title: "Product Name",
-                value: "Rye",
-              },
-              {
-                title: "Origin",
-                value: "Southwestern Asia",
-              },
-              {
-                title: "Family",
-                value: "Poaceae",
-              },
-              {
-                title: "Binomial name",
-                value: "Secale Cereale",
-              },
-            ],
-          },
           {
             type: contentConstsnts.INGREDIENTS,
             data: [
               {
                 title: "Nutrients",
                 values: [
-                  "259 Calories",
-                  "Total Carbohydrate - 48 g",
-                  "Dietary fibre - 6 g",
+                  "Calories - 48 calories",
+                  "Dietary Fiber - 3.3 g",
+                  "Carbohydrate 11 g",
                 ],
               },
               {
                 title: "Minerals",
                 values: [
-                  "Copper",
+                  "Calcium",
                   "Magnesium",
-                  "Phosphorous",
-                  "Thiamin",
-                  "Riboflavin",
-                  "Niacin",
-                  "Folate",
-                  "Pantothenic Acid",
+                  "Iron"
                 ],
               },
               {
@@ -2092,14 +2032,73 @@ export const productData = [
               },
               {
                 title: "Protein",
-                values: ["9 g"],
-              },
-              {
-                title: "Fats",
-                values: ["3.3g"],
-              },
+                values: ["18 g"],
+              }
             ],
           },
+          {
+            type:contentConstsnts.VARIETIES,
+            title:"Cashew Nuts Varieties We Export",
+            description:"The Cashew Nuts import from India includes several varieties of the nuts including BPP-1, BPP-8, VRI-1 so on and so forth. The Cashew Nuts exporter in India exports premium quality of the nuts to various corners of the world. The export of Cashew includes the following major varieties.",
+            data:[
+              {
+                title:"BPP-1",
+                description:"This variety is a hybrid developed from the cross between Tree No.1 as the female parent and Tree No.273 as the male parent. The BPP-1 variety was released in 1980. The average yield of this variety is around 10 kg/tree. The Nuts are medium in size with a nut weight of about 5g and the shelling percentage of about 27.5."
+              },
+              {
+                title:"BPP-8",
+                description:"The BPP-8 variety It is a hybrid variety from the cross of Tree No.1 x Tree No.39. This variety was released in 1993 for general cultivation in Andhra Pradesh. The BPP-8 variety has been performing well in Orissa and West Bengal. This variety is said to be superior to the other six varieties developed from Bapatla."
+              },
+              {
+                title:"VRI-1",
+                description:"The VRI-1 variety is a selection from germplasm collected from Vazhi Sothanai Palayam in the South Arcot District of Tamil Nadu. This variety has a medium-sized tree which has a setting of 5 to 7 fruits per panicle. Released in 1981, the mean yield of VRI-1 is around 7.2 kg/tree under Vridhachalam conditions. The nut size of this variety is small with 5g nut weight and shelling percentage of about 28%."
+              },
+              {
+                title:"VRI-3",
+                description:"Released in 1991, the VRI-3 is a selection from the seedling progeny of a high yielding tree collected from a village Edayanchavadi in the South Arcot District of Tamil Nadu. The average yield of VRI-3 is around 10 kg/tree. The nut size of this variety is medium with 7.2g nut weight and shelling percentage of about 29.1%."
+              },
+              {
+                title:"Bhuvaneshwar",
+                description:"The Bhuvaneshwar is a selection from the seedling progeny of WBDC V (Vengurla 36/3), a collection from Regional Fruit Research Station, Vengurla. Released in 1989, the flowering season for this variety is from January to March with a medium duration of 70 days. This variety has a cluster bearing habit with about 12 fruits per bunch"
+              },
+              {
+                title:"Balabhadra",
+                description:"The Balabhadra is an Early flowering (Dec-Feb) variety that has bold nuts with around 7.4 g nut weight. This variety gives an average nut yield of about 2.0 t/ha (10.0 kg/tree). This variety also possesses a high shelling percentage of about 30.0 %."
+              },
+              {
+                title:"Jhargram-1",
+                description:"The Jhargram-1 is a selection from T.No.16 originally collected from Bapatla. Released in the year 1989, it has a medium compact canopy and intensive branching habit. It has on an average, 6 fruits per bunch and yields around 8.5 kg/tree with small nut size. The shelling percentage of this variety is around 30%."
+              },
+              {
+                title:"Jhargram-2",
+                description:"The Jhargram-2 is a selection made from the seedling plantation of H-2/15 of Regional Research Station in West Bengal. This variety has a midseason flowering habit with 3-4 fruits per panicle. The average nut weight of this variety is about 9.2g with a kernel weight of 2.85g and shelling percentage of about 32%."
+              },
+              {
+                title:"Vengurla-1",
+                description:"The Vengurla-1 is a selection from the germplasm collected from Ansur village in the Vengurla Tehsil of Maharashtra. Released in 1974, the average percentage of perfect flowers of this variety is about 8%. The average yield of Vengurla-1 is around 19 kg/tree. The nut weight of this variety is around 6.2g with a shelling percentage of 31."
+              },
+              {
+                title:"Vengurla-8",
+                description:"The Vengurla-8 is a hybrid variety of Cashew Nuts released in 2001. This variety yields about 15-20 kg /tree. The Vengurla-8 has bold nuts with around 86 nuts/kg. The variety is a red apple variety and the juice recovery is 85%."
+              },
+              {
+                title:"Balli-2",
+                description:"The Balli-2 is a variety developed and released in 1999 from the ICAR Research Complex in Goa. This is the first cashew variety released from Goa. The average yield of Balli-2 is 7.0 kg/tree with a nut weight of about 7.6 g and the shelling percentage of 30.0%."
+              },
+              {
+                title:"Tiswadi-3",
+                description:"The Tiswadi-3 variety was developed and released from the ICAR Research Complex, Goa in 2007. This variety is a selection from Ela village of Tiswadi taluk of North Goa District. The average yield of this variety is 5.5 kg/tree with a nut weight of around 9.4 g and the shelling percentage of around 29.25."
+              },
+            ]
+          },
+          {
+            type: contentConstsnts.CONTENT,
+            data:[
+              {
+                description:"Pisum Foods is the leading Cashew Nuts importer from India. We at Pisum Foods understand that the export process may be a complicated process at times. Our executives will help you with each and every step involved in the process of export, right from documentation to the final delivery of the products. If you are looking for an exporter of Cashew Nuts, Contact Pisum now!"
+              }
+            ]
+          }
         ],
       },
       {
@@ -2107,80 +2106,32 @@ export const productData = [
         title: productConstants.DRY_FRUITS.SUB_PRODUCT.POPPY_SEEDS.TITLE,
         path: productConstants.DRY_FRUITS.SUB_PRODUCT.POPPY_SEEDS.PATH,
         slug: productConstants.DRY_FRUITS.SUB_PRODUCT.POPPY_SEEDS.SLUG,
-        subTitle: "Savor the Sweetness",
+        subTitle: "Poppy Seeds Exporters",
         description:
-          "Honey is a natural, golden liquid produced by honeybees from the nectar of flowers. Known for its rich sweetness, honey has been used for centuries not only as a food but also for medicinal and therapeutic purposes. It’s packed with antioxidants, vitamins, and minerals, making it much more than just a natural sweetener.",
+          "Poppy seeds are small, oil-rich seeds derived from the poppy plant (Papaver somniferum). Renowned for their unique flavor and crunchy texture, these tiny seeds are not only a popular ingredient in various cuisines but also packed with numerous health benefits.",
 
         productContent: [
-          {
-            type: contentConstsnts.CONTENT,
-            data: [
-              {
-                title: "Global Market Demand",
-                description:
-                  "Rye import from India has been increasing over the years due to various health and medicinal benefits from Rye. Rye is extensively used in India and Indonesian cuisines which may be one important reason for the increasing popularity of export of Rye. The rising global demand for Rye is a good opportunity for Rye exporter in India to expand its business and enter the international market.",
-              },
-            ],
-          },
-          {
-            type: contentConstsnts.SPECIFICATIONS,
-            data: [
-              {
-                title: "Product Name",
-                value: "Rye",
-              },
-              {
-                title: "Origin",
-                value: "Southwestern Asia",
-              },
-              {
-                title: "Family",
-                value: "Poaceae",
-              },
-              {
-                title: "Binomial name",
-                value: "Secale Cereale",
-              },
-            ],
-          },
-          {
-            type: contentConstsnts.INGREDIENTS,
-            data: [
-              {
-                title: "Nutrients",
-                values: [
-                  "259 Calories",
-                  "Total Carbohydrate - 48 g",
-                  "Dietary fibre - 6 g",
-                ],
-              },
-              {
-                title: "Minerals",
-                values: [
-                  "Copper",
-                  "Magnesium",
-                  "Phosphorous",
-                  "Thiamin",
-                  "Riboflavin",
-                  "Niacin",
-                  "Folate",
-                  "Pantothenic Acid",
-                ],
-              },
-              {
-                title: "Vitamin",
-                values: ["Vitamin B6"],
-              },
-              {
-                title: "Protein",
-                values: ["9 g"],
-              },
-              {
-                title: "Fats",
-                values: ["3.3g"],
-              },
-            ],
-          },
+         {
+          type: contentConstsnts.USES_AND_BENEFITS,
+          data:[
+            {
+              type:contentConstsnts.USES_AND_BENEFITS.USES,
+              data:["Poppy seeds are used in a variety of dishes across different cuisines. They can be sprinkled on breads, muffins, and pastries, or used to add crunch to salads and grain dishes.","Their nutty flavor enhances both sweet and savory recipes, making them a popular choice for Indian curries, Middle Eastern dishes, and baked goods.","In many cultures, poppy seeds are used in traditional dishes, such as poppy seed rolls, desserts, and sauces, showcasing their versatility and rich culinary heritage."]
+            },
+            {
+              type: contentConstsnts.USES_AND_BENEFITS.BENEFITS,
+              data:["Poppy seeds contain trace amounts of opium alkaloids, which can have a calming effect on the body and mind when consumed in moderation.","The calcium content in poppy seeds helps strengthen bones and teeth, reducing the risk of osteoporosis.","Rich in antioxidants, poppy seeds can contribute to healthy skin by protecting against oxidative stress and inflammation."]
+            }
+          ]
+         },
+         {
+          type: contentConstsnts.CONTENT,
+          data:[
+            {
+              description:"Shree Varni Export, we are dedicated to sourcing the finest poppy seeds that add a unique flavor and nutritional boost to your culinary creations. Our high-quality poppy seeds are carefully harvested and processed to ensure they retain their natural oils and rich taste, making them a valuable addition to both sweet and savory dishes."
+            }
+          ]
+         }
         ],
       },
     ],
