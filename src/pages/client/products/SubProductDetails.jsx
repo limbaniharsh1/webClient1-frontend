@@ -22,19 +22,21 @@ const SubProductDetails = ({ product }) => {
         </div>
       </div>
       <section className="paddingY ">
-        <div className="container">
-          <h3 className="fs-34 fw-bold  ff-primary mb-3 mb-md-4 text-center">
-            {subTitle}
-          </h3>
-          <p className="fs-16 text-color-gray">{description}</p>
-          {descriptions?.length > 0 &&
-            descriptions?.map((item, index) => {
-              return (
-                <p key={index} className="fs-16 text-color-gray">
-                  {item}
-                </p>
-              );
-            })}
+        <div className="">
+          <div className="container">
+            <h3 className="fs-34 fw-bold  ff-primary mb-3 mb-md-4 text-center">
+              {subTitle}
+            </h3>
+            <p className="fs-16 text-color-gray">{description}</p>
+            {descriptions?.length > 0 &&
+              descriptions?.map((item, index) => {
+                return (
+                  <p key={index} className="fs-16 text-color-gray">
+                    {item}
+                  </p>
+                );
+              })}
+          </div>
 
           {productContent?.length ? (
             <div>
@@ -43,7 +45,7 @@ const SubProductDetails = ({ product }) => {
                 const data = item?.data;
                 if (data?.length && type == contentConstsnts.CONTENT) {
                   return (
-                    <div className="mt-5 mt-md-100px" key={index}>
+                    <div className="mt-5 mt-md-100px container" key={index}>
                       {" "}
                       {data?.map((item, index) => {
                         const title = item?.title;
@@ -68,7 +70,7 @@ const SubProductDetails = ({ product }) => {
                   type == contentConstsnts.SPECIFICATIONS
                 ) {
                   return (
-                    <div className="mt-5 mt-md-100px" key={index}>
+                    <div className="mt-5 mt-md-100px container" key={index}>
                       <h4 className="fs-24 fw-bold text-uppercase ff-primary mb-3 mb-md-4 text-start">
                         Specifications
                       </h4>
@@ -97,7 +99,7 @@ const SubProductDetails = ({ product }) => {
                   type == contentConstsnts.INGREDIENTS
                 ) {
                   return (
-                    <div className="mt-5 mt-md-100px" key={index}>
+                    <div className="mt-5 mt-md-100px container" key={index}>
                       <h4 className="fs-24 fw-bold text-uppercase ff-primary mb-3 mb-md-4 text-start">
                         Ingredients
                       </h4>
@@ -125,6 +127,92 @@ const SubProductDetails = ({ product }) => {
                           })}
                         </tbody>
                       </Table>
+                    </div>
+                  );
+                } else if (type == contentConstsnts.VARIETIES) {
+                  const title = item?.title;
+                  const description = item?.description;
+                  const data = item?.data;
+                  return (
+                    <div className="mt-5 mt-md-100px bg-color-primary">
+                      <div key={index} className="container paddingY">
+                        <h4 className="fs-24 fw-bold text-uppercase ff-primary text-white mb-3 mb-md-4 text-start text-center">
+                          {title}
+                        </h4>
+                        <p className="text-color-white-80">{description}</p>
+                        <ul className="p-0 m-0 d-flex  flex-column gap-4 gap-sm-5 mt-5 maginTop-md">
+                          {data?.map((item, index) => {
+                            const title = item?.title;
+                            const description = item?.description;
+                            return (
+                              <li key={index} className="d-flex gap-4 gap-sm-5">
+                                <span className="bg-white d-block varieties-number-box fs-24 fw-bold rounded-3 d-flex align-items-center justify-content-center">
+                                  {index + 1}
+                                </span>
+                                <div>
+                                  <h5 className="text-color-white fw-semibold">
+                                    {title}
+                                  </h5>
+                                  <p className="text-color-white-80">
+                                    {description}
+                                  </p>
+                                </div>
+                              </li>
+                            );
+                          })}
+                        </ul>
+                      </div>
+                    </div>
+                  );
+                } else if (type == contentConstsnts.USES_AND_BENEFITS) {
+                  return (
+                    <div key={index} className="container mt-5 mt-md-100px">
+                      <h4 className="fs-24 fw-bold text-uppercase ff-primary mb-3 mb-md-4 text-start">
+                        Uses & Benefits
+                      </h4>
+
+                      {item?.data?.map((item, index) => {
+                        if (
+                          item?.type ==
+                            contentConstsnts.USES_AND_BENEFITS.USES ||
+                          item?.type ==
+                            contentConstsnts.USES_AND_BENEFITS.BENEFITS
+                        ) {
+                          return (
+                            <div key={index} className="ms-3 ms-md-4 mt-5">
+                              <h4 className="fs-18 fw-bold text-uppercase ff-primary mb-3 mb-md-4 text-start">
+                                {item?.type ==
+                                contentConstsnts.USES_AND_BENEFITS.USES
+                                  ? "Uses:"
+                                  : "Benefits:"}
+                              </h4>
+                              <ul className="m-0 p-0">
+                                {item?.data?.map((item, index) => {
+                                  return (
+                                    <li
+                                      key={index}
+                                      className="d-flex gap-3 mb-4 mb-md-2"
+                                    >
+                                      <i className="ri-arrow-right-circle-line fs-20"></i>
+
+                                      {item}
+                                    </li>
+                                  );
+                                })}
+                              </ul>
+                            </div>
+                          );
+                        } else if (
+                          item?.type ==
+                          contentConstsnts.USES_AND_BENEFITS.BENEFITS
+                        ) {
+                          <ul key={index}>
+                            {item?.data?.map((item, index) => {
+                              return <li key={index}>{item}</li>;
+                            })}
+                          </ul>;
+                        }
+                      })}
                     </div>
                   );
                 }

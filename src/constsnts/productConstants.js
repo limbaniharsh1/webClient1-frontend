@@ -156,8 +156,8 @@ export const productConstants = {
     SUB_PRODUCT: {
       CHILI_PEPPER: {
         PATH: `${allPath.SPICES.PATH}/chili-pepper`,
-        TITLE: "chili papper",
-        SLUG: "chili-papper",
+        TITLE: "chili pepper",
+        SLUG: "chili-pepper",
       },
       CUMIN: {
         PATH: `${allPath.SPICES.PATH}/cumin`,
@@ -283,6 +283,8 @@ export const contentConstsnts = {
   CONTENT: "CONTANT",
   SPECIFICATIONS: "SPECIFICATIONS",
   INGREDIENTS: "INGREDIENTS",
+  VARIETIES: "VERIETIES",
+  TABLE: "TABLE",
   USES_AND_BENEFITS: {
     USES: "USES",
     BENEFITS: "BENEFITS",
