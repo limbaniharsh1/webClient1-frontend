@@ -20,5 +20,7 @@ export const socialMedia = [
   },
 ];
 
+export const webName = "Shree Varni Export";
+
 // export const baseUrl = "https://webclient1-backend.onrender.com"
-export const baseUrl = "https://ugly-julianne-harshlimbani-27b28002.koyeb.app"
+export const baseUrl = "https://ugly-julianne-harshlimbani-27b28002.koyeb.app";

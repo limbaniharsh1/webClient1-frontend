@@ -1,6 +1,6 @@
 import React from "react";
 import { Table } from "react-bootstrap";
-import { contentConstsnts } from "../../../constsnts/productConstants";
+import { contentConstsnts } from "../../../constants/productConstants";
 
 const SubProductDetails = ({ product }) => {
   const img = product?.img;

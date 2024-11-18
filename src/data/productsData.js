@@ -1,7 +1,8 @@
 import {
   contentConstsnts,
   productConstants,
-} from "../constsnts/productConstants";
+} from "../constants/productConstants";
+import { webName } from "../enum";
 
 export const prductList = [
   {
@@ -284,8 +285,7 @@ export const productData = [
             type: contentConstsnts.CONTENT,
             data: [
               {
-                description:
-                  "Pisum Foods is one of the leading soybean importers from India. Due to the rising demand of Soybean, Indian exporters have also increased the amount of soybean produced and exported from India. The export of Soya bean has also been a revenue earning industry for many exporters. If you are interested in the export of Soybean, Pisum is the best option!",
+                description: ` ${webName} Foods is one of the leading soybean importers from India. Due to the rising demand of Soybean, Indian exporters have also increased the amount of soybean produced and exported from India. The export of Soya bean has also been a revenue earning industry for many exporters. If you are interested in the export of Soybean, ${webName} is the best option!`,
               },
             ],
           },
@@ -367,8 +367,7 @@ export const productData = [
             type: contentConstsnts.CONTENT,
             data: [
               {
-                description:
-                  "If you are looking for a Puffed Rice importer from India, Pisum Foods is your best choice! We at Pisum Foods have extensive experience and knowledge in the food export industry. Our executives will help you at every step of the process of the export of Puffed Rice. From documentation until the final delivery of the products, it will all be taken care of by Pisum. Interested in Puffed Rice export from India? Contact us now!",
+                description: `If you are looking for a Puffed Rice importer from India, ${webName} Foods is your best choice! We at ${webName} Foods have extensive experience and knowledge in the food export industry. Our executives will help you at every step of the process of the export of Puffed Rice. From documentation until the final delivery of the products, it will all be taken care of by ${webName}. Interested in Puffed Rice export from India? Contact us now!`,
               },
             ],
           },
@@ -461,8 +460,7 @@ export const productData = [
             type: contentConstsnts.CONTENT,
             data: [
               {
-                description:
-                  "Pisum foods is one of the leading Green Gram importers from India. We understand that export of green gram can be a complicated process. But no worries! Pisum is here to help you! Our highly trained executives will help you with every process involved in the export of green gram until your products are delivered to the destination. We have extensive experience in the food export industry and will support you in case of any issues. If you are looking for food export, contact Pisum now!",
+                description: `${webName} foods is one of the leading Green Gram importers from India. We understand that export of green gram can be a complicated process. But no worries! ${webName} is here to help you! Our highly trained executives will help you with every process involved in the export of green gram until your products are delivered to the destination. We have extensive experience in the food export industry and will support you in case of any issues. If you are looking for food export, contact ${webName} now!`,
               },
             ],
           },
@@ -560,8 +558,7 @@ export const productData = [
             type: contentConstsnts.CONTENT,
             data: [
               {
-                description:
-                  "Pisum Foods is the leading Black Gram importer from India. We at Pisum Foods understand that the export of food products from India may be a complicated process for some of you. Don’t worry, we are here to help you! With extensive experience in the food export industry, our executives at Pisum make sure that the export of Black Gram is carried out smoothly with any issues. We help our clients right from documentation until the final delivery of the products. If you are looking for food export from India, Contact Pisum now!",
+                description: `${webName} Foods is the leading Black Gram importer from India. We at ${webName} Foods understand that the export of food products from India may be a complicated process for some of you. Don’t worry, we are here to help you! With extensive experience in the food export industry, our executives at ${webName} make sure that the export of Black Gram is carried out smoothly with any issues. We help our clients right from documentation until the final delivery of the products. If you are looking for food export from India, Contact ${webName} now!`,
               },
             ],
           },
@@ -643,8 +640,7 @@ export const productData = [
             type: contentConstsnts.CONTENT,
             data: [
               {
-                description:
-                  "Pisum Foods is one of the leading Beaten Rice importers from India. We at Pisum Foods provide hassle-free food export services for our clients. The export of Beaten Rice can sometimes be a complicated process. But no worries! The executives at Pisum will help you with each and every step until your products reach the destination safe and fresh. If you are looking for Beaten Rice export from India, Contact Pisum now!",
+                description: `${webName} Foods is one of the leading Beaten Rice importers from India. We at ${webName} Foods provide hassle-free food export services for our clients. The export of Beaten Rice can sometimes be a complicated process. But no worries! The executives at ${webName} will help you with each and every step until your products reach the destination safe and fresh. If you are looking for Beaten Rice export from India, Contact ${webName} now!`,
               },
             ],
           },
@@ -752,8 +748,7 @@ export const productData = [
             type: contentConstsnts.CONTENT,
             data: [
               {
-                description:
-                  "Pisum Foods is one of the leading Soybean importer from India. We export Soybean and such other food products to different countries in the world. Due to its popularity, the export of Soybean has been on the rise globally. Pisum Foods exports premium quality Soybean and makes sure that your products reach the destination fresh and safe. If you are looking for Soybean export from India, Pisum Foods is a great option!",
+                description: `${webName} Foods is one of the leading Soybean importer from India. We export Soybean and such other food products to different countries in the world. Due to its popularity, the export of Soybean has been on the rise globally. ${webName} Foods exports premium quality Soybean and makes sure that your products reach the destination fresh and safe. If you are looking for Soybean export from India, ${webName} Foods is a great option!`,
               },
             ],
           },
@@ -851,8 +846,7 @@ export const productData = [
             type: contentConstsnts.CONTENT,
             data: [
               {
-                description:
-                  "Pisum Foods is one of the best Sesame importer from India and export premium quality sesame. We at Pisum foods help our clients find the right buyers for their products, conduct a detailed market analysis of the international market and assist them in every other way so that their products reach the country fresh and safe. Export of sesame has been growing exponentially and the vendors and farmers have a great opportunity to export their products abroad. Looking for sesame export from India? Pisum Foods is the best place for you!",
+                description: `${webName} Foods is one of the best Sesame importer from India and export premium quality sesame. We at ${webName} foods help our clients find the right buyers for their products, conduct a detailed market analysis of the international market and assist them in every other way so that their products reach the country fresh and safe. Export of sesame has been growing exponentially and the vendors and farmers have a great opportunity to export their products abroad. Looking for sesame export from India? ${webName} Foods is the best place for you!`,
               },
             ],
           },
@@ -950,8 +944,7 @@ export const productData = [
             type: contentConstsnts.CONTENT,
             data: [
               {
-                description:
-                  "Pisum Foods is one of the leading Peanut importers from India. We at Pisum Foods provide hassle-free food export services for our clients. The export of Peanut can sometimes be a complicated process. But no worries! Our executives at Pisum will help you with each and every step until your products reach the destination safe and fresh. If you are looking for Peanut export, Contact Pisum now!",
+                description: `${webName} Foods is one of the leading Peanut importers from India. We at ${webName} Foods provide hassle-free food export services for our clients. The export of Peanut can sometimes be a complicated process. But no worries! Our executives at ${webName} will help you with each and every step until your products reach the destination safe and fresh. If you are looking for Peanut export, Contact ${webName} now!`,
               },
             ],
           },
@@ -1140,8 +1133,7 @@ export const productData = [
             type: contentConstsnts.CONTENT,
             data: [
               {
-                description:
-                  "Pisum Foods is the best Chilli Pepper importer from India. Having extensive experience in the food export industry, we make sure that the process of export of Chilli Pepper is hassle-free for our clients. We support our clients in every way possible, right from finding buyers for their products until the final delivery of the order. If you are looking for Chilli Pepper export from India, contact Pisum Foods now!",
+                description: `${webName} Foods is the best Chilli Pepper importer from India. Having extensive experience in the food export industry, we make sure that the process of export of Chilli Pepper is hassle-free for our clients. We support our clients in every way possible, right from finding buyers for their products until the final delivery of the order. If you are looking for Chilli Pepper export from India, contact ${webName} Foods now!`,
               },
             ],
           },
@@ -1154,7 +1146,7 @@ export const productData = [
         slug: productConstants.SPICES.SUB_PRODUCT.CUMIN.SLUG,
         subTitle: "Cumin Seeds Exporters",
         description:
-          "Being the third most consumed spices in the world, the aromatic and spicy-sweet flavour of Cumin has amazed the entire planet. The seeds have been used since ancient times and are still a signature ingredient in many lovely dishes across the world. At Pisum, we are leading exporters of the best quality Cumin seeds.",
+          `Being the third most consumed spices in the world, the aromatic and spicy-sweet flavour of Cumin has amazed the entire planet. The seeds have been used since ancient times and are still a signature ingredient in many lovely dishes across the world. At ${webName}, we are leading exporters of the best quality Cumin seeds.`,
 
         productContent: [
           {
@@ -1460,7 +1452,7 @@ export const productData = [
             data: [
               {
                 description:
-                  "Pisum is one of the leading Thyme importer from India. We at Pisum Foods aim to spread the Indian culture, food, flowers, and such other products to the global market. Our executives will help you with every step of the export process until the final delivery of the products. This is a good opportunity for the local vendors and farmers to earn some extra revenue too. If you are looking for an exporter of Thyme, Contact Pisum now!",
+                 `${webName} is one of the leading Thyme importer from India. We at ${webName} Foods aim to spread the Indian culture, food, flowers, and such other products to the global market. Our executives will help you with every step of the export process until the final delivery of the products. This is a good opportunity for the local vendors and farmers to earn some extra revenue too. If you are looking for an exporter of Thyme, Contact ${webName} now!`,
               },
             ],
           },
@@ -1555,7 +1547,7 @@ export const productData = [
             data: [
               {
                 description:
-                  "Pisum Foods is the leading Green Cardamom importer from India. We at Pisum Foods understand that the process of export of Green Cardamom from India can be complicated at times. We are here to make it easy for you! Our trained executives will help you at every step of the process until the final delivery of the products. Being one of the most reliable exporters from India, we make sure that all the health and safety regulations are maintained. Looking for Green Cardamom export from India? Contact Pisum Foods now!",
+                 `${webName} Foods is the leading Green Cardamom importer from India. We at ${webName} Foods understand that the process of export of Green Cardamom from India can be complicated at times. We are here to make it easy for you! Our trained executives will help you at every step of the process until the final delivery of the products. Being one of the most reliable exporters from India, we make sure that all the health and safety regulations are maintained. Looking for Green Cardamom export from India? Contact ${webName} Foods now!`,
               },
             ],
           },
@@ -1650,7 +1642,7 @@ export const productData = [
             data: [
               {
                 description:
-                  "Pisum Foods is one of the leading Peppercorn importers from India. We help our clients export various food products including fruits, vegetables, grains, pulses, oilseeds, so on and so forth. We assist our clients with every step on the way right from documentation until the final delivery of the products in the export of Peppercorns. If you are looking for Peppercorns export from India, Contact Pisum Foods now!",
+                  `${webName} Foods is one of the leading Peppercorn importers from India. We help our clients export various food products including fruits, vegetables, grains, pulses, oilseeds, so on and so forth. We assist our clients with every step on the way right from documentation until the final delivery of the products in the export of Peppercorns. If you are looking for Peppercorns export from India, Contact ${webName} Foods now!`,
               },
             ],
           },
@@ -1751,7 +1743,7 @@ export const productData = [
             data: [
               {
                 description:
-                  "Pisum Foods is one of the leading Clove importers from India. We at Pisum Foods hold extensive experience in the field of food export and know the ins and outs of the industry. Our global connections and in-depth knowledge of the industry have proved to be useful to many of our past clients. We will help you in the export of clove process right from finding buyers to quality checks and until your products have been successfully delivered to the destination. If you are looking for Clove export from India, Contact Pisum now!",
+                  `${webName} Foods is one of the leading Clove importers from India. We at ${webName} Foods hold extensive experience in the field of food export and know the ins and outs of the industry. Our global connections and in-depth knowledge of the industry have proved to be useful to many of our past clients. We will help you in the export of clove process right from finding buyers to quality checks and until your products have been successfully delivered to the destination. If you are looking for Clove export from India, Contact ${webName} now!`,
               },
             ],
           },
@@ -1846,7 +1838,7 @@ export const productData = [
             data: [
               {
                 description:
-                  "Pisum Foods is one of the leading Bay Leaf importers from India. We understand that the export of Bay Leaf may be a complex procedure at times. But don’t worry now! We at Pisum Foods are here to help you! Our executives are trained to assist you with every step of the process right from finding buyers for your products until the final delivery. If you are looking for Bay Leaf export from India, Contact Pisum now!",
+                  `${webName} Foods is one of the leading Bay Leaf importers from India. We understand that the export of Bay Leaf may be a complex procedure at times. But don’t worry now! We at ${webName} Foods are here to help you! Our executives are trained to assist you with every step of the process right from finding buyers for your products until the final delivery. If you are looking for Bay Leaf export from India, Contact ${webName} now!`,
               },
             ],
           },
@@ -1998,7 +1990,7 @@ export const productData = [
             data: [
               {
                 description:
-                  "Pisum Foods is one of the leading Raisins importer from India. We help our clients export various food products including fruits, vegetables, grains, pulses, oilseeds, so on and so forth. The exporter of Raisins has a great business opportunity to enter the international market and earn good revenues. If you are looking for Raisin export from India, Contact Pisum Foods now!",
+                  `${webName} Foods is one of the leading Raisins importer from India. We help our clients export various food products including fruits, vegetables, grains, pulses, oilseeds, so on and so forth. The exporter of Raisins has a great business opportunity to enter the international market and earn good revenues. If you are looking for Raisin export from India, Contact ${webName} Foods now!`,
               },
             ],
           },
@@ -2061,7 +2053,7 @@ export const productData = [
             data: [
               {
                 description:
-                  "Pisum Foods is one of the leading Black Raisins importer from India. We help our clients export various food products including fruits, vegetables, grains, pulses, oilseeds, so on and so forth. The exporter of Black Raisins has a great business opportunity to enter the international market and earn good revenues. If you are looking for Raisin export from India, Contact Pisum Foods now!",
+                  `${webName} Foods is one of the leading Black Raisins importer from India. We help our clients export various food products including fruits, vegetables, grains, pulses, oilseeds, so on and so forth. The exporter of Black Raisins has a great business opportunity to enter the international market and earn good revenues. If you are looking for Raisin export from India, Contact ${webName} Foods now!`,
               },
             ],
           },
@@ -2175,7 +2167,7 @@ export const productData = [
             data: [
               {
                 description:
-                  "Pisum Foods is the leading Cashew Nuts importer from India. We at Pisum Foods understand that the export process may be a complicated process at times. Our executives will help you with each and every step involved in the process of export, right from documentation to the final delivery of the products. If you are looking for an exporter of Cashew Nuts, Contact Pisum now!",
+                  `${webName} Foods is the leading Cashew Nuts importer from India. We at ${webName} Foods understand that the export process may be a complicated process at times. Our executives will help you with each and every step involved in the process of export, right from documentation to the final delivery of the products. If you are looking for an exporter of Cashew Nuts, Contact ${webName} now!`,
               },
             ],
           },
@@ -2349,7 +2341,7 @@ export const productData = [
             data: [
               {
                 description:
-                  "If you are looking for a Pearl Millet importer from India, Pisum Foods is the best choice for you! Pisum Foods is one of the most trustworthy exporters of food products including pulses, grains, veggies, fruits, and such other products from India. Export of Pearl millet is a good opportunity for Indian vendors and exporters to enter the international market and export Indian food products.",
+                  `If you are looking for a Pearl Millet importer from India, ${webName} Foods is the best choice for you! ${webName} Foods is one of the most trustworthy exporters of food products including pulses, grains, veggies, fruits, and such other products from India. Export of Pearl millet is a good opportunity for Indian vendors and exporters to enter the international market and export Indian food products.`,
               },
             ],
           },
@@ -2530,7 +2522,7 @@ export const productData = [
             data: [
               {
                 description:
-                  "Pisum Foods is one of the most recommended wheat importer from India. Wheat is eaten in various forms across the world thus export of wheat from India has a good opportunity to expand. Pisum food has a strong experience in wheat export from India. We make sure that all the health and safety standards are maintained and high-quality wheat is exported from India. Want to export wheat? Pisum Foods is the best choice for you!",
+                  `${webName} Foods is one of the most recommended wheat importer from India. Wheat is eaten in various forms across the world thus export of wheat from India has a good opportunity to expand. ${webName} food has a strong experience in wheat export from India. We make sure that all the health and safety standards are maintained and high-quality wheat is exported from India. Want to export wheat? ${webName} Foods is the best choice for you!`,
               },
             ],
           },
@@ -2545,16 +2537,38 @@ export const productData = [
         description:
           "Black wheat is an ancient grain that has gained popularity for its unique color, flavor, and exceptional nutritional profile. This lesser-known variety of wheat is characterized by its dark outer bran layer, which is packed with antioxidants, making it a powerful addition to a healthy diet.",
 
-        productContent: [{ type: contentConstsnts.USES_AND_BENEFITS, data:[
+        productContent: [
           {
-            type:contentConstsnts.USES_AND_BENEFITS.USES,
-            data:["Black wheat can be used in a variety of culinary applications, from making bread and pasta to incorporating it into salads, soups, and side dishes. Its unique flavor adds depth and character to any meal.","Black wheat is typically consumed as a whole grain, retaining its bran and germ, which enhances its nutritional value and provides a nutty flavor and chewy texture.","Use black wheat flour as a substitute for regular wheat flour in baking recipes for a more nutritious twist on traditional baked goods, such as muffins, pancakes, and bread."]
+            type: contentConstsnts.USES_AND_BENEFITS,
+            data: [
+              {
+                type: contentConstsnts.USES_AND_BENEFITS.USES,
+                data: [
+                  "Black wheat can be used in a variety of culinary applications, from making bread and pasta to incorporating it into salads, soups, and side dishes. Its unique flavor adds depth and character to any meal.",
+                  "Black wheat is typically consumed as a whole grain, retaining its bran and germ, which enhances its nutritional value and provides a nutty flavor and chewy texture.",
+                  "Use black wheat flour as a substitute for regular wheat flour in baking recipes for a more nutritious twist on traditional baked goods, such as muffins, pancakes, and bread.",
+                ],
+              },
+              {
+                type: contentConstsnts.USES_AND_BENEFITS.BENEFITS,
+                data: [
+                  "The antioxidants and fiber in black wheat contribute to cardiovascular health by lowering cholesterol levels and improving circulation.",
+                  "High fiber content helps promote satiety, making black wheat a great choice for those looking to manage their weight.",
+                  "While black wheat does contain gluten, some individuals with mild gluten sensitivities may find it easier to digest than other wheat varieties. Always consult with a healthcare provider if you have concerns about gluten.",
+                ],
+              },
+            ],
           },
           {
-            type: contentConstsnts.USES_AND_BENEFITS.BENEFITS,
-            data:["The antioxidants and fiber in black wheat contribute to cardiovascular health by lowering cholesterol levels and improving circulation.","High fiber content helps promote satiety, making black wheat a great choice for those looking to manage their weight.","While black wheat does contain gluten, some individuals with mild gluten sensitivities may find it easier to digest than other wheat varieties. Always consult with a healthcare provider if you have concerns about gluten."]
-          }
-        ] },{type:contentConstsnts.CONTENT,data:[{description:"Shree Varni Export, we take pride in sourcing the finest black wheat for our customers seeking nutritious and flavorful grains. This ancient grain, known for its unique dark color and rich nutrient profile, is a remarkable addition to any healthy diet."}]}],
+            type: contentConstsnts.CONTENT,
+            data: [
+              {
+                description:
+                  "Shree Varni Export, we take pride in sourcing the finest black wheat for our customers seeking nutritious and flavorful grains. This ancient grain, known for its unique dark color and rich nutrient profile, is a remarkable addition to any healthy diet.",
+              },
+            ],
+          },
+        ],
       },
       {
         img: "https://avatars.mds.yandex.net/i?id=d7d46847eb501ae68900eeaa940c3ee61f6ae521-9866669-images-thumbs&n=13",
@@ -2616,12 +2630,17 @@ export const productData = [
                   "Copper",
                   "Phosphorous",
                   "Zinc",
-                  "Potassium"
+                  "Potassium",
                 ],
               },
               {
                 title: "Vitamin",
-                values: ["Vitamin B1","Vitamin B2","Vitamin B5","Vitamin B6"],
+                values: [
+                  "Vitamin B1",
+                  "Vitamin B2",
+                  "Vitamin B5",
+                  "Vitamin B6",
+                ],
               },
               {
                 title: "Protein",
@@ -2634,18 +2653,28 @@ export const productData = [
             ],
           },
           {
-            type:contentConstsnts.USES_AND_BENEFITS,
-            data:[
+            type: contentConstsnts.USES_AND_BENEFITS,
+            data: [
               {
                 type: contentConstsnts.USES_AND_BENEFITS.USES,
-                data:["Sorghum is used as a food product. It is also used to make edible oil, starch, dextrose, and certain alcoholic beverages.","Sorghum is also used as hay and fodder. The stalks of the crop are used as fodder and building materials.","Sorghum is used to make brooms and brushes."," Sweet Sorghum is also used for syrup manufacture and in the production of ethyl alcohol for biofuel."]
-              }
-            ]
+                data: [
+                  "Sorghum is used as a food product. It is also used to make edible oil, starch, dextrose, and certain alcoholic beverages.",
+                  "Sorghum is also used as hay and fodder. The stalks of the crop are used as fodder and building materials.",
+                  "Sorghum is used to make brooms and brushes.",
+                  " Sweet Sorghum is also used for syrup manufacture and in the production of ethyl alcohol for biofuel.",
+                ],
+              },
+            ],
           },
           {
-            type:contentConstsnts.CONTENT,
-            data:[{description:"Pisum Foods is a leading Sorghum importer from India. We at Pisum Foods help our clients with each and every step while exporting products from India. Our team has extensive experience in the field of export of Sorghum. We will make sure that the process is carried out smoothly with the least confusion and hassle. We strictly adhere to all the health and safety restrictions of the government and make sure that your products are delivered safely. If you are looking for Sorghum export from India, Contact Pisum now!"}]
-          }
+            type: contentConstsnts.CONTENT,
+            data: [
+              {
+                description:
+                  `${webName} Foods is a leading Sorghum importer from India. We at ${webName} Foods help our clients with each and every step while exporting products from India. Our team has extensive experience in the field of export of Sorghum. We will make sure that the process is carried out smoothly with the least confusion and hassle. We strictly adhere to all the health and safety restrictions of the government and make sure that your products are delivered safely. If you are looking for Sorghum export from India, Contact ${webName} now!`,
+              },
+            ],
+          },
         ],
       },
     ],
@@ -2674,29 +2703,36 @@ export const productData = [
         productContent: [
           {
             type: contentConstsnts.USES_AND_BENEFITS,
-            data:[
+            data: [
               {
                 type: contentConstsnts.USES_AND_BENEFITS.USES,
-                data:[
+                data: [
                   "Dust banana powder over foundation to set makeup and control shine for a flawless finish. It works particularly well for oily skin types.",
                   "Combine banana powder with other natural ingredients, such as honey or yogurt, to create a nourishing face mask that brightens and revitalizes the skin.",
-                  "Mix banana powder with exfoliating agents like sugar or salt to create a natural body scrub that exfoliates and nourishes the skin."
-                ]
+                  "Mix banana powder with exfoliating agents like sugar or salt to create a natural body scrub that exfoliates and nourishes the skin.",
+                ],
               },
               {
                 type: contentConstsnts.USES_AND_BENEFITS.BENEFITS,
-                data:["Banana powder contains vitamin C and other nutrients that help brighten the skin, giving it a radiant and youthful glow. It can even out skin tone and reduce the appearance of dark spots and blemishes.","Ideal for oily and combination skin types, banana powder effectively absorbs excess oil, helping to control shine throughout the day. It provides a matte finish, making it a perfect setting powder for makeup.","The fine texture of banana powder gently exfoliates the skin, removing dead skin cells and promoting a smoother, softer complexion. This can lead to improved skin texture and appearance over time.","Rich in potassium and other minerals, banana powder has soothing properties that can calm irritated skin. It is often used in masks and treatments designed for sensitive or inflamed skin.","Banana powder can be used in various cosmetic applications, including as a setting powder, in face masks, or mixed with other skincare products. It can also be incorporated into homemade beauty treatments for a natural skincare routine."]
-              }
-            ]
+                data: [
+                  "Banana powder contains vitamin C and other nutrients that help brighten the skin, giving it a radiant and youthful glow. It can even out skin tone and reduce the appearance of dark spots and blemishes.",
+                  "Ideal for oily and combination skin types, banana powder effectively absorbs excess oil, helping to control shine throughout the day. It provides a matte finish, making it a perfect setting powder for makeup.",
+                  "The fine texture of banana powder gently exfoliates the skin, removing dead skin cells and promoting a smoother, softer complexion. This can lead to improved skin texture and appearance over time.",
+                  "Rich in potassium and other minerals, banana powder has soothing properties that can calm irritated skin. It is often used in masks and treatments designed for sensitive or inflamed skin.",
+                  "Banana powder can be used in various cosmetic applications, including as a setting powder, in face masks, or mixed with other skincare products. It can also be incorporated into homemade beauty treatments for a natural skincare routine.",
+                ],
+              },
+            ],
           },
           {
             type: contentConstsnts.CONTENT,
-            data:[
+            data: [
               {
-                description:"Discover the versatility and effectiveness of banana powder in your beauty routine. Whether you're looking to achieve a radiant complexion, control oil, or create natural skincare treatments, Shree Varni Export offers premium banana powder to help you enhance your natural beauty. Elevate your cosmetics with the nourishing properties of banana powder today!"
-              }
-            ]
-          }
+                description:
+                  "Discover the versatility and effectiveness of banana powder in your beauty routine. Whether you're looking to achieve a radiant complexion, control oil, or create natural skincare treatments, Shree Varni Export offers premium banana powder to help you enhance your natural beauty. Elevate your cosmetics with the nourishing properties of banana powder today!",
+              },
+            ],
+          },
         ],
       },
     ],
