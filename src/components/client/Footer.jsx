@@ -24,7 +24,7 @@ const Footer = () => {
         <Col sm={12} xl={11} className="mx-auto">
           <Row>
             <Col md={6} lg={4} className="mt-4 mt-md-5">
-              <span className="text-color-white fs-24">Shree Varni Export</span>
+              <span className="text-color-white fs-24">Shreevarni Export</span>
               <p className="fs-14 text-color-white-80 mt-2 mt-md-3">
                 51, Silver Stone Arcade, Sudama chowk, Mota Varachha, Surat,
                 Gujarat 394101
