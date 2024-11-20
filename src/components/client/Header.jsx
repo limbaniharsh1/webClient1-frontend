@@ -87,14 +87,14 @@ const Header = () => {
           <div className="container">
             {/* Left Side: Logo */}
             <Link to="/" className="py-3 text-color-primary fs-20">
-              {/* <img
-              src="/path-to-your-logo.png"
+              <img
+              src="\images\logo.webp"
               alt="Logo"
-              width="30"
-              height="30"
-              className="d-inline-block align-top"
-            />{" "} */}
-              SHREE
+              width="50"
+              height="50"
+              className="d-inline-block align-top object-fit-cove"
+            />{" "}
+              {/* SHREE */}
             </Link>
 
             {/* Responsive Toggle Button */}
