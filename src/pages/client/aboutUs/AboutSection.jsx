@@ -17,7 +17,7 @@ const AboutSection = () => {
                 className="fs-28 ff-primary mb-3 mb-md-4 fw-bold"
                 data-aos="fade-up"
               >
-                About Shree International
+                About Shree Varni Export
               </h3>
               <p className="mb-2 fs-16 fw-semibold" data-aos="fade-up">
                 Insights and Resources to help drive your Business Forward

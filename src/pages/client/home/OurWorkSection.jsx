@@ -10,7 +10,7 @@ const OurWorkSection = () => {
           <Col sm={12} md={7} xl={6} className="mt-4 responsive order-2 order-md-1">
             <div className="px-lg-5">
               <h3 className="fs-26 fw-bold  ff-primary mb-3 mb-md-4" data-aos="fade-up">
-                About Shree International
+                About Shree Varni Export
               </h3>
               <p className="mb-2 fs-16 fw-semibold" data-aos="fade-up">
                 Insights and Resources to help drive your Business Forward
