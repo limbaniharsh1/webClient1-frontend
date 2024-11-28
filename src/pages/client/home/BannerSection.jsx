@@ -10,7 +10,7 @@ const BannerSection = () => {
         <Row className="align-items-center" data-aos="fade-up">
           <Col xs={12} lg={12} className="text-center">
             <span className="letter-spacing-1_5 fs-14 fw-medium text-color-primary d-block mb-2 responsive">
-              SHREE VARNI EXPORT
+              SHREEVARNI EXPORT
             </span>
             <h2 className="ff-primary fs-48 fw-bold mb-2 mb-md-3 main-banner-title">
               Expanding Horizons <br /> Through Global{" "}
