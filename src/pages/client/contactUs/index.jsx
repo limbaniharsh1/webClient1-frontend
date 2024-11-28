@@ -149,8 +149,7 @@ const index = () => {
                   Location
                 </h6>
                 <p className="fs-16 text-color-gray p-0 m-0">
-                  516, MBC(Meridian Business Centre, Lajamni chowk, Mota
-                  Varachha Surat – 394101, Gujarat, India.
+                216 varni plaza, sudama chowk, mota varachha,surat
                 </p>
               </div>
               <div className="text-center box-shadow-lg p-4 rounded-4">
