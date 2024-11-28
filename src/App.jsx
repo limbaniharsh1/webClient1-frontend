@@ -28,7 +28,7 @@ function App() {
     document.title =
       (titleValue ? capitalizeFirstWord(titleValue + " " + "-") : "") +
       " " +
-      "Shree Varni Export - Leading Import Export Company";
+      "Shreevarni Export - Leading Import Export Company";
   }, [pathname]);
 
   useEffect(() => {

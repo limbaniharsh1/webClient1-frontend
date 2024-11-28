@@ -26,8 +26,7 @@ const Footer = () => {
             <Col md={6} lg={4} className="mt-4 mt-md-5">
               <span className="text-color-white fs-24">Shreevarni Export</span>
               <p className="fs-14 text-color-white-80 mt-2 mt-md-3">
-                51, Silver Stone Arcade, Sudama chowk, Mota Varachha, Surat,
-                Gujarat 394101
+              216 varni plaza, sudama chowk, mota varachha,surat
               </p>
               <a href={`tel:${mobile}`}>
                 <span className="text-color-white d-block fw-semibold fs-16 mb-1 mb-lg-2">

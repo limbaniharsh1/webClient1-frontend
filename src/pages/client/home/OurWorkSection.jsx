@@ -7,10 +7,18 @@ const OurWorkSection = () => {
     <section className="">
       <div className="container paddingTop-56 paddingBottom">
         <Row className="align-items-center">
-          <Col sm={12} md={7} xl={6} className="mt-4 responsive order-2 order-md-1">
+          <Col
+            sm={12}
+            md={7}
+            xl={6}
+            className="mt-4 responsive order-2 order-md-1"
+          >
             <div className="px-lg-5">
-              <h3 className="fs-26 fw-bold  ff-primary mb-3 mb-md-4" data-aos="fade-up">
-                About Shree Varni Export
+              <h3
+                className="fs-26 fw-bold  ff-primary mb-3 mb-md-4"
+                data-aos="fade-up"
+              >
+                About Shreevarni Export
               </h3>
               <p className="mb-2 fs-16 fw-semibold" data-aos="fade-up">
                 Insights and Resources to help drive your Business Forward
@@ -25,7 +33,12 @@ const OurWorkSection = () => {
               </p>
             </div>
           </Col>
-          <Col sm={9} md={5} lg={5} className="mt-4 ms-auto me-auto me-md-0 ms-md-auto order-1 order-ms-2" >
+          <Col
+            sm={9}
+            md={5}
+            lg={5}
+            className="mt-4 ms-auto me-auto me-md-0 ms-md-auto order-1 order-ms-2"
+          >
             <Lottie animationData={teamAnimation} loop={false} />
           </Col>
         </Row>

@@ -63,7 +63,7 @@ export const productData = [
     path: productConstants.DISPOSABLE.PATH,
     subTitle: "Leading Exporter of Eco-Friendly Disposable Goods",
     description:
-      "At Shree Varni Export, we specialize in exporting a range of high-quality disposable products tailored for the demands of diverse industries. Designed for convenience, hygiene, and environmental responsibility, our products include eco-friendly options to meet global standards.",
+      "At Shreevarni Export, we specialize in exporting a range of high-quality disposable products tailored for the demands of diverse industries. Designed for convenience, hygiene, and environmental responsibility, our products include eco-friendly options to meet global standards.",
 
     subProducts: [
       {
@@ -380,7 +380,7 @@ export const productData = [
         slug: productConstants.PULSES.SUB_PRODUCT.GREEN_GRAM.SLUG,
         subTitle: "Green Gram Exporters",
         description:
-          "At Shree Varni Export, we pride ourselves on supplying premium quality Green Gram to clients around the world. Our commitment to quality and sustainability has positioned us as a trusted name in the international market, meeting the demands of health-conscious consumers and businesses alike.",
+          "At Shreevarni Export, we pride ourselves on supplying premium quality Green Gram to clients around the world. Our commitment to quality and sustainability has positioned us as a trusted name in the international market, meeting the demands of health-conscious consumers and businesses alike.",
 
         productContent: [
           {
@@ -473,7 +473,7 @@ export const productData = [
         slug: productConstants.PULSES.SUB_PRODUCT.BLACK_GRAM.SLUG,
         subTitle: "Black Gram Exporters",
         description:
-          "Shree Varni Export is proud to supply high-quality Black Gram to international markets, delivering nutrient-rich legumes that enhance both health and flavor. Also known as Urad Dal, Black Gram is a staple ingredient in global cuisine, valued for its rich taste, high protein content, and versatile uses.",
+          "Shreevarni Export is proud to supply high-quality Black Gram to international markets, delivering nutrient-rich legumes that enhance both health and flavor. Also known as Urad Dal, Black Gram is a staple ingredient in global cuisine, valued for its rich taste, high protein content, and versatile uses.",
 
         productContent: [
           {
@@ -571,7 +571,7 @@ export const productData = [
         slug: productConstants.PULSES.SUB_PRODUCT.BEATEN_RICE.SLUG,
         subTitle: "Beaten Rice Exporter",
         description:
-          "At Shree Varni Export, we offer high-quality Beaten Rice to meet the needs of our international customers. Beaten Rice, also known as Poha or Flattened Rice, is a versatile and nutritious ingredient, loved for its light texture, quick preparation, and health benefits.",
+          "At Shreevarni Export, we offer high-quality Beaten Rice to meet the needs of our international customers. Beaten Rice, also known as Poha or Flattened Rice, is a versatile and nutritious ingredient, loved for its light texture, quick preparation, and health benefits.",
 
         productContent: [
           {
@@ -658,7 +658,7 @@ export const productData = [
     path: productConstants.OIL_SEEDS.PATH,
     subTitle: "Enhance Your Health and Cooking with Premium Oil Seeds",
     description:
-      "With Shree Varni Export, you’re choosing a trusted supplier of premium oil seeds, committed to delivering quality products that cater to the health and culinary needs of global consumers. Our dedication to excellence and sustainability ensures that each seed contributes to a healthier, more flavorful experience for customers around the world.",
+      "With Shreevarni Export, you’re choosing a trusted supplier of premium oil seeds, committed to delivering quality products that cater to the health and culinary needs of global consumers. Our dedication to excellence and sustainability ensures that each seed contributes to a healthier, more flavorful experience for customers around the world.",
 
     subProducts: [
       {
@@ -859,7 +859,7 @@ export const productData = [
         slug: productConstants.OIL_SEEDS.SUB_PRODUCT.PEANUT.SLUG,
         subTitle: "Peanut Varieties We Export",
         description:
-          "At Shree Varni Export, we supply high-quality Peanuts to international markets, catering to both culinary and health-focused industries. Known for their rich flavor, nutritional value, and versatility, our peanuts are an excellent choice for a variety of food products, snacks, and culinary applications.",
+          "At Shreevarni Export, we supply high-quality Peanuts to international markets, catering to both culinary and health-focused industries. Known for their rich flavor, nutritional value, and versatility, our peanuts are an excellent choice for a variety of food products, snacks, and culinary applications.",
 
         productContent: [
           {
@@ -1145,8 +1145,7 @@ export const productData = [
         path: productConstants.SPICES.SUB_PRODUCT.CUMIN.PATH,
         slug: productConstants.SPICES.SUB_PRODUCT.CUMIN.SLUG,
         subTitle: "Cumin Seeds Exporters",
-        description:
-          `Being the third most consumed spices in the world, the aromatic and spicy-sweet flavour of Cumin has amazed the entire planet. The seeds have been used since ancient times and are still a signature ingredient in many lovely dishes across the world. At ${webName}, we are leading exporters of the best quality Cumin seeds.`,
+        description: `Being the third most consumed spices in the world, the aromatic and spicy-sweet flavour of Cumin has amazed the entire planet. The seeds have been used since ancient times and are still a signature ingredient in many lovely dishes across the world. At ${webName}, we are leading exporters of the best quality Cumin seeds.`,
 
         productContent: [
           {
@@ -1451,8 +1450,7 @@ export const productData = [
             type: contentConstsnts.CONTENT,
             data: [
               {
-                description:
-                 `${webName} is one of the leading Thyme importer from India. We at ${webName} Foods aim to spread the Indian culture, food, flowers, and such other products to the global market. Our executives will help you with every step of the export process until the final delivery of the products. This is a good opportunity for the local vendors and farmers to earn some extra revenue too. If you are looking for an exporter of Thyme, Contact ${webName} now!`,
+                description: `${webName} is one of the leading Thyme importer from India. We at ${webName} Foods aim to spread the Indian culture, food, flowers, and such other products to the global market. Our executives will help you with every step of the export process until the final delivery of the products. This is a good opportunity for the local vendors and farmers to earn some extra revenue too. If you are looking for an exporter of Thyme, Contact ${webName} now!`,
               },
             ],
           },
@@ -1546,8 +1544,7 @@ export const productData = [
             type: contentConstsnts.CONTENT,
             data: [
               {
-                description:
-                 `${webName} Foods is the leading Green Cardamom importer from India. We at ${webName} Foods understand that the process of export of Green Cardamom from India can be complicated at times. We are here to make it easy for you! Our trained executives will help you at every step of the process until the final delivery of the products. Being one of the most reliable exporters from India, we make sure that all the health and safety regulations are maintained. Looking for Green Cardamom export from India? Contact ${webName} Foods now!`,
+                description: `${webName} Foods is the leading Green Cardamom importer from India. We at ${webName} Foods understand that the process of export of Green Cardamom from India can be complicated at times. We are here to make it easy for you! Our trained executives will help you at every step of the process until the final delivery of the products. Being one of the most reliable exporters from India, we make sure that all the health and safety regulations are maintained. Looking for Green Cardamom export from India? Contact ${webName} Foods now!`,
               },
             ],
           },
@@ -1641,8 +1638,7 @@ export const productData = [
             type: contentConstsnts.CONTENT,
             data: [
               {
-                description:
-                  `${webName} Foods is one of the leading Peppercorn importers from India. We help our clients export various food products including fruits, vegetables, grains, pulses, oilseeds, so on and so forth. We assist our clients with every step on the way right from documentation until the final delivery of the products in the export of Peppercorns. If you are looking for Peppercorns export from India, Contact ${webName} Foods now!`,
+                description: `${webName} Foods is one of the leading Peppercorn importers from India. We help our clients export various food products including fruits, vegetables, grains, pulses, oilseeds, so on and so forth. We assist our clients with every step on the way right from documentation until the final delivery of the products in the export of Peppercorns. If you are looking for Peppercorns export from India, Contact ${webName} Foods now!`,
               },
             ],
           },
@@ -1742,8 +1738,7 @@ export const productData = [
             type: contentConstsnts.CONTENT,
             data: [
               {
-                description:
-                  `${webName} Foods is one of the leading Clove importers from India. We at ${webName} Foods hold extensive experience in the field of food export and know the ins and outs of the industry. Our global connections and in-depth knowledge of the industry have proved to be useful to many of our past clients. We will help you in the export of clove process right from finding buyers to quality checks and until your products have been successfully delivered to the destination. If you are looking for Clove export from India, Contact ${webName} now!`,
+                description: `${webName} Foods is one of the leading Clove importers from India. We at ${webName} Foods hold extensive experience in the field of food export and know the ins and outs of the industry. Our global connections and in-depth knowledge of the industry have proved to be useful to many of our past clients. We will help you in the export of clove process right from finding buyers to quality checks and until your products have been successfully delivered to the destination. If you are looking for Clove export from India, Contact ${webName} now!`,
               },
             ],
           },
@@ -1837,8 +1832,7 @@ export const productData = [
             type: contentConstsnts.CONTENT,
             data: [
               {
-                description:
-                  `${webName} Foods is one of the leading Bay Leaf importers from India. We understand that the export of Bay Leaf may be a complex procedure at times. But don’t worry now! We at ${webName} Foods are here to help you! Our executives are trained to assist you with every step of the process right from finding buyers for your products until the final delivery. If you are looking for Bay Leaf export from India, Contact ${webName} now!`,
+                description: `${webName} Foods is one of the leading Bay Leaf importers from India. We understand that the export of Bay Leaf may be a complex procedure at times. But don’t worry now! We at ${webName} Foods are here to help you! Our executives are trained to assist you with every step of the process right from finding buyers for your products until the final delivery. If you are looking for Bay Leaf export from India, Contact ${webName} now!`,
               },
             ],
           },
@@ -1880,7 +1874,7 @@ export const productData = [
             data: [
               {
                 description:
-                  "Shree Varni Export, we pride ourselves on sourcing the finest sugar cane and producing high-quality jaggery that meets the demands of consumers around the world. Our sugar cane is carefully cultivated to ensure optimal sweetness and nutritional value, while our jaggery retains the natural goodness and minerals of the cane, making it a healthy alternative to refined sugars.",
+                  "Shreevarni Export, we pride ourselves on sourcing the finest sugar cane and producing high-quality jaggery that meets the demands of consumers around the world. Our sugar cane is carefully cultivated to ensure optimal sweetness and nutritional value, while our jaggery retains the natural goodness and minerals of the cane, making it a healthy alternative to refined sugars.",
               },
             ],
           },
@@ -1989,8 +1983,7 @@ export const productData = [
             type: contentConstsnts.CONTENT,
             data: [
               {
-                description:
-                  `${webName} Foods is one of the leading Raisins importer from India. We help our clients export various food products including fruits, vegetables, grains, pulses, oilseeds, so on and so forth. The exporter of Raisins has a great business opportunity to enter the international market and earn good revenues. If you are looking for Raisin export from India, Contact ${webName} Foods now!`,
+                description: `${webName} Foods is one of the leading Raisins importer from India. We help our clients export various food products including fruits, vegetables, grains, pulses, oilseeds, so on and so forth. The exporter of Raisins has a great business opportunity to enter the international market and earn good revenues. If you are looking for Raisin export from India, Contact ${webName} Foods now!`,
               },
             ],
           },
@@ -2052,8 +2045,7 @@ export const productData = [
             type: contentConstsnts.CONTENT,
             data: [
               {
-                description:
-                  `${webName} Foods is one of the leading Black Raisins importer from India. We help our clients export various food products including fruits, vegetables, grains, pulses, oilseeds, so on and so forth. The exporter of Black Raisins has a great business opportunity to enter the international market and earn good revenues. If you are looking for Raisin export from India, Contact ${webName} Foods now!`,
+                description: `${webName} Foods is one of the leading Black Raisins importer from India. We help our clients export various food products including fruits, vegetables, grains, pulses, oilseeds, so on and so forth. The exporter of Black Raisins has a great business opportunity to enter the international market and earn good revenues. If you are looking for Raisin export from India, Contact ${webName} Foods now!`,
               },
             ],
           },
@@ -2166,8 +2158,7 @@ export const productData = [
             type: contentConstsnts.CONTENT,
             data: [
               {
-                description:
-                  `${webName} Foods is the leading Cashew Nuts importer from India. We at ${webName} Foods understand that the export process may be a complicated process at times. Our executives will help you with each and every step involved in the process of export, right from documentation to the final delivery of the products. If you are looking for an exporter of Cashew Nuts, Contact ${webName} now!`,
+                description: `${webName} Foods is the leading Cashew Nuts importer from India. We at ${webName} Foods understand that the export process may be a complicated process at times. Our executives will help you with each and every step involved in the process of export, right from documentation to the final delivery of the products. If you are looking for an exporter of Cashew Nuts, Contact ${webName} now!`,
               },
             ],
           },
@@ -2209,7 +2200,7 @@ export const productData = [
             data: [
               {
                 description:
-                  "Shree Varni Export, we are dedicated to sourcing the finest poppy seeds that add a unique flavor and nutritional boost to your culinary creations. Our high-quality poppy seeds are carefully harvested and processed to ensure they retain their natural oils and rich taste, making them a valuable addition to both sweet and savory dishes.",
+                  "Shreevarni Export, we are dedicated to sourcing the finest poppy seeds that add a unique flavor and nutritional boost to your culinary creations. Our high-quality poppy seeds are carefully harvested and processed to ensure they retain their natural oils and rich taste, making them a valuable addition to both sweet and savory dishes.",
               },
             ],
           },
@@ -2340,8 +2331,7 @@ export const productData = [
             type: contentConstsnts.CONTENT,
             data: [
               {
-                description:
-                  `If you are looking for a Pearl Millet importer from India, ${webName} Foods is the best choice for you! ${webName} Foods is one of the most trustworthy exporters of food products including pulses, grains, veggies, fruits, and such other products from India. Export of Pearl millet is a good opportunity for Indian vendors and exporters to enter the international market and export Indian food products.`,
+                description: `If you are looking for a Pearl Millet importer from India, ${webName} Foods is the best choice for you! ${webName} Foods is one of the most trustworthy exporters of food products including pulses, grains, veggies, fruits, and such other products from India. Export of Pearl millet is a good opportunity for Indian vendors and exporters to enter the international market and export Indian food products.`,
               },
             ],
           },
@@ -2423,7 +2413,7 @@ export const productData = [
             data: [
               {
                 description:
-                  "Shree Varni Export, we specialize in sourcing and providing the highest quality rice to meet the diverse needs of our customers worldwide. Our rice is carefully cultivated and harvested, ensuring that each grain reflects our commitment to quality, sustainability, and authenticity.",
+                  "Shreevarni Export, we specialize in sourcing and providing the highest quality rice to meet the diverse needs of our customers worldwide. Our rice is carefully cultivated and harvested, ensuring that each grain reflects our commitment to quality, sustainability, and authenticity.",
               },
             ],
           },
@@ -2521,8 +2511,7 @@ export const productData = [
             type: contentConstsnts.CONTENT,
             data: [
               {
-                description:
-                  `${webName} Foods is one of the most recommended wheat importer from India. Wheat is eaten in various forms across the world thus export of wheat from India has a good opportunity to expand. ${webName} food has a strong experience in wheat export from India. We make sure that all the health and safety standards are maintained and high-quality wheat is exported from India. Want to export wheat? ${webName} Foods is the best choice for you!`,
+                description: `${webName} Foods is one of the most recommended wheat importer from India. Wheat is eaten in various forms across the world thus export of wheat from India has a good opportunity to expand. ${webName} food has a strong experience in wheat export from India. We make sure that all the health and safety standards are maintained and high-quality wheat is exported from India. Want to export wheat? ${webName} Foods is the best choice for you!`,
               },
             ],
           },
@@ -2564,7 +2553,7 @@ export const productData = [
             data: [
               {
                 description:
-                  "Shree Varni Export, we take pride in sourcing the finest black wheat for our customers seeking nutritious and flavorful grains. This ancient grain, known for its unique dark color and rich nutrient profile, is a remarkable addition to any healthy diet.",
+                  "Shreevarni Export, we take pride in sourcing the finest black wheat for our customers seeking nutritious and flavorful grains. This ancient grain, known for its unique dark color and rich nutrient profile, is a remarkable addition to any healthy diet.",
               },
             ],
           },
@@ -2670,8 +2659,7 @@ export const productData = [
             type: contentConstsnts.CONTENT,
             data: [
               {
-                description:
-                  `${webName} Foods is a leading Sorghum importer from India. We at ${webName} Foods help our clients with each and every step while exporting products from India. Our team has extensive experience in the field of export of Sorghum. We will make sure that the process is carried out smoothly with the least confusion and hassle. We strictly adhere to all the health and safety restrictions of the government and make sure that your products are delivered safely. If you are looking for Sorghum export from India, Contact ${webName} now!`,
+                description: `${webName} Foods is a leading Sorghum importer from India. We at ${webName} Foods help our clients with each and every step while exporting products from India. Our team has extensive experience in the field of export of Sorghum. We will make sure that the process is carried out smoothly with the least confusion and hassle. We strictly adhere to all the health and safety restrictions of the government and make sure that your products are delivered safely. If you are looking for Sorghum export from India, Contact ${webName} now!`,
               },
             ],
           },
@@ -2729,7 +2717,7 @@ export const productData = [
             data: [
               {
                 description:
-                  "Discover the versatility and effectiveness of banana powder in your beauty routine. Whether you're looking to achieve a radiant complexion, control oil, or create natural skincare treatments, Shree Varni Export offers premium banana powder to help you enhance your natural beauty. Elevate your cosmetics with the nourishing properties of banana powder today!",
+                  "Discover the versatility and effectiveness of banana powder in your beauty routine. Whether you're looking to achieve a radiant complexion, control oil, or create natural skincare treatments, Shreevarni Export offers premium banana powder to help you enhance your natural beauty. Elevate your cosmetics with the nourishing properties of banana powder today!",
               },
             ],
           },

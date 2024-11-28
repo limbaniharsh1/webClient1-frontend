@@ -1,5 +1,5 @@
-export const mobile = "12345 67890";
-export const email = "shree@gmail.com";
+export const mobile = "6353303742";
+export const email = "shreevarniexport@gmail.com";
 
 export const socialMedia = [
   {
@@ -20,7 +20,7 @@ export const socialMedia = [
   },
 ];
 
-export const webName = "Shree Varni Export";
+export const webName = "Shreevarni Export";
 
 // export const baseUrl = "https://webclient1-backend.onrender.com"
 export const baseUrl = "https://ugly-julianne-harshlimbani-27b28002.koyeb.app";
