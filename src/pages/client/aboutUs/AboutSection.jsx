@@ -20,15 +20,14 @@ const AboutSection = () => {
                 About Shreevarni Export
               </h3>
               <p className="mb-2 fs-16 fw-semibold" data-aos="fade-up">
-                Insights and Resources to help drive your Business Forward
-                Faster.
+                Your Trusted Partner for Premium Disposable Products
               </p>
               <p className="fs-16 text-color-gray" data-aos="fade-up">
-                We build results-oriented brand strategy and continually refine
-                the campaign for the greatest outcome. From full scale branding
-                strategy, we are reaching to almost desired buyers throughout
-                the world. Greatest Indian products have to be present globally
-                and that is our vision of hard work.
+                Welcome to Shree Varni Export, your trusted partner in the
+                import and export of premium disposable products. With a passion
+                for excellence and a commitment to sustainability, we specialize
+                in delivering high-quality, eco-friendly disposable solutions to
+                meet the diverse needs of businesses worldwide.
               </p>
             </div>
           </Col>

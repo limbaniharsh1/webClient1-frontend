@@ -18,18 +18,16 @@ const OurWorkSection = () => {
                 className="fs-26 fw-bold  ff-primary mb-3 mb-md-4"
                 data-aos="fade-up"
               >
-                About Shreevarni Export
+                Our Mission
               </h3>
               <p className="mb-2 fs-16 fw-semibold" data-aos="fade-up">
-                Insights and Resources to help drive your Business Forward
-                Faster.
+                Committed to Quality and Sustainability
               </p>
               <p className="fs-16 text-color-gray" data-aos="fade-up">
-                We build results-oriented brand strategy and continually refine
-                the campaign for the greatest outcome. From full scale branding
-                strategy, we are reaching to almost desired buyers throughout
-                the world. Greatest Indian products have to be present globally
-                and that is our vision of hard work.
+                To provide top-notch disposable products while fostering a
+                sustainable future. We strive to build long-term partnerships
+                with our clients by consistently delivering value through
+                quality, reliability, and customer satisfaction.
               </p>
             </div>
           </Col>

@@ -149,7 +149,7 @@ export const productData = [
   //                      cotton bales
   // ========================================================
   {
-    img: "https://www.tutete.com/tienda/images/5a1fddfe24c38-Cottonove-Love-Guirnalda-Luces-2B-Cute-Tutete-3_l.jpg",
+    img: "https://images.pond5.com/cotton-bale-middle-cotton-field-023782605_prevstill.jpeg",
     title: productConstants.COTTON_BALES.TITLE,
     slug: productConstants.COTTON_BALES.SLUG,
     path: productConstants.COTTON_BALES.PATH,
@@ -159,7 +159,7 @@ export const productData = [
 
     subProducts: [
       {
-        img: "https://avatars.mds.yandex.net/i?id=ee4449fc159133b44aa3bb84ccefb8b17d00ba46-10555250-images-thumbs&n=13",
+        img: "https://avatars.mds.yandex.net/i?id=bc98935dc1c69498a7c559fe380b91cec7da9861-10124751-images-thumbs&ref=rim&n=33&w=444&h=250",
         title: productConstants.COTTON_BALES.SUB_PRODUCT.COTTON_BALES.TITLE,
         path: productConstants.COTTON_BALES.SUB_PRODUCT.COTTON_BALES.PATH,
         slug: productConstants.COTTON_BALES.SUB_PRODUCT.COTTON_BALES.SLUG,

@@ -149,7 +149,7 @@ const index = () => {
                   Location
                 </h6>
                 <p className="fs-16 text-color-gray p-0 m-0">
-                216, Varni plaza, sudama chowk, mota varachha,surat
+                216, Vnpm run devarni plaza, sudama chowk, mota varachha,surat
                 </p>
               </div>
               <div className="text-center box-shadow-lg p-4 rounded-4">
