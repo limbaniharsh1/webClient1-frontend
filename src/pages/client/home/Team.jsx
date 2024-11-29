@@ -8,28 +8,28 @@ const Team = () => {
       name: "John doe",
       position: "CEO",
       description:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "With a deep understanding of international trade dynamics, they have positioned the company as a leader in the disposable products industry.",
     },
     {
       img: "https://avatars.mds.yandex.net/i?id=e36e4545bb97ec46e2e5e222f9ae7b93dfad2929-3905844-images-thumbs&n=13",
       name: "John doe",
       position: "CEO",
       description:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "From sourcing premium-quality products to ensuring timely global delivery, their focus on efficiency and precision guarantees an exceptional customer experience.",
     },
     {
       img: "https://avatars.mds.yandex.net/i?id=e36e4545bb97ec46e2e5e222f9ae7b93dfad2929-3905844-images-thumbs&n=13",
       name: "John doe",
       position: "CEO",
       description:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        " Under their leadership, the company has prioritized eco-friendly products and sustainable practices, making a significant contribution to reducing the global environmental footprint",
     },
     {
       img: "https://avatars.mds.yandex.net/i?id=e36e4545bb97ec46e2e5e222f9ae7b93dfad2929-3905844-images-thumbs&n=13",
       name: "John doe",
       position: "CEO",
       description:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "Their commitment to understanding and exceeding customer expectations drives Shree Varni Export to continuously evolve and deliver personalized solutions for businesses worldwide.",
     },
   ];
 
@@ -74,7 +74,7 @@ const Team = () => {
                         <span className="fs-16 text-color-secondary">
                           {position}
                         </span>
-                        <p className="fs-16 text-color-gray mt-2 transition-color truncate-line-3">
+                        <p className="fs-16 text-color-gray mt-2 transition-color truncate-line-4">
                           {description}
                         </p>
                       </div>
