@@ -3,6 +3,7 @@ import { Button, Col, Row } from "react-bootstrap";
 import { email, mobile } from "../../enum";
 import { Link } from "react-router-dom";
 import { CLIENT } from "../../routes/routeConstants";
+import { prductList } from "../../data/productsData";
 
 const Footer = () => {
   return (
@@ -26,7 +27,7 @@ const Footer = () => {
             <Col md={6} lg={4} className="mt-4 mt-md-5">
               <span className="text-color-white fs-24">Shreevarni Export</span>
               <p className="fs-14 text-color-white-80 mt-2 mt-md-3">
-              216, Varni plaza, sudama chowk, mota varachha,surat
+                216, Varni plaza, sudama chowk, mota varachha,surat
               </p>
               <a href={`tel:${mobile}`}>
                 <span className="text-color-white d-block fw-semibold fs-16 mb-1 mb-lg-2">
@@ -44,9 +45,16 @@ const Footer = () => {
                 Company
               </h4>
               <ul className="p-0 m-0 mt-3 mt-lg-4 d-flex flex-column gap-2">
-                <li className="text-color-white fs-14">Home</li>
-                <li className="text-color-white fs-14">About Us</li>
-                <li className="text-color-white fs-14">Product</li>
+                <li className="text-color-white fs-14">
+                  <Link to={CLIENT.INDEX} className="text-color-white">
+                    Home
+                  </Link>
+                </li>
+                <li className="text-color-white fs-14">
+                  <Link to={CLIENT.ABOUT_US} className="text-color-white">
+                    About Us
+                  </Link>
+                </li>
               </ul>
             </Col>
             <Col md={6} lg={2} className="mt-4 mt-md-5">
@@ -54,9 +62,18 @@ const Footer = () => {
                 Products
               </h4>
               <ul className="p-0 m-0 mt-3 mt-lg-4 d-flex flex-column gap-2">
-                <li className="text-color-white fs-14">Surgical Disposable</li>
+                {prductList?.slice(0, 3)?.map((item, index) => {
+                  const path = item?.path;
+                  const title = item?.title;
+                  return (
+                    <li>
+                      <Link to={path} className="fs-14 text-color-white">{title}</Link>
+                    </li>
+                  );
+                })}
+                {/* <li className="text-color-white fs-14">Surgical Disposable</li>
                 <li className="text-color-white fs-14">Coco High Beverages</li>
-                <li className="text-color-white fs-14">Gems & Jewelry</li>
+                <li className="text-color-white fs-14">Gems & Jewelry</li> */}
               </ul>
             </Col>
             <Col md={6} lg={4} className="mt-4 mt-md-5">
