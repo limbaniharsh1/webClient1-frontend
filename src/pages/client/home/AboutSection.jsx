@@ -23,7 +23,7 @@ const AboutSection = () => {
                 Your Trusted Partner for Premium Disposable Products
               </p>
               <p className="fs-16 text-color-gray" data-aos="fade-up">
-                Welcome to Shree Varni Export, your trusted partner in the
+                Welcome to Shreevarni Export, your trusted partner in the
                 import and export of premium disposable products. With a passion
                 for excellence and a commitment to sustainability, we specialize
                 in delivering high-quality, eco-friendly disposable solutions to

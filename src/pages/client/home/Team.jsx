@@ -29,7 +29,7 @@ const Team = () => {
       name: "John doe",
       position: "CEO",
       description:
-        "Their commitment to understanding and exceeding customer expectations drives Shree Varni Export to continuously evolve and deliver personalized solutions for businesses worldwide.",
+        "Their commitment to understanding and exceeding customer expectations drives Shreevarni Export to continuously evolve and deliver personalized solutions for businesses worldwide.",
     },
   ];
 
