@@ -4,28 +4,28 @@ import { Col, Row } from "react-bootstrap";
 const Team = () => {
   const data = [
     {
-      img: "https://avatars.mds.yandex.net/i?id=e36e4545bb97ec46e2e5e222f9ae7b93dfad2929-3905844-images-thumbs&n=13",
+      img: "/images/1.png",
       name: "John doe",
       position: "CEO",
       description:
         "With a deep understanding of international trade dynamics, they have positioned the company as a leader in the disposable products industry.",
     },
     {
-      img: "https://avatars.mds.yandex.net/i?id=e36e4545bb97ec46e2e5e222f9ae7b93dfad2929-3905844-images-thumbs&n=13",
+      img: "/images/2.jpg",
       name: "John doe",
       position: "CEO",
       description:
         "From sourcing premium-quality products to ensuring timely global delivery, their focus on efficiency and precision guarantees an exceptional customer experience.",
     },
     {
-      img: "https://avatars.mds.yandex.net/i?id=e36e4545bb97ec46e2e5e222f9ae7b93dfad2929-3905844-images-thumbs&n=13",
+      img: "/images/3.png",
       name: "John doe",
       position: "CEO",
       description:
         " Under their leadership, the company has prioritized eco-friendly products and sustainable practices, making a significant contribution to reducing the global environmental footprint",
     },
     {
-      img: "https://avatars.mds.yandex.net/i?id=e36e4545bb97ec46e2e5e222f9ae7b93dfad2929-3905844-images-thumbs&n=13",
+      img: "/images/4.png",
       name: "John doe",
       position: "CEO",
       description:

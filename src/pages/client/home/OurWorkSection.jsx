@@ -24,10 +24,14 @@ const OurWorkSection = () => {
                 Committed to Quality and Sustainability
               </p>
               <p className="fs-16 text-color-gray" data-aos="fade-up">
-                To provide top-notch disposable products while fostering a
-                sustainable future. We strive to build long-term partnerships
-                with our clients by consistently delivering value through
-                quality, reliability, and customer satisfaction.
+                Our mission is to bridge global markets by providing seamless
+                export solutions, ensuring the efficient and reliable movement
+                of goods across borders. We are committed to delivering
+                exceptional service, fostering long-term partnerships, and
+                supporting businesses with customized logistics strategies. By
+                embracing innovation, sustainability, and integrity, we strive
+                to expand opportunities for both our clients and suppliers,
+                helping them grow in a competitive international marketplace.
               </p>
             </div>
           </Col>

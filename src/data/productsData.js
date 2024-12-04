@@ -2518,7 +2518,7 @@ export const productData = [
         ],
       },
       {
-        img: "https://hefasifabahcesi.com/wp-content/uploads/devedikenitohumu1000x1000.jpg",
+        img: "https://i.pinimg.com/originals/66/fe/c2/66fec2a5a1692bffe5cdb22ae7bbd388.jpg",
         title: productConstants.GRAINS.SUB_PRODUCT.BLACK_WHEAT.TITLE,
         path: productConstants.GRAINS.SUB_PRODUCT.BLACK_WHEAT.PATH,
         slug: productConstants.GRAINS.SUB_PRODUCT.BLACK_WHEAT.SLUG,

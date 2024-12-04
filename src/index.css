@@ -451,6 +451,7 @@ nav {
   max-width: 150px;
   aspect-ratio: 1/1;
   object-fit: cover;
+  object-position: 0px -5px;
   border-radius: 50%;
 }
 
