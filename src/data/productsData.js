@@ -2165,7 +2165,7 @@ export const productData = [
         ],
       },
       {
-        img: "https://img.b2b.trade/d9893ea4-fad6-4dd8-a093-9911894fcce3/-/smart_resize/900x900/-/quality/smart/-/format/webp/",
+        img: "https://avatars.mds.yandex.net/i?id=22358757172d7a2fc07933cfd84eae2c-5513384-images-thumbs&ref=rim&n=33&w=250&h=250",
         title: productConstants.DRY_FRUITS.SUB_PRODUCT.POPPY_SEEDS.TITLE,
         path: productConstants.DRY_FRUITS.SUB_PRODUCT.POPPY_SEEDS.PATH,
         slug: productConstants.DRY_FRUITS.SUB_PRODUCT.POPPY_SEEDS.SLUG,
