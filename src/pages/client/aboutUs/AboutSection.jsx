@@ -20,13 +20,13 @@ const AboutSection = () => {
                 About Shreevarni Export
               </h3>
               <p className="mb-2 fs-16 fw-semibold" data-aos="fade-up">
-                Your Trusted Partner for Premium Disposable Products
+                Your Trusted Partner for Premium Products
               </p>
               <p className="fs-16 text-color-gray" data-aos="fade-up">
                 Welcome to Shreevarni Export, your trusted partner in the
-                import and export of premium disposable products. With a passion
+                import and export of premium products. With a passion
                 for excellence and a commitment to sustainability, we specialize
-                in delivering high-quality, eco-friendly disposable solutions to
+                in delivering high-quality, eco-friendly solutions to
                 meet the diverse needs of businesses worldwide.
               </p>
             </div>

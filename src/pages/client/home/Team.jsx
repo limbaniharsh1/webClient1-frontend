@@ -5,28 +5,28 @@ const Team = () => {
   const data = [
     {
       img: "/images/1.png",
-      name: "John doe",
+      name: "Rutvik kachhadiya",
       position: "CEO",
       description:
         "With a deep understanding of international trade dynamics, they have positioned the company as a leader in the disposable products industry.",
     },
     {
       img: "/images/2.jpg",
-      name: "John doe",
+      name: "Rutvik kahodariya",
       position: "CEO",
       description:
         "From sourcing premium-quality products to ensuring timely global delivery, their focus on efficiency and precision guarantees an exceptional customer experience.",
     },
     {
       img: "/images/3.png",
-      name: "John doe",
+      name: "Manoj lukhi",
       position: "CEO",
       description:
         " Under their leadership, the company has prioritized eco-friendly products and sustainable practices, making a significant contribution to reducing the global environmental footprint",
     },
     {
       img: "/images/4.png",
-      name: "John doe",
+      name: "Shivam kasvala",
       position: "CEO",
       description:
         "Their commitment to understanding and exceeding customer expectations drives Shreevarni Export to continuously evolve and deliver personalized solutions for businesses worldwide.",

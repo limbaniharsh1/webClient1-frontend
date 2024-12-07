@@ -2165,7 +2165,7 @@ export const productData = [
         ],
       },
       {
-        img: "https://avatars.mds.yandex.net/i?id=121f874cd7a6cf99201fd4e2692fcf3610027ff5-12218216-images-thumbs&n=13",
+        img: "https://img.b2b.trade/d9893ea4-fad6-4dd8-a093-9911894fcce3/-/smart_resize/900x900/-/quality/smart/-/format/webp/",
         title: productConstants.DRY_FRUITS.SUB_PRODUCT.POPPY_SEEDS.TITLE,
         path: productConstants.DRY_FRUITS.SUB_PRODUCT.POPPY_SEEDS.PATH,
         slug: productConstants.DRY_FRUITS.SUB_PRODUCT.POPPY_SEEDS.SLUG,
@@ -2221,7 +2221,7 @@ export const productData = [
       "Grains are an essential component of a balanced diet, providing a rich source of carbohydrates, fiber, vitamins, and minerals. As staple foods across cultures, grains serve as the foundation for countless meals, contributing not only to flavor and texture but also to overall health and wellness.",
     subProducts: [
       {
-        img: "https://avatars.mds.yandex.net/i?id=06a04bb3f16650101916b074b87ae0247191b3c8-4055677-images-thumbs&n=13",
+        img: "https://healthiersteps.com/wp-content/uploads/2022/11/finger-millet.jpg",
         title: productConstants.GRAINS.SUB_PRODUCT.MILLET.TITLE,
         path: productConstants.GRAINS.SUB_PRODUCT.MILLET.PATH,
         slug: productConstants.GRAINS.SUB_PRODUCT.MILLET.SLUG,
