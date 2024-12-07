@@ -2222,7 +2222,7 @@ export const productData = [
     subProducts: [
       {
         // img: "https://healthiersteps.com/wp-content/uploads/2022/11/finger-millet.jpg",
-        img: "https://images.tv9telugu.com/wp-content/uploads/2022/03/finger-millet.jpg",
+        img: "https://i.ytimg.com/vi/NbfDjXQop6k/maxresdefault.jpg",
         title: productConstants.GRAINS.SUB_PRODUCT.MILLET.TITLE,
         path: productConstants.GRAINS.SUB_PRODUCT.MILLET.PATH,
         slug: productConstants.GRAINS.SUB_PRODUCT.MILLET.SLUG,
