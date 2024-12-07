@@ -86,15 +86,18 @@ const Header = () => {
         <Navbar bg="light" expand="md" expanded={expanded} className="py-0">
           <div className="container">
             {/* Left Side: Logo */}
-            <Link to="/" className="py-3 text-color-primary fs-20">
-              <img
-              src="\images\logo.webp"
-              alt="Logo"
-              width="50"
-              height="50"
-              className="d-inline-block align-top object-fit-cove"
-            />{" "}
-              {/* SHREE */}
+            <Link
+              to="/"
+              className="py-3 text-color-primary fs-20 fjalla-one-regular"
+            >
+              {/* <img
+                src="\images\logo.webp"
+                alt="Logo"
+                width="50"
+                height="50"
+                className="d-inline-block align-top object-fit-cove"
+              />{" "} */}
+              Shreevarni Export
             </Link>
 
             {/* Responsive Toggle Button */}
