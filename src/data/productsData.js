@@ -53,9 +53,9 @@ export const prductList = [
 ];
 
 export const productData = [
-  // =========================================================
+  // ========================================================
   //                         disposable
-  // =========================================================
+  // ========================================================
   {
     img: "https://sun9-67.userapi.com/impg/e2EcKnHb9INgp4rywvrngyBR4XwAU09T7vjKkg/yfALvGnFeN8.jpg?size=807x454&quality=95&sign=70dce7944a52e8923d3c894a8a82b64a&c_uniq_tag=SKInsatTg7Xituqi1RwiQopypoizIQekmoKqPfQhfos&type=album",
     title: productConstants.DISPOSABLE.TITLE,
