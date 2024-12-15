@@ -24,3 +24,4 @@ export const webName = "Shreevarni Export";
 
 // export const baseUrl = "https://webclient1-backend.onrender.com"
 export const baseUrl = "https://ugly-julianne-harshlimbani-27b28002.koyeb.app";
+// export const baseUrl = "http://localhost:8010"
