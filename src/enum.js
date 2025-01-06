@@ -1,5 +1,5 @@
-export const mobile = "6353303742";
-export const email = "shreevarniexport@gmail.com";
+export const mobile = "9408236827";
+export const email = "contact@shreevarniexport.com";
 
 export const socialMedia = [
   {
