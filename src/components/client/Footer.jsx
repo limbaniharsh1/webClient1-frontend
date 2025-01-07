@@ -29,7 +29,7 @@ const Footer = () => {
               <p className="fs-14 text-color-white-80 mt-2 mt-md-3">
                 216, Varni plaza, sudama chowk, mota varachha,surat
               </p>
-              <a href={`tel:${mobile}`}>
+              <a href={`tel:${"91"+mobile}`}>
                 <span className="text-color-white d-block fw-semibold fs-16 mb-1 mb-lg-2">
                   +91 {mobile}
                 </span>

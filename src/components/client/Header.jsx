@@ -47,7 +47,7 @@ const Header = () => {
       <div className="bg-color-primary w-100 ">
         <div className="text-color-white container py-2 d-flex align-items-center justify-content-between">
           <div>
-            <a href={`tel:${mobile}`}>
+            <a href={`tel:${"91"+mobile}`}>
               <i className="ri-phone-fill text-color-secondary fs-18 me-2"></i>
               <span className="d-none fs-14 fw-semibold d-sm-inline text-color-white hover-text-secondary transition-color">
                 +91 {mobile}

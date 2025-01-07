@@ -8,7 +8,7 @@ const Layout = ({ children }) => {
     <main>
       <Header />
       {children}
-      <a href={`https://wa.me/${mobile}`} target="blank">
+      <a href={`https://wa.me/${"91"+mobile}`} target="blank">
         <span className="fix-whatsapp-icon d-flex align-items-center justify-content-center">
           <i className="ri-whatsapp-line text-color-white fs-24"></i>
         </span>

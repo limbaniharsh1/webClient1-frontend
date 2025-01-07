@@ -156,7 +156,7 @@ const index = () => {
                 <i className="ri-phone-fill fs-34"></i>
                 <h6 className="fs-20 fw-bold mb-1">Contact</h6>
                 <a
-                  href={"tel:" + mobile}
+                  href={"tel:" + "91"+mobile}
                   className="fs-16 text-color-gray p-0 m-0"
                 >
                   +91 {mobile}
