@@ -7,7 +7,7 @@ import { prductList } from "../../data/productsData";
 
 const Footer = () => {
   return (
-    <footer className="paddingY px-4 responsive">
+    <footer className="paddingTop px-4 responsive">
       <div className="pb-5">
         <span className="d-block text-center text-color-white-80 fs-14">
           Get in Touch with Us
@@ -98,6 +98,7 @@ const Footer = () => {
           </Row>
         </Col>
       </div>
+      <span className="text-center d-block text-white py-4 fs-14">Copyright © {new Date().getFullYear()} shreevarniexport. All Rights Reserved</span>
     </footer>
   );
 };
